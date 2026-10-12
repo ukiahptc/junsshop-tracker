@@ -9,6 +9,7 @@
 |---|---|---|---|
 | `data/trend/YYYY-MM-DD.json` | NAVER API HUB 검색어트렌드 (네이버 클라우드 플랫폼) | 품목별(추적 검색어 묶음) 최근 30일 일간 ratio | 수집 중 |
 | `data/shop/YYYY-MM-DD.json` | 네이버 개발자센터 쇼핑 검색 API | 검색어별 정확도순 상위 최대 1,100개 | **수집 불가** — 쇼핑 검색 API가 2026-07-31 종료됐고 대체 API 없음. `config/keywords.json`의 `shop.enabled=false` |
+| `data/manual/YYYY-MM-DD.csv` | 네이버쇼핑 화면을 보고 직접 입력 | 검색어·중량별 경쟁 가격(최대 10개), 우리 순위 | 주 1회 수동 입력 (아래 절차) |
 
 - 날짜는 한국 시간(KST) 기준. 매일 06:30 KST에 실행됩니다 (`.github/workflows/collect.yml`).
 - 추적 품목·검색어는 `config/keywords.json`에서 바꿉니다. 코드 수정 불필요.
@@ -39,10 +40,41 @@
 1. 저장소 → **Actions** 탭 → 왼쪽 **collect** → 오른쪽 **Run workflow** → 초록 **Run workflow**
 2. 1~2분 뒤 체크 표시가 뜨면 `data/trend/`에 오늘 날짜 파일이 생깁니다.
 
+## 경쟁 가격·우리 순위 수동 입력 (주 1회, 10~20분)
+
+쇼핑 검색 API가 없어졌으므로 네이버쇼핑 화면을 보고 CSV에 적습니다. 검색어 11개 × 중량(3kg·5kg 또는 2kg) = 20행.
+시간이 없으면 **3kg·2kg 행만** 채우고 5kg 행은 비워 둬도 됩니다. 빈 행은 보고서에 "데이터 없음"으로 나갑니다.
+
+### 1. 빈 양식 만들기
+1. 저장소 → **Actions** 탭 → 왼쪽 **manual** → **Run workflow** → 초록 **Run workflow**
+2. 1분 뒤 `data/manual/오늘날짜.csv`가 생깁니다 (이미 있으면 그대로 둠)
+
+### 2. 네이버쇼핑에서 값 읽기 (검색어 1개 기준)
+1. https://shopping.naver.com 에서 검색어 입력 (예: `호박고구마 3kg`) → 정렬 **네이버 랭킹순** 확인
+2. 위에서 **20개**까지 훑으며 제목의 중량이 우리 옵션(3kg 또는 5kg)과 같은 상품만 고릅니다
+   - 중량이 다르거나(2kg, 500g, 10kg) 제목에서 읽을 수 없는 상품은 건너뛰고 그 개수를 **비교제외수**에 적습니다
+   - 묶음 표기(예: 1kg×3)는 합산 3kg으로 봅니다
+3. 고른 상품의 **판매가**를 해당 중량 행의 가격1, 가격2, … 칸에 순서대로 적습니다 (최대 10개, 배송비 제외)
+4. **준스샵스** 상품이 보이면 몇 번째인지 **우리순위**에 적습니다. 20개 안에 없으면 `21` 이상이면 그 숫자, 안 보이면 비워 둡니다
+5. 특이사항(품절 표시, 행사가 등)은 **비고**
+
+### 3. CSV 편집·저장
+- **GitHub 웹에서 바로 편집(권장, 아이폰도 가능)**: 저장소에서 `data/manual/날짜.csv` 클릭 → 오른쪽 위 **연필(Edit)** → 숫자 입력 → **Commit changes** → **Commit changes**
+- 또는 엑셀: 파일 내려받아 열기 → 입력 → **CSV UTF-8(쉼표로 분리)**로 저장 → GitHub에 업로드(**Add file → Upload files**)
+- 숫자는 `12900`, `12,900`, `12,900원` 모두 됩니다
+
+### 4. 검증
+저장(커밋)하면 **Actions → manual**이 자동으로 돌아 숫자 오류를 잡습니다. 빨간 X가 뜨면 로그에 "n행 가격m: 숫자가 아님"처럼 위치가 나옵니다.
+로컬에서는 `node scripts/manual-check.js`로 검색어·중량별 최저가·중간값을 미리 볼 수 있습니다.
+
+주의: 여기서 적는 순위는 네이버쇼핑 **화면 랭킹순** 기준입니다. 구 API의 정확도순과는 기준이 다릅니다.
+
 ## 로컬 실행
 
 ```bash
-NAVER_CLIENT_ID=... NAVER_CLIENT_SECRET=... node scripts/collect.js
+NAVER_CLIENT_ID=... NAVER_CLIENT_SECRET=... node scripts/collect.js   # 트렌드 수집
+node scripts/manual-template.js            # 오늘 날짜 빈 양식 생성
+node scripts/manual-check.js               # 최근 수동 입력 CSV 검증·요약
 ```
 
 ## 호출량

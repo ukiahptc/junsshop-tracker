@@ -1,0 +1,41 @@
+name: manual
+
+on:
+  workflow_dispatch:        # 빈 양식 생성
+  push:
+    paths:
+      - "data/manual/*.csv" # 입력 후 검증
+
+permissions:
+  contents: write
+
+jobs:
+  template:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 양식 생성
+        run: node scripts/manual-template.js
+      - name: 커밋·푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manual/
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "manual: $(TZ=Asia/Seoul date +%Y-%m-%d) 양식 생성"
+          git push
+
+  check:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 입력값 검증
+        run: node scripts/manual-check.js
