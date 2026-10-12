@@ -1,7 +1,10 @@
 // 준스샵스 일일 수집 스크립트
-// - 네이버 데이터랩 검색어트렌드 API → data/trend/YYYY-MM-DD.json
-// - 네이버 쇼핑 검색 API          → data/shop/YYYY-MM-DD.json
+// - 검색어트렌드 (NAVER API HUB, 네이버 클라우드 플랫폼) → data/trend/YYYY-MM-DD.json
+// - 쇼핑 검색 (개발자센터 구 API, 2026-07-31 종료)       → data/shop/YYYY-MM-DD.json  ※ config.shop.enabled=true일 때만
 // 외부 패키지 없음 (Node 20+ 내장 fetch 사용)
+//
+// 인증: 네이버 클라우드 콘솔 > NAVER API HUB > Application에서 발급한 Client ID/Secret
+//       (개발자센터 키는 API HUB 호스트에서 동작하지 않음)
 
 const fs = require("fs");
 const path = require("path");
@@ -16,9 +19,10 @@ if (!CLIENT_ID || !CLIENT_SECRET) {
   process.exit(1);
 }
 
+const HUB = "https://naverapihub.apigw.ntruss.com";
 const HEADERS = {
-  "X-Naver-Client-Id": CLIENT_ID,
-  "X-Naver-Client-Secret": CLIENT_SECRET,
+  "X-NCP-APIGW-API-KEY-ID": CLIENT_ID,
+  "X-NCP-APIGW-API-KEY": CLIENT_SECRET,
   "Content-Type": "application/json",
 };
 
@@ -65,7 +69,7 @@ async function collectTrend() {
   for (let i = 0; i < groups.length; i += 5) {
     const body = { startDate, endDate, timeUnit: "date", keywordGroups: groups.slice(i, i + 5) };
     try {
-      const json = await request("https://openapi.naver.com/v1/datalab/search", {
+      const json = await request(`${HUB}/search-trend/v1/search`, {
         method: "POST",
         body: JSON.stringify(body),
       });
@@ -80,6 +84,8 @@ async function collectTrend() {
 // ---------- 2. 쇼핑 검색 (정확도순, 검색어별 최대 1,100개) ----------
 const stripTags = (s) => String(s).replace(/<[^>]+>/g, "").replace(/&quot;/g, '"').replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
 
+const LEGACY_HEADERS = { "X-Naver-Client-Id": CLIENT_ID, "X-Naver-Client-Secret": CLIENT_SECRET };
+
 async function collectShopKeyword(keyword) {
   const { display, maxStart, sort } = CONFIG.shop;
   const items = [];
@@ -92,7 +98,7 @@ async function collectShopKeyword(keyword) {
       new URLSearchParams({ query: keyword, display: String(display), start: String(start), sort });
     let json;
     try {
-      json = await request(url);
+      json = await request(url, { headers: LEGACY_HEADERS });
     } catch (e) {
       error = `start=${start}: ${e.message || e}`;
       break;
@@ -142,12 +148,17 @@ function save(kind, data) {
   console.log(`[trend] ${trend.startDate}~${trend.endDate} ${trendOk ? "수집" : "실패"}`);
   save("trend", trend);
 
-  const shop = await collectShop();
-  const shopOk = shop.keywords.some((k) => k.count > 0);
-  save("shop", shop);
+  let shopOk = false;
+  if (CONFIG.shop.enabled) {
+    const shop = await collectShop();
+    shopOk = shop.keywords.some((k) => k.count > 0);
+    save("shop", shop);
+  } else {
+    console.log("[shop] 비활성(config.shop.enabled=false): 쇼핑 검색 API는 2026-07-31 종료");
+  }
 
   if (!trendOk && !shopOk) {
-    console.error("트렌드·쇼핑 모두 수집 실패");
+    console.error("수집 실패");
     process.exit(1);
   }
 })();

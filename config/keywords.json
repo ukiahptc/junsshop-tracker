@@ -18,6 +18,7 @@
     }
   ],
   "shop": {
+    "enabled": false,
     "display": 100,
     "maxStart": 1001,
     "sort": "sim"
