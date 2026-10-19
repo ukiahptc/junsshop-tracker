@@ -259,7 +259,7 @@ function renderMd(R) {
       L.push("  | 검색어 | 자연 순위 | 광고 | 같은 중량 경쟁 | 최저가 | 중간값 | 우리 가격 위치 | 상위 상품명에 흔한 단어(우리 상품명에 없음) |", "  |---|---|---|---|---|---|---|---|");
       for (const r of p.shop) {
         if (r.missing) { L.push(`  | ${r.keyword} | 캡처 없음 | | | | | | |`); continue; }
-        L.push(`  | ${r.keyword} | ${r.ourRank === null ? `${r.total}개 밖` : r.ourRank + "위"} | ${r.adCount ? (r.ourAdRank ? `우리 ${r.ourAdRank}번째/${r.adCount}개` : `${r.adCount}개(우리 없음)`) : "-"} | ${r.sameWeightCount}개(제외 ${r.excluded}, 옵션형 ${r.multiCount}) | ${fmt(r.min)} | ${fmt(r.median)} | ${r.pricePos === null ? "-" : `${r.pricePos}번째로 저렴(중간값 대비 ${r.vsMedian > 0 ? "+" : ""}${r.vsMedian}%)`} | ${r.suggestions.join(", ") || "-"} |`);
+        L.push(`  | ${r.keyword} | ${r.ourRank === null ? `${r.total}개 밖` : r.ourRank + "위"} | ${r.adCount ? (r.ourAdRank ? `우리 ${r.ourAdRank}번째/${r.adCount}개` : `${r.adCount}개(우리 없음)`) : "-"} | ${r.sameWeightCount}개(제외 ${r.excluded}, 옵션형 ${r.multiCount}) | ${fmt(r.min)} | ${fmt(r.median)}${r.sameWeightCount < 3 && r.medianAll ? ` (전체 ${fmt(r.medianAll)})` : ""} | ${r.pricePos === null ? "-" : `${r.pricePos}번째로 저렴(중간값 대비 ${r.vsMedian > 0 ? "+" : ""}${r.vsMedian}%)`} | ${r.suggestions.join(", ") || "-"} |`);
       }
     }
     if (p.manual.length) {

@@ -71,6 +71,8 @@ function analyzeKeyword(cap, opts) {
   const prices = sameWt.map((it) => it.price);
   const minP = prices.length ? Math.min(...prices) : null;
   const medP = prices.length ? median(prices) : null;
+  const allPrices = top.filter((it) => !it.ours && it.price > 0).map((it) => it.price);
+  const medianAll = allPrices.length ? median(allPrices) : null; // 중량 구분 없이 자연 상위 전체 중간값 (같은 중량 표본이 적을 때 참고)
   let pricePos = null; // 우리 가격이 경쟁 가격 중 몇 번째로 싼지 (1 = 최저)
   let vsMedian = null;
   if (ourPrice && prices.length) {
@@ -94,7 +96,7 @@ function analyzeKeyword(cap, opts) {
 
   return {
     keyword: cap.keyword, total: items.length, adCount: ads.length, topN: top.length, ourRank, ourAdRank, ourMall: ours.length ? ours[0].mall : ourAd ? ourAd.mall : null,
-    sameWeightCount: prices.length, excluded, multiCount, min: minP, median: medP, pricePos, vsMedian, avgTitleLen, weightShare: wtShare,
+    sameWeightCount: prices.length, excluded, multiCount, min: minP, median: medP, medianAll, pricePos, vsMedian, avgTitleLen, weightShare: wtShare,
     topTokens, suggestions,
     top: top.map(({ rank, screenRank, title, price, mall, kg, multi, ours }) => ({ rank, screenRank, title, price, mall, kg, multi, ours })),
   };
