@@ -22,7 +22,7 @@ details summary{cursor:pointer;color:var(--ink2);font-size:13px}
 
 <div class="card">
 <h2 style="margin-top:0">1. 북마클릿 등록 (최초 1회)</h2>
-<p><b>PC(Chrome·Edge)</b>: 아래 파란 버튼을 북마크바(즐겨찾기 모음)로 <b>드래그</b>합니다. 북마클릿이 갱신되면(현재 v2) 기존 북마크를 지우고 다시 드래그해야 합니다. 북마크바가 안 보이면 <code>Ctrl+Shift+B</code>.</p>
+<p><b>PC(Chrome·Edge)</b>: 아래 파란 버튼을 북마크바(즐겨찾기 모음)로 <b>드래그</b>합니다. 북마클릿이 갱신되면(현재 v3) 기존 북마크를 지우고 다시 드래그해야 합니다. 북마크바가 안 보이면 <code>Ctrl+Shift+B</code>.</p>
 <p><b>아이폰 Safari</b>: ① 이 페이지를 북마크에 추가 → ② 북마크 편집 → 방금 만든 북마크의 주소(URL)를 아래 "코드 복사"로 복사한 코드로 바꿔 저장. 이름은 "쇼핑 캡처"로.</p>
 <p><a id="bm" class="bm" href="#">준스샵 쇼핑 캡처</a> <button id="copyCode" style="margin-left:8px">코드 복사</button> <span id="copyMsg" class="muted"></span></p>
 </div>
@@ -88,10 +88,15 @@ function bookmarklet(){
   var raw=[];
   if(items.length<5){
     items=[];
-    var lis=document.querySelectorAll('li');
+    var cards=document.querySelectorAll('[class*="card_container"],[class*="cardContainer"]');
+    var lis=cards.length>=5?cards:document.querySelectorAll('li');
     for(var i=0;i<lis.length;i++){
-      var li=lis[i];if(li.querySelector('li'))continue;
-      var txt=clean(li);var pm=txt.match(/(\d{1,3}(?:,\d{3})+|\d{4,})\s*원/);if(!pm)continue;
+      var li=lis[i];if(cards.length<5&&li.querySelector('li'))continue;
+      var txt=clean(li);
+      var pr=txt.replace(/\([^)]*당[^)]*\)/g,' ');
+      var pm=pr.match(/(\d{1,3}(?:,\d{3})+|\d{4,})\s*원\s*\d{1,2}%\s*(\d{1,3}(?:,\d{3})+|\d{4,})\s*원/);
+      var price=pm?Number(pm[2].replace(/,/g,'')):null;
+      if(price===null){pm=pr.match(/(\d{1,3}(?:,\d{3})+|\d{4,})\s*원/);if(!pm)continue;price=Number(pm[1].replace(/,/g,''));}
       var as=li.querySelectorAll('a'),imgs=li.querySelectorAll('img');
       var title='',link='',mall='',mallLink='';
       var tEl=li.querySelector('[class*="productTitle"],[class*="product_title"],[class*="prodTitle"],[class*="_title"],[class*="Title"],[class*="tit"]');
@@ -106,20 +111,20 @@ function bookmarklet(){
       var ad=false;var sp=li.querySelectorAll('span,em,b,strong,div');for(var s2=0;s2<sp.length;s2++){var tt=(sp[s2].textContent||'').trim();if(tt==='광고'||tt==='AD'){ad=true;break;}}
       if(!ad&&/ader\.naver\.com|adcr\.naver\.com/.test(link))ad=true;
       if(!ad&&/^(광고|AD)(\s|$)/.test(txt))ad=true;
-      if(raw.length<3){var ra=[];for(var r=0;r<as.length&&r<8;r++)ra.push({h:(as[r].href||'').slice(0,80),t:clean(as[r]).slice(0,60),c:String(as[r].className).slice(0,60)});var ri=[];for(var r2=0;r2<imgs.length&&r2<3;r2++)ri.push((imgs[r2].alt||'').slice(0,60));raw.push({cls:String(li.className).slice(0,80),a:ra,img:ri,text:txt.slice(0,160)});}
+      if(raw.length<3||(/광고/.test(txt)&&raw.filter(function(x){return /광고/.test(x.text);}).length<2)){var ra=[];for(var r=0;r<as.length&&r<8;r++)ra.push({h:(as[r].href||'').slice(0,80),t:clean(as[r]).slice(0,60),c:String(as[r].className).slice(0,60)});var ri=[];for(var r2=0;r2<imgs.length&&r2<3;r2++)ri.push((imgs[r2].alt||'').slice(0,60));raw.push({cls:String(li.className).slice(0,80),a:ra,img:ri,text:txt.slice(0,160)});}
       if(!title&&!mall)continue;
-      items.push({title:title,price:Number(pm[1].replace(/,/g,'')),mall:mall,link:link||mallLink,ad:ad,src:'dom'});
+      items.push({title:title,price:price,mall:mall,link:link||mallLink,ad:ad,src:'dom'});
     }
   }
   items=items.map(function(x,i){x.rank=i+1;return x;});
-  var out={keyword:q,sort:sort,capturedAt:new Date().toISOString(),url:location.href,version:2,raw:raw,items:items};
+  var out={keyword:q,sort:sort,capturedAt:new Date().toISOString(),url:location.href,version:3,raw:raw,items:items};
   var s=JSON.stringify(out);
   var noTitle=items.filter(function(x){return !x.title;}).length;
   function done(how){alert('"'+q+'" '+items.length+'개 캡처 (광고 '+items.filter(function(x){return x.ad;}).length+'개, 제목 없음 '+noTitle+'개)'+(items.length?'':' — 0개입니다. 페이지를 스크롤한 뒤 다시 시도하거나 README "캡처가 안 될 때" 참고')+'\n'+how);}
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(s).then(function(){done('클립보드에 복사됨 → 캡처 도구에 붙여넣기');},function(){prompt('아래 내용을 전체 복사하세요',s);});}
   else prompt('아래 내용을 전체 복사하세요',s);
 }
-var code='javascript:('+bookmarklet.toString().replace(/\n\s*/g,' ')+')();';
+var code='javascript:'+encodeURIComponent('('+bookmarklet.toString().replace(/\n\s*/g,' ')+')();');
 document.getElementById('bm').href=code;
 document.getElementById('bm').addEventListener('click',function(e){e.preventDefault();alert('이 버튼은 북마크바로 드래그해서 쓰는 것입니다.');});
 document.getElementById('copyCode').addEventListener('click',function(){navigator.clipboard.writeText(code).then(function(){document.getElementById('copyMsg').textContent='복사됨';},function(){prompt('복사하세요',code);});});

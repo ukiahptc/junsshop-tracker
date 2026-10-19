@@ -8,12 +8,23 @@ function parseWeightKg(title) {
   const t = String(title || "").toLowerCase().replace(/킬로그램|킬로|키로/g, "kg").replace(/그램|그람/g, "g");
   const re = /(\d+(?:\.\d+)?)\s*(kg|g)\s*(?:[x×*]\s*(\d+))?/g;
   let m, best = null;
+  const seen = new Set();
   while ((m = re.exec(t))) {
     let kg = Number(m[1]) * (m[2] === "g" ? 0.001 : 1);
     if (m[3]) kg *= Number(m[3]);
+    seen.add(kg);
     if (best === null || kg > best) best = kg; // "3kg(1kg×3)"처럼 여러 표기면 가장 큰 총량
   }
   return best;
+}
+// "3kg 5kg 10kg"처럼 중량 옵션이 여러 개인 제목: 표시 가격이 가장 작은 옵션 기준이라 같은 중량 비교에서 제외
+function isMultiWeight(title) {
+  const t = String(title || "").toLowerCase().replace(/킬로그램|킬로|키로/g, "kg");
+  const ws = new Set();
+  const re = /(\d+(?:\.\d+)?)\s*kg(?!\s*[x×*])/g;
+  let m;
+  while ((m = re.exec(t))) ws.add(Number(m[1]));
+  return ws.size >= 2;
 }
 
 const median = (a) => { const s = [...a].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
@@ -41,6 +52,7 @@ function analyzeKeyword(cap, opts) {
     price: Number(it.lprice ?? it.price) || 0,
     mall: it.mallName || it.mall || "",
     kg: parseWeightKg(it.title),
+    multi: isMultiWeight(it.title),
     ours: isOurs(it, storeNames),
     ad: Boolean(it.ad),
   }));
@@ -53,8 +65,9 @@ function analyzeKeyword(cap, opts) {
   const ourAd = ads.find((it) => it.ours);
   const ourAdRank = ourAd ? ourAd.rank : null;
 
-  const sameWt = top.filter((it) => !it.ours && it.price > 0 && targetKg != null && it.kg != null && Math.abs(it.kg - targetKg) < 0.01);
-  const excluded = top.filter((it) => !it.ours && !(targetKg != null && it.kg != null && Math.abs(it.kg - targetKg) < 0.01)).length;
+  const sameWt = top.filter((it) => !it.ours && !it.multi && it.price > 0 && targetKg != null && it.kg != null && Math.abs(it.kg - targetKg) < 0.01);
+  const multiCount = top.filter((it) => !it.ours && it.multi).length;
+  const excluded = top.filter((it) => !it.ours && !sameWt.includes(it)).length;
   const prices = sameWt.map((it) => it.price);
   const minP = prices.length ? Math.min(...prices) : null;
   const medP = prices.length ? median(prices) : null;
@@ -81,9 +94,9 @@ function analyzeKeyword(cap, opts) {
 
   return {
     keyword: cap.keyword, total: items.length, adCount: ads.length, topN: top.length, ourRank, ourAdRank, ourMall: ours.length ? ours[0].mall : ourAd ? ourAd.mall : null,
-    sameWeightCount: prices.length, excluded, min: minP, median: medP, pricePos, vsMedian, avgTitleLen, weightShare: wtShare,
+    sameWeightCount: prices.length, excluded, multiCount, min: minP, median: medP, pricePos, vsMedian, avgTitleLen, weightShare: wtShare,
     topTokens, suggestions,
-    top: top.map(({ rank, screenRank, title, price, mall, kg, ours }) => ({ rank, screenRank, title, price, mall, kg, ours })),
+    top: top.map(({ rank, screenRank, title, price, mall, kg, multi, ours }) => ({ rank, screenRank, title, price, mall, kg, multi, ours })),
   };
 }
 

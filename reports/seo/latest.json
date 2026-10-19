@@ -345,6 +345,7 @@
           "ourMall": null,
           "sameWeightCount": 0,
           "excluded": 20,
+          "multiCount": 0,
           "min": null,
           "median": null,
           "pricePos": null,
@@ -455,6 +456,7 @@
               "price": 16600,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -464,6 +466,7 @@
               "price": 19000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -473,6 +476,7 @@
               "price": 28000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -482,6 +486,7 @@
               "price": 9900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -491,6 +496,7 @@
               "price": 18500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -500,6 +506,7 @@
               "price": 32570,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -509,6 +516,7 @@
               "price": 32570,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -518,6 +526,7 @@
               "price": 11900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -527,6 +536,7 @@
               "price": 35000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -536,6 +546,7 @@
               "price": 11000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -545,6 +556,7 @@
               "price": 14000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -554,6 +566,7 @@
               "price": 19000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -563,6 +576,7 @@
               "price": 15900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -572,6 +586,7 @@
               "price": 15900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -581,6 +596,7 @@
               "price": 15900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -590,6 +606,7 @@
               "price": 11900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -599,6 +616,7 @@
               "price": 23600,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -608,6 +626,7 @@
               "price": 9900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -617,6 +636,7 @@
               "price": 8900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -626,6 +646,7 @@
               "price": 18000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             }
           ],
@@ -978,6 +999,7 @@
           "ourMall": null,
           "sameWeightCount": 0,
           "excluded": 20,
+          "multiCount": 0,
           "min": null,
           "median": null,
           "pricePos": null,
@@ -1088,6 +1110,7 @@
               "price": 65000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1097,6 +1120,7 @@
               "price": 42000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1106,6 +1130,7 @@
               "price": 17200,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1115,6 +1140,7 @@
               "price": 9900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1124,6 +1150,7 @@
               "price": 14400,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1133,6 +1160,7 @@
               "price": 17500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1142,6 +1170,7 @@
               "price": 17600,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1151,6 +1180,7 @@
               "price": 11300,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1160,6 +1190,7 @@
               "price": 14500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1169,6 +1200,7 @@
               "price": 23500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1178,6 +1210,7 @@
               "price": 15100,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1187,6 +1220,7 @@
               "price": 23800,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1196,6 +1230,7 @@
               "price": 15900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1205,6 +1240,7 @@
               "price": 19500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1214,6 +1250,7 @@
               "price": 22300,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1223,6 +1260,7 @@
               "price": 21500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1232,6 +1270,7 @@
               "price": 32000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1241,6 +1280,7 @@
               "price": 16600,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1250,6 +1290,7 @@
               "price": 14900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -1259,6 +1300,7 @@
               "price": 50000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             }
           ],
@@ -1951,6 +1993,7 @@
           "ourMall": null,
           "sameWeightCount": 0,
           "excluded": 20,
+          "multiCount": 0,
           "min": null,
           "median": null,
           "pricePos": null,
@@ -2061,6 +2104,7 @@
               "price": 17750,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2070,6 +2114,7 @@
               "price": 23130,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2079,6 +2124,7 @@
               "price": 149900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2088,6 +2134,7 @@
               "price": 17500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2097,6 +2144,7 @@
               "price": 22880,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2106,6 +2154,7 @@
               "price": 28750,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2115,6 +2164,7 @@
               "price": 17630,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2124,6 +2174,7 @@
               "price": 23000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2133,6 +2184,7 @@
               "price": 28880,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2142,6 +2194,7 @@
               "price": 5500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2151,6 +2204,7 @@
               "price": 12000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2160,6 +2214,7 @@
               "price": 29900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2169,6 +2224,7 @@
               "price": 21000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2178,6 +2234,7 @@
               "price": 21000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2187,6 +2244,7 @@
               "price": 23900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2196,6 +2254,7 @@
               "price": 35900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2205,6 +2264,7 @@
               "price": 23900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2214,6 +2274,7 @@
               "price": 19900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2223,6 +2284,7 @@
               "price": 6900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -2232,6 +2294,7 @@
               "price": 16900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             }
           ],
@@ -2575,295 +2638,317 @@
       "shop": [
         {
           "keyword": "타이벡감귤 5kg",
-          "total": 47,
+          "total": 42,
           "adCount": 0,
           "topN": 20,
           "ourRank": null,
           "ourAdRank": null,
           "ourMall": null,
-          "sameWeightCount": 0,
-          "excluded": 20,
-          "min": null,
-          "median": null,
-          "pricePos": null,
-          "vsMedian": null,
-          "avgTitleLen": 15,
-          "weightShare": 0,
+          "sameWeightCount": 4,
+          "excluded": 16,
+          "multiCount": 8,
+          "min": 16600,
+          "median": 22500,
+          "pricePos": 1,
+          "vsMedian": -29.3,
+          "avgTitleLen": 31,
+          "weightShare": 50,
           "topTokens": [
             {
-              "token": "열림",
-              "count": 20,
-              "share": 100,
+              "token": "감귤",
+              "count": 14,
+              "share": 70,
+              "inOurTitle": true
+            },
+            {
+              "token": "타이벡",
+              "count": 14,
+              "share": 70,
+              "inOurTitle": true
+            },
+            {
+              "token": "극조생",
+              "count": 7,
+              "share": 35,
               "inOurTitle": false
             },
             {
-              "token": "창에서",
-              "count": 20,
-              "share": 100,
+              "token": "타이벡감귤",
+              "count": 7,
+              "share": 35,
+              "inOurTitle": true
+            },
+            {
+              "token": "제주",
+              "count": 6,
+              "share": 30,
               "inOurTitle": false
             },
             {
-              "token": "공식",
+              "token": "고당도",
+              "count": 5,
+              "share": 25,
+              "inOurTitle": true
+            },
+            {
+              "token": "제주도",
+              "count": 5,
+              "share": 25,
+              "inOurTitle": false
+            },
+            {
+              "token": "노지",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "황금향",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "로얄과",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": true
+            },
+            {
+              "token": "달콤한",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "공항길귤창고",
-              "count": 1,
-              "share": 5,
+              "token": "불로초감귤",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "과일꾼",
-              "count": 1,
-              "share": 5,
+              "token": "서귀포",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "과일농장",
-              "count": 1,
-              "share": 5,
+              "token": "스테비아농법",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "과일부티크",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "과일해적단",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "귤스타",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "나뚜라리농원",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "돌콤제주",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "백콩",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "새미농장",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "세모농",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "스마일프룻",
-              "count": 1,
-              "share": 5,
+              "token": "신선",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             }
           ],
           "suggestions": [
-            "열림",
-            "창에서"
+            "극조생",
+            "제주",
+            "제주도"
           ],
           "top": [
             {
               "rank": 1,
               "screenRank": 1,
-              "title": "백콩 과일농장\n새 창에서 열림",
-              "price": 60000,
-              "mall": "광고",
-              "kg": null,
+              "title": "타이벡감귤 극조생 감귤 타이벡 귤 햇귤 중과 로얄과 3kg 5kg 가정용 감귤",
+              "price": 14800,
+              "mall": "예솔이네제철과일",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 2,
               "screenRank": 2,
-              "title": "스마일-프룻\n새 창에서 열림",
-              "price": 48900,
-              "mall": "광고",
-              "kg": null,
+              "title": "제주 토박이 농부재배 감귤 타이벡 노지감귤 밀감 5kg",
+              "price": 20000,
+              "mall": "GreenBee24",
+              "kg": 5,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 3,
               "screenRank": 3,
-              "title": "포암마켙\n새 창에서 열림",
-              "price": 38600,
-              "mall": "광고",
-              "kg": null,
+              "title": "감귤 타이벡 노지 극조생 햇감귤 청귤 카라향 10kg 5kg 3kg 중과 로얄과 풋귤",
+              "price": 64200,
+              "mall": "오를린",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 4,
               "screenRank": 4,
-              "title": "나뚜라리농원\n새 창에서 열림",
-              "price": 44800,
-              "mall": "광고",
-              "kg": null,
+              "title": "제주도 위미 극조생 햇귤 감귤 황금향 3 kg 5키로 한박스 택배 효돈 귤 타이백 타이벡",
+              "price": 55000,
+              "mall": "촌플러스",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 5,
               "screenRank": 5,
-              "title": "세모농.\n새 창에서 열림",
-              "price": 38000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주도 타이벡 노지 감귤 극조생 프리미엄 5KG",
+              "price": 16600,
+              "mall": "두둥실구름이네",
+              "kg": 5,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 6,
               "screenRank": 6,
-              "title": "제주그린팜\n새 창에서 열림",
-              "price": 37800,
-              "mall": "새 창에서 열림",
+              "title": "황금향 불로초감귤 제주귤 타이벡감귤 제주도귤 노지 만다린",
+              "price": 28080,
+              "mall": "복자푸드창고",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 7,
               "screenRank": 7,
-              "title": "공항길귤창고\n새 창에서 열림",
-              "price": 56000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "고당도 타이벡 유라실생 감귤 3kg 5kg",
+              "price": 14800,
+              "mall": "해온찬",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 8,
               "screenRank": 8,
-              "title": "과일꾼\n공식\n새 창에서 열림",
-              "price": 26000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "스테비아농법 타이벡감귤 고당도 3kg 5kg",
+              "price": 13100,
+              "mall": "해온찬",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 9,
               "screenRank": 9,
-              "title": "과일부티크\n우수셀러\n새 창에서 열림",
-              "price": 39800,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "[일50개한정]제주직송 초고당도 타이벡 감귤 로열과 5kg",
+              "price": 31000,
+              "mall": "또또와 상점",
+              "kg": 5,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 10,
               "screenRank": 10,
-              "title": "귤스타\n새 창에서 열림",
-              "price": 79900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주도 서귀포 타이벡 감귤 고당도 위미 최상품 감귤 3kg 5kg",
+              "price": 28900,
+              "mall": "귤코롬",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 11,
               "screenRank": 11,
-              "title": "과일해적단\n새 창에서 열림",
-              "price": 27900,
-              "mall": "광고",
-              "kg": null,
+              "title": "[산지직송] 싱싱파머스 고당도 타이벡 제주 감귤 극조생 로얄과 3kg 5kg",
+              "price": 9900,
+              "mall": "싱싱파머스1",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 12,
               "screenRank": 12,
-              "title": "어울렁\n새 창에서 열림",
-              "price": 190000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "[이솔팜] 제주 서귀포 새콤달콤한 감귤 스테비아농법 타이벡 산지직송 3kg 5kg 10kg",
+              "price": 21800,
+              "mall": "이솔Farm",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 13,
               "screenRank": 13,
-              "title": "코어트렌드\n새 창에서 열림",
-              "price": 42900,
-              "mall": "새 창에서 열림",
+              "title": "신선 달콤한 타이벡 감귤 제주도 감귤",
+              "price": 36000,
+              "mall": "팜타스틱",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 14,
               "screenRank": 14,
-              "title": "새미농장\n새 창에서 열림",
-              "price": 35800,
-              "mall": "새 창에서 열림",
+              "title": "신선 달콤한 타이벡 감귤 제주도 감귤",
+              "price": 36000,
+              "mall": "만물청년",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 15,
               "screenRank": 15,
-              "title": "전라도청년\n공식\n새 창에서 열림",
-              "price": 15900,
-              "mall": "광고",
-              "kg": null,
+              "title": "청귤 10kg 조생귤 극조생 귤 감귤 노지 타이벡",
+              "price": 24000,
+              "mall": "시원한천재",
+              "kg": 10,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 16,
               "screenRank": 16,
-              "title": "돌콤제주\n새 창에서 열림",
-              "price": 39000,
-              "mall": "새 창에서 열림",
+              "title": "제주 타이벡 감귤[고당도]",
+              "price": 19000,
+              "mall": "NY SELECT",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 17,
               "screenRank": 17,
-              "title": "테이스티아일랜드\n새 창에서 열림",
-              "price": 34900,
-              "mall": "새 창에서 열림",
+              "title": "제주감귤 타이벡감귤 황금향 극조생 제주한귤",
+              "price": 30000,
+              "mall": "참 좋은 과일",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 18,
               "screenRank": 18,
-              "title": "현직농부마켓\n새 창에서 열림",
-              "price": 43000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "농장직송 제주 타이벡감귤, 극조생귤 생산자직판 5킬로",
+              "price": 25000,
+              "mall": "남원퍼스트농산",
+              "kg": 5,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 19,
               "screenRank": 19,
-              "title": "제주귤빛담다\n새 창에서 열림",
-              "price": 48000,
-              "mall": "새 창에서 열림",
+              "title": "부산과일 과일맛집 고당도대박꿀 타이벡감귤",
+              "price": 25000,
+              "mall": "프루띠에 fruttie",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
               "rank": 20,
               "screenRank": 20,
-              "title": "행복팜 jeju\n새 창에서 열림",
-              "price": 15400,
-              "mall": "광고",
+              "title": "제주 타이벡감귤 불로초감귤 유라조생귤 그린향 황금향 홍매향",
+              "price": 38800,
+              "mall": "프레시농",
               "kg": null,
+              "multi": false,
               "ours": false
             }
           ],
@@ -3220,6 +3305,7 @@
           "ourMall": null,
           "sameWeightCount": 0,
           "excluded": 20,
+          "multiCount": 0,
           "min": null,
           "median": null,
           "pricePos": null,
@@ -3331,6 +3417,7 @@
               "price": 66000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3340,6 +3427,7 @@
               "price": 18500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3349,6 +3437,7 @@
               "price": 37900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3358,6 +3447,7 @@
               "price": 50000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3367,6 +3457,7 @@
               "price": 30500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3376,6 +3467,7 @@
               "price": 30500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3385,6 +3477,7 @@
               "price": 24900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3394,6 +3487,7 @@
               "price": 21990,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3403,6 +3497,7 @@
               "price": 16000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3412,6 +3507,7 @@
               "price": 13300,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3421,6 +3517,7 @@
               "price": 14700,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3430,6 +3527,7 @@
               "price": 33800,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3439,6 +3537,7 @@
               "price": 25990,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3448,6 +3547,7 @@
               "price": 58100,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3457,6 +3557,7 @@
               "price": 50000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3466,6 +3567,7 @@
               "price": 19000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3475,6 +3577,7 @@
               "price": 22500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3484,6 +3587,7 @@
               "price": 20900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3493,6 +3597,7 @@
               "price": 17900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3502,6 +3607,7 @@
               "price": 16900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             }
           ],
@@ -3857,6 +3963,7 @@
           "ourMall": null,
           "sameWeightCount": 0,
           "excluded": 20,
+          "multiCount": 0,
           "min": null,
           "median": null,
           "pricePos": null,
@@ -3967,6 +4074,7 @@
               "price": 30000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3976,6 +4084,7 @@
               "price": 16800,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3985,6 +4094,7 @@
               "price": 90000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -3994,6 +4104,7 @@
               "price": 49600,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4003,6 +4114,7 @@
               "price": 25900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4012,6 +4124,7 @@
               "price": 21900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4021,6 +4134,7 @@
               "price": 11800,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4030,6 +4144,7 @@
               "price": 55900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4039,6 +4154,7 @@
               "price": 35000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4048,6 +4164,7 @@
               "price": 100000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4057,6 +4174,7 @@
               "price": 50000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4066,6 +4184,7 @@
               "price": 35500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4075,6 +4194,7 @@
               "price": 20000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4084,6 +4204,7 @@
               "price": 79000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4093,6 +4214,7 @@
               "price": 40100,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4102,6 +4224,7 @@
               "price": 53000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4111,6 +4234,7 @@
               "price": 50000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4120,6 +4244,7 @@
               "price": 17200,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4129,6 +4254,7 @@
               "price": 190000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4138,6 +4264,7 @@
               "price": 40900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             }
           ],
@@ -4500,6 +4627,7 @@
           "ourMall": null,
           "sameWeightCount": 0,
           "excluded": 20,
+          "multiCount": 0,
           "min": null,
           "median": null,
           "pricePos": null,
@@ -4610,6 +4738,7 @@
               "price": 100000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4619,6 +4748,7 @@
               "price": 65900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4628,6 +4758,7 @@
               "price": 72300,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4637,6 +4768,7 @@
               "price": 750000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4646,6 +4778,7 @@
               "price": 95500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4655,6 +4788,7 @@
               "price": 64000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4664,6 +4798,7 @@
               "price": 67000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4673,6 +4808,7 @@
               "price": 55000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4682,6 +4818,7 @@
               "price": 91500,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4691,6 +4828,7 @@
               "price": 67900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4700,6 +4838,7 @@
               "price": 55000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4709,6 +4848,7 @@
               "price": 45000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4718,6 +4858,7 @@
               "price": 25000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4727,6 +4868,7 @@
               "price": 79170,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4736,6 +4878,7 @@
               "price": 50200,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4745,6 +4888,7 @@
               "price": 86040,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4754,6 +4898,7 @@
               "price": 65600,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4763,6 +4908,7 @@
               "price": 67900,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4772,6 +4918,7 @@
               "price": 58700,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             },
             {
@@ -4781,6 +4928,7 @@
               "price": 56000,
               "mall": "새 창에서 열림",
               "kg": null,
+              "multi": false,
               "ours": false
             }
           ],
@@ -5955,7 +6103,7 @@
       "priority": "높음",
       "kind": "순위",
       "target": "타이벡감귤 로얄과",
-      "content": "\"타이벡감귤 5kg\" 자연 검색 결과 47개 안에 우리 상품 없음"
+      "content": "\"타이벡감귤 5kg\" 자연 검색 결과 42개 안에 우리 상품 없음"
     },
     {
       "priority": "높음",
@@ -6021,7 +6169,7 @@
       "priority": "중간",
       "kind": "상품명",
       "target": "타이벡감귤 로얄과",
-      "content": "\"타이벡감귤 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+      "content": "\"타이벡감귤 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 극조생, 제주, 제주도"
     },
     {
       "priority": "중간",

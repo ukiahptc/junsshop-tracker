@@ -76,10 +76,24 @@ function loadTrend() {
 
 // ---------- 쇼핑 캡처 (data/shop/*.json) ----------
 function loadShop() {
+  // 파일명 "YYYY-MM-DD.json" 또는 "YYYY-MM-DD (1).json"(브라우저 중복 다운로드 이름)을 모두 읽어 날짜별로 검색어 단위 병합 (나중 파일 우선)
   const dir = path.join(ROOT, "data", "shop");
-  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort() : [];
-  const all = files.map((f) => ({ file: f, date: f.slice(0, 10), json: readJson(path.join(dir, f)) }));
-  const withData = all.filter((x) => (x.json.keywords || []).some((k) => (k.items || []).length));
+  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => /^\d{4}-\d{2}-\d{2}.*\.json$/.test(f)).sort((a, b) => a.localeCompare(b, "en", { numeric: true })) : [];
+  const byDate = {};
+  for (const f of files) {
+    const date = f.slice(0, 10);
+    const json = readJson(path.join(dir, f));
+    if (!byDate[date]) byDate[date] = { file: f, date, json: { ...json, keywords: [] } };
+    for (const k of json.keywords || []) {
+      if (!(k.items || []).length) continue;
+      const prev = byDate[date].json.keywords.find((x) => x.keyword === k.keyword);
+      if (prev && String(prev.capturedAt || "") > String(k.capturedAt || "")) continue; // 캡처 시각이 늦은 쪽 우선
+      byDate[date].json.keywords = byDate[date].json.keywords.filter((x) => x.keyword !== k.keyword);
+      byDate[date].json.keywords.push(k);
+    }
+  }
+  const all = Object.values(byDate).sort((a, b) => a.date.localeCompare(b.date));
+  const withData = all.filter((x) => x.json.keywords.length);
   return { files, latest: withData[withData.length - 1] || null, history: withData };
 }
 
@@ -245,7 +259,7 @@ function renderMd(R) {
       L.push("  | 검색어 | 자연 순위 | 광고 | 같은 중량 경쟁 | 최저가 | 중간값 | 우리 가격 위치 | 상위 상품명에 흔한 단어(우리 상품명에 없음) |", "  |---|---|---|---|---|---|---|---|");
       for (const r of p.shop) {
         if (r.missing) { L.push(`  | ${r.keyword} | 캡처 없음 | | | | | | |`); continue; }
-        L.push(`  | ${r.keyword} | ${r.ourRank === null ? `${r.total}개 밖` : r.ourRank + "위"} | ${r.adCount ? (r.ourAdRank ? `우리 ${r.ourAdRank}번째/${r.adCount}개` : `${r.adCount}개(우리 없음)`) : "-"} | ${r.sameWeightCount}개(제외 ${r.excluded}) | ${fmt(r.min)} | ${fmt(r.median)} | ${r.pricePos === null ? "-" : `${r.pricePos}번째로 저렴(중간값 대비 ${r.vsMedian > 0 ? "+" : ""}${r.vsMedian}%)`} | ${r.suggestions.join(", ") || "-"} |`);
+        L.push(`  | ${r.keyword} | ${r.ourRank === null ? `${r.total}개 밖` : r.ourRank + "위"} | ${r.adCount ? (r.ourAdRank ? `우리 ${r.ourAdRank}번째/${r.adCount}개` : `${r.adCount}개(우리 없음)`) : "-"} | ${r.sameWeightCount}개(제외 ${r.excluded}, 옵션형 ${r.multiCount}) | ${fmt(r.min)} | ${fmt(r.median)} | ${r.pricePos === null ? "-" : `${r.pricePos}번째로 저렴(중간값 대비 ${r.vsMedian > 0 ? "+" : ""}${r.vsMedian}%)`} | ${r.suggestions.join(", ") || "-"} |`);
       }
     }
     if (p.manual.length) {
