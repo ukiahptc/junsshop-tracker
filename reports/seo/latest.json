@@ -2,10 +2,10 @@
   "summary": {
     "date": "2026-10-20",
     "store": "준스샵스",
-    "productCount": 4,
+    "productCount": 8,
     "avgTitleScore": 98,
     "avgTagScore": 100,
-    "registered": 4,
+    "registered": 8,
     "demandLeader": "해남 호박고구마 호풍미 특상",
     "trendWindow": "2026-09-19 ~ 2026-10-17",
     "trendFiles": 8,
@@ -14,8 +14,8 @@
     "manualDate": null,
     "actionCounts": {
       "높음": 0,
-      "중간": 4,
-      "낮음": 5
+      "중간": 5,
+      "낮음": 9
     }
   },
   "products": [
@@ -1309,6 +1309,726 @@
       },
       "shop": [],
       "manual": []
+    },
+    {
+      "idx": 5,
+      "name": "타이벡감귤 로얄과",
+      "keywords": [
+        "타이벡감귤 5kg",
+        "타이벡감귤",
+        "타이벡 귤"
+      ],
+      "weights": [
+        "5kg"
+      ],
+      "title": "타이벡감귤 로얄과 5kg 2026년 햇감귤 고당도 산지직송",
+      "titleUpdated": "",
+      "ads": [],
+      "tags": [
+        "제주감귤",
+        "감귤5kg",
+        "조생감귤",
+        "극조생감귤",
+        "고당도감귤",
+        "귤",
+        "가을과일",
+        "겨울간식",
+        "간식과일",
+        "선물용감귤"
+      ],
+      "tagCounts": {},
+      "category": "",
+      "price": 15900,
+      "url": "",
+      "elements": {
+        "origin": "",
+        "item": "타이벡감귤",
+        "variety": "",
+        "grade": "로얄과",
+        "weight": "5kg"
+      },
+      "registered": true,
+      "titleAudit": {
+        "title": "타이벡감귤 로얄과 5kg 2026년 햇감귤 고당도 산지직송",
+        "length": 32,
+        "score": 100,
+        "max": 100,
+        "checks": [
+          {
+            "key": "length",
+            "label": "길이",
+            "status": "pass",
+            "detail": "32자 (권장 15~50자)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자",
+            "status": "pass",
+            "detail": "장식·특수문자 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "promo",
+            "label": "홍보성 문구",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "duplicate",
+            "label": "단어 반복",
+            "status": "pass",
+            "detail": "반복 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "coverage",
+            "label": "추적 검색어 포함",
+            "status": "pass",
+            "detail": "3/3 포함",
+            "earned": 30,
+            "max": 30
+          },
+          {
+            "key": "front",
+            "label": "핵심 검색어 위치",
+            "status": "pass",
+            "detail": "1번째 글자부터 등장",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "weight",
+            "label": "중량 표기",
+            "status": "pass",
+            "detail": "5kg 표기",
+            "earned": 10,
+            "max": 10
+          }
+        ],
+        "coverage": {
+          "covered": [
+            "타이벡감귤 5kg",
+            "타이벡감귤",
+            "타이벡 귤"
+          ],
+          "split": [],
+          "partial": [],
+          "missing": []
+        },
+        "recommended": "타이벡감귤 로얄과 5kg",
+        "extraTokens": []
+      },
+      "tagAudit": {
+        "tags": [
+          "제주감귤",
+          "감귤5kg",
+          "조생감귤",
+          "극조생감귤",
+          "고당도감귤",
+          "귤",
+          "가을과일",
+          "겨울간식",
+          "간식과일",
+          "선물용감귤"
+        ],
+        "score": 100,
+        "max": 100,
+        "checks": [
+          {
+            "key": "count",
+            "label": "태그 수",
+            "status": "pass",
+            "detail": "10개",
+            "earned": 30,
+            "max": 30
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자·공백",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "duplicate",
+            "label": "중복 태그",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "titleOverlap",
+            "label": "상품명과 중복",
+            "status": "pass",
+            "detail": "1개 중복(귤)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "keywordFill",
+            "label": "추적 검색어 보완",
+            "status": "pass",
+            "detail": "추적 검색어 모두 상품명 또는 태그에 있음",
+            "earned": 15,
+            "max": 15
+          }
+        ],
+        "missingKeywords": []
+      },
+      "grade": "양호",
+      "demand": null,
+      "shop": [],
+      "manual": []
+    },
+    {
+      "idx": 6,
+      "name": "대봉감 소과 난좌",
+      "keywords": [
+        "대봉감 5kg",
+        "대봉감",
+        "홍시 대봉"
+      ],
+      "weights": [
+        "5kg"
+      ],
+      "title": "국내산 대봉감 소과 5kg 난좌포장 홍시용 햇대봉",
+      "titleUpdated": "",
+      "ads": [],
+      "tags": [
+        "홍시",
+        "대봉홍시",
+        "홍시만들기",
+        "떫은감",
+        "가을과일",
+        "햇감",
+        "감5kg",
+        "대봉",
+        "겨울간식",
+        "제사과일"
+      ],
+      "tagCounts": {},
+      "category": "",
+      "price": 19900,
+      "url": "",
+      "elements": {
+        "origin": "국내산",
+        "item": "대봉감",
+        "variety": "",
+        "grade": "소과",
+        "weight": "5kg"
+      },
+      "registered": true,
+      "titleAudit": {
+        "title": "국내산 대봉감 소과 5kg 난좌포장 홍시용 햇대봉",
+        "length": 27,
+        "score": 100,
+        "max": 100,
+        "checks": [
+          {
+            "key": "length",
+            "label": "길이",
+            "status": "pass",
+            "detail": "27자 (권장 15~50자)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자",
+            "status": "pass",
+            "detail": "장식·특수문자 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "promo",
+            "label": "홍보성 문구",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "duplicate",
+            "label": "단어 반복",
+            "status": "pass",
+            "detail": "반복 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "coverage",
+            "label": "추적 검색어 포함",
+            "status": "pass",
+            "detail": "3/3 포함",
+            "earned": 30,
+            "max": 30
+          },
+          {
+            "key": "front",
+            "label": "핵심 검색어 위치",
+            "status": "pass",
+            "detail": "5번째 글자부터 등장",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "weight",
+            "label": "중량 표기",
+            "status": "pass",
+            "detail": "5kg 표기",
+            "earned": 10,
+            "max": 10
+          }
+        ],
+        "coverage": {
+          "covered": [
+            "대봉감 5kg",
+            "대봉감",
+            "홍시 대봉"
+          ],
+          "split": [],
+          "partial": [],
+          "missing": []
+        },
+        "recommended": "국내산 대봉감 소과 5kg",
+        "extraTokens": []
+      },
+      "tagAudit": {
+        "tags": [
+          "홍시",
+          "대봉홍시",
+          "홍시만들기",
+          "떫은감",
+          "가을과일",
+          "햇감",
+          "감5kg",
+          "대봉",
+          "겨울간식",
+          "제사과일"
+        ],
+        "score": 100,
+        "max": 100,
+        "checks": [
+          {
+            "key": "count",
+            "label": "태그 수",
+            "status": "pass",
+            "detail": "10개",
+            "earned": 30,
+            "max": 30
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자·공백",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "duplicate",
+            "label": "중복 태그",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "titleOverlap",
+            "label": "상품명과 중복",
+            "status": "pass",
+            "detail": "2개 중복(홍시, 대봉)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "keywordFill",
+            "label": "추적 검색어 보완",
+            "status": "pass",
+            "detail": "추적 검색어 모두 상품명 또는 태그에 있음",
+            "earned": 15,
+            "max": 15
+          }
+        ],
+        "missingKeywords": []
+      },
+      "grade": "양호",
+      "demand": null,
+      "shop": [],
+      "manual": []
+    },
+    {
+      "idx": 7,
+      "name": "정품 단감",
+      "keywords": [
+        "단감 5kg",
+        "단감",
+        "햇단감"
+      ],
+      "weights": [
+        "5kg"
+      ],
+      "title": "국내산 정품 단감 5kg 햇단감 아삭 고당도 산지직송",
+      "titleUpdated": "",
+      "ads": [],
+      "tags": [
+        "단감5kg",
+        "햇단감",
+        "아삭단감",
+        "달콤단감",
+        "가을과일",
+        "제사과일",
+        "감",
+        "단감선물",
+        "겨울간식",
+        "고당도단감"
+      ],
+      "tagCounts": {},
+      "category": "",
+      "price": 16900,
+      "url": "",
+      "elements": {
+        "origin": "국내산",
+        "item": "단감",
+        "variety": "",
+        "grade": "정품",
+        "weight": "5kg"
+      },
+      "registered": true,
+      "titleAudit": {
+        "title": "국내산 정품 단감 5kg 햇단감 아삭 고당도 산지직송",
+        "length": 29,
+        "score": 100,
+        "max": 100,
+        "checks": [
+          {
+            "key": "length",
+            "label": "길이",
+            "status": "pass",
+            "detail": "29자 (권장 15~50자)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자",
+            "status": "pass",
+            "detail": "장식·특수문자 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "promo",
+            "label": "홍보성 문구",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "duplicate",
+            "label": "단어 반복",
+            "status": "pass",
+            "detail": "반복 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "coverage",
+            "label": "추적 검색어 포함",
+            "status": "pass",
+            "detail": "3/3 포함",
+            "earned": 30,
+            "max": 30
+          },
+          {
+            "key": "front",
+            "label": "핵심 검색어 위치",
+            "status": "pass",
+            "detail": "8번째 글자부터 등장",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "weight",
+            "label": "중량 표기",
+            "status": "pass",
+            "detail": "5kg 표기",
+            "earned": 10,
+            "max": 10
+          }
+        ],
+        "coverage": {
+          "covered": [
+            "단감 5kg",
+            "단감",
+            "햇단감"
+          ],
+          "split": [],
+          "partial": [],
+          "missing": []
+        },
+        "recommended": "국내산 단감 정품 5kg",
+        "extraTokens": []
+      },
+      "tagAudit": {
+        "tags": [
+          "단감5kg",
+          "햇단감",
+          "아삭단감",
+          "달콤단감",
+          "가을과일",
+          "제사과일",
+          "감",
+          "단감선물",
+          "겨울간식",
+          "고당도단감"
+        ],
+        "score": 100,
+        "max": 100,
+        "checks": [
+          {
+            "key": "count",
+            "label": "태그 수",
+            "status": "pass",
+            "detail": "10개",
+            "earned": 30,
+            "max": 30
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자·공백",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "duplicate",
+            "label": "중복 태그",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "titleOverlap",
+            "label": "상품명과 중복",
+            "status": "pass",
+            "detail": "3개 중복(단감5kg, 햇단감, 감)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "keywordFill",
+            "label": "추적 검색어 보완",
+            "status": "pass",
+            "detail": "추적 검색어 모두 상품명 또는 태그에 있음",
+            "earned": 15,
+            "max": 15
+          }
+        ],
+        "missingKeywords": []
+      },
+      "grade": "양호",
+      "demand": null,
+      "shop": [],
+      "manual": []
+    },
+    {
+      "idx": 8,
+      "name": "황금향 로얄과",
+      "keywords": [
+        "황금향 5kg",
+        "황금향",
+        "황금향 선물"
+      ],
+      "weights": [
+        "5kg"
+      ],
+      "title": "황금향 로얄과 5kg 고당도 만감류 햇황금향 산지직송",
+      "titleUpdated": "",
+      "ads": [],
+      "tags": [
+        "황금향5kg",
+        "만감류",
+        "고당도황금향",
+        "겨울과일",
+        "선물용과일",
+        "귤",
+        "감귤",
+        "가성비과일",
+        "비타민과일",
+        "겨울간식"
+      ],
+      "tagCounts": {},
+      "category": "",
+      "price": 26900,
+      "url": "",
+      "elements": {
+        "origin": "",
+        "item": "황금향",
+        "variety": "",
+        "grade": "로얄과",
+        "weight": "5kg"
+      },
+      "registered": true,
+      "titleAudit": {
+        "title": "황금향 로얄과 5kg 고당도 만감류 햇황금향 산지직송",
+        "length": 29,
+        "score": 95,
+        "max": 100,
+        "checks": [
+          {
+            "key": "length",
+            "label": "길이",
+            "status": "pass",
+            "detail": "29자 (권장 15~50자)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자",
+            "status": "pass",
+            "detail": "장식·특수문자 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "promo",
+            "label": "홍보성 문구",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "duplicate",
+            "label": "단어 반복",
+            "status": "pass",
+            "detail": "반복 없음",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "coverage",
+            "label": "추적 검색어 포함",
+            "status": "pass",
+            "detail": "2/3 포함 · 일부: 황금향 선물(선물 없음)",
+            "earned": 25,
+            "max": 30
+          },
+          {
+            "key": "front",
+            "label": "핵심 검색어 위치",
+            "status": "pass",
+            "detail": "1번째 글자부터 등장",
+            "earned": 10,
+            "max": 10
+          },
+          {
+            "key": "weight",
+            "label": "중량 표기",
+            "status": "pass",
+            "detail": "5kg 표기",
+            "earned": 10,
+            "max": 10
+          }
+        ],
+        "coverage": {
+          "covered": [
+            "황금향 5kg",
+            "황금향"
+          ],
+          "split": [],
+          "partial": [
+            {
+              "kw": "황금향 선물",
+              "missing": [
+                "선물"
+              ]
+            }
+          ],
+          "missing": []
+        },
+        "recommended": "황금향 로얄과 5kg",
+        "extraTokens": [
+          "선물"
+        ]
+      },
+      "tagAudit": {
+        "tags": [
+          "황금향5kg",
+          "만감류",
+          "고당도황금향",
+          "겨울과일",
+          "선물용과일",
+          "귤",
+          "감귤",
+          "가성비과일",
+          "비타민과일",
+          "겨울간식"
+        ],
+        "score": 100,
+        "max": 100,
+        "checks": [
+          {
+            "key": "count",
+            "label": "태그 수",
+            "status": "pass",
+            "detail": "10개",
+            "earned": 30,
+            "max": 30
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자·공백",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "duplicate",
+            "label": "중복 태그",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "titleOverlap",
+            "label": "상품명과 중복",
+            "status": "pass",
+            "detail": "1개 중복(만감류)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "keywordFill",
+            "label": "추적 검색어 보완",
+            "status": "pass",
+            "detail": "추적 검색어 모두 상품명 또는 태그에 있음",
+            "earned": 15,
+            "max": 15
+          }
+        ],
+        "missingKeywords": []
+      },
+      "grade": "양호",
+      "demand": null,
+      "shop": [],
+      "manual": []
     }
   ],
   "trend": {
@@ -1901,6 +2621,12 @@
     },
     {
       "priority": "중간",
+      "kind": "상품명",
+      "target": "황금향 로얄과",
+      "content": "추적 검색어 중 상품명에 없는 단어 검토: 선물 (50자 이내에서 추가 또는 태그로 보완)"
+    },
+    {
+      "priority": "중간",
       "kind": "데이터",
       "target": "전체",
       "content": "쇼핑 검색 캡처가 없어 순위·경쟁 가격·상위 노출 키워드 분석을 건너뜀 — docs/capture.html의 북마클릿으로 캡처"
@@ -1934,6 +2660,30 @@
       "kind": "검색어",
       "target": "국내산 햇밤",
       "content": "최근 7일 검색량이 직전 7일보다 27.3% 감소"
+    },
+    {
+      "priority": "낮음",
+      "kind": "설정",
+      "target": "타이벡감귤 로얄과",
+      "content": "카테고리 미입력 — 등록 카테고리를 적으면 보고서에 표시"
+    },
+    {
+      "priority": "낮음",
+      "kind": "설정",
+      "target": "대봉감 소과 난좌",
+      "content": "카테고리 미입력 — 등록 카테고리를 적으면 보고서에 표시"
+    },
+    {
+      "priority": "낮음",
+      "kind": "설정",
+      "target": "정품 단감",
+      "content": "카테고리 미입력 — 등록 카테고리를 적으면 보고서에 표시"
+    },
+    {
+      "priority": "낮음",
+      "kind": "설정",
+      "target": "황금향 로얄과",
+      "content": "카테고리 미입력 — 등록 카테고리를 적으면 보고서에 표시"
     }
   ],
   "rules": {
