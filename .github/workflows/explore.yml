@@ -1,0 +1,34 @@
+name: explore
+
+on:
+  workflow_dispatch:   # 신규 품목 탐색 (config/explore.json 검색어 묶음의 검색 수요 조회)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: explore
+  cancel-in-progress: false
+
+jobs:
+  explore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 검색 수요 조회
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: node scripts/explore-trend.js
+      - name: 커밋·푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/explore/
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "explore: $(TZ=Asia/Seoul date +%Y-%m-%d) 신규 품목 검색 수요"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
