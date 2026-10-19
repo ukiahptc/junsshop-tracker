@@ -78,9 +78,9 @@ ${shop}${manual}
 <title>준스샵스 SEO 분석</title>
 <style>
 :root{color-scheme:light dark;--bg:#f6f6f4;--surface:#fcfcfb;--line:#e4e3df;--ink:#0b0b0b;--ink2:#52514e;--ink3:#8a8984;
---s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--good:#0ca30c;--warn:#fab219;--bad:#d03b3b;--accent:#2a78d6}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121211;--surface:#1a1a19;--line:#2e2e2b;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#8c8b84;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--accent:#3987e5}}
-:root[data-theme=dark]{--bg:#121211;--surface:#1a1a19;--line:#2e2e2b;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#8c8b84;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--accent:#3987e5}
+--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#6250d6;--s8:#e34948;--good:#0ca30c;--warn:#fab219;--bad:#d03b3b;--accent:#2a78d6}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121211;--surface:#1a1a19;--line:#2e2e2b;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#8c8b84;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;--accent:#3987e5}}
+:root[data-theme=dark]{--bg:#121211;--surface:#1a1a19;--line:#2e2e2b;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#8c8b84;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;--accent:#3987e5}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}
 .wrap{max-width:1040px;margin:0 auto;padding:24px 16px 64px}
 h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:36px 0 12px}h3{font-size:16px;margin:0}
@@ -101,10 +101,10 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}th,td{t
 .muted{color:var(--ink3)}.fail{color:var(--bad)}.up{color:var(--good)}.down{color:var(--bad)}
 .tok{display:inline-block;font-size:12px;padding:1px 6px;border-radius:4px;border:1px solid var(--line);margin:1px 0}.tok.out{border-color:var(--s2);color:var(--s2)}.tok.in{color:var(--ink3)}
 .pr{font-size:12px;padding:1px 8px;border-radius:999px;border:1px solid var(--line)}.p1{color:var(--bad)}.p2{color:#b07a00}.p3{color:var(--ink3)}
-.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}.s1{background:var(--s1)}.s2{background:var(--s2)}.s3{background:var(--s3)}.s4{background:var(--s4)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}.s1{background:var(--s1)}.s2{background:var(--s2)}.s3{background:var(--s3)}.s4{background:var(--s4)}.s5{background:var(--s5)}.s6{background:var(--s6)}.s7{background:var(--s7)}.s8{background:var(--s8)}
 .chart{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px}
 .chart svg{width:100%;height:auto;display:block}.grid{stroke:var(--line);stroke-width:1}.ax{fill:var(--ink3);font-size:11px}.dl{fill:var(--ink2);font-size:11px}
-.ln{stroke-width:2;stroke-linejoin:round;stroke-linecap:round}path.s1{stroke:var(--s1)}path.s2{stroke:var(--s2)}path.s3{stroke:var(--s3)}path.s4{stroke:var(--s4)}
+.ln{stroke-width:2;stroke-linejoin:round;stroke-linecap:round}path.s1{stroke:var(--s1)}path.s2{stroke:var(--s2)}path.s3{stroke:var(--s3)}path.s4{stroke:var(--s4)}path.s5{stroke:var(--s5)}path.s6{stroke:var(--s6)}path.s7{stroke:var(--s7)}path.s8{stroke:var(--s8)}
 .xh{stroke:var(--ink3);stroke-width:1;stroke-dasharray:3 3}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--ink2);margin-top:8px}
 .tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12);white-space:nowrap;z-index:2}
