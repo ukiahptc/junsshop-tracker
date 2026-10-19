@@ -173,7 +173,9 @@ function auditTags(product, rules) {
   else add("count", "태그 수", "pass", `${tags.length}개`, W.count, W.count);
 
   const badTags = tags.filter((t) => /[^\p{L}\p{N}]/u.test(t));
+  const rejected = tags.filter((t) => (R.rejected || []).map(norm).includes(norm(t)));
   if (badTags.length) add("symbols", "특수문자·공백", "fail", `태그에 기호/공백: ${badTags.join(", ")}`, 0, W.symbols);
+  else if (rejected.length) add("symbols", "특수문자·공백", "fail", `네이버가 거부하는 카테고리명 태그: ${rejected.join(", ")} (다른 연관어로 교체)`, 0, W.symbols);
   else add("symbols", "특수문자·공백", "pass", "없음", W.symbols, W.symbols);
 
   const seen = new Set(), dup = [];
