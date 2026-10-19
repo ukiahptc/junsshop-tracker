@@ -1,0 +1,40 @@
+{
+  "_설명": "상품명·태그 진단 기준. 네이버 스마트스토어 검색 노출 가이드를 바탕으로 한 기본값이며 필요하면 값만 바꾸면 됩니다.",
+  "title": {
+    "recommendedMax": 50,
+    "hardMax": 100,
+    "recommendedMin": 15,
+    "keywordFrontChars": 15,
+    "stuffingThreshold": 3,
+    "allowedSymbols": "-/,()&+:·",
+    "promoWords": [
+      "무료배송", "무배", "당일발송", "당일출고", "빠른배송", "최저가", "초특가", "특가", "세일", "할인",
+      "이벤트", "사은품", "1+1", "핫딜", "인기", "추천", "베스트", "1위", "파격", "득템",
+      "한정", "품절임박", "강추", "꿀템", "히트", "대박", "최고", "최상급", "프리미엄"
+    ],
+    "weights": {
+      "length": 15,
+      "symbols": 10,
+      "promo": 15,
+      "duplicate": 10,
+      "coverage": 30,
+      "front": 10,
+      "weight": 10
+    }
+  },
+  "tags": {
+    "max": 10,
+    "weights": {
+      "count": 30,
+      "symbols": 20,
+      "duplicate": 20,
+      "titleOverlap": 15,
+      "keywordFill": 15
+    }
+  },
+  "grade": [
+    { "min": 85, "label": "양호" },
+    { "min": 65, "label": "보통" },
+    { "min": 0, "label": "개선 필요" }
+  ]
+}
