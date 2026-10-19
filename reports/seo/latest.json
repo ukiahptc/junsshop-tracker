@@ -9,12 +9,12 @@
     "demandLeader": "정품 단감",
     "trendWindow": "2026-09-20 ~ 2026-10-18",
     "trendFiles": 9,
-    "shopDate": null,
-    "shopFiles": 0,
+    "shopDate": "2026-10-20",
+    "shopFiles": 1,
     "manualDate": null,
     "actionCounts": {
-      "높음": 0,
-      "중간": 9,
+      "높음": 7,
+      "중간": 15,
       "낮음": 9
     }
   },
@@ -334,7 +334,317 @@
         },
         "share": 46.8
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "호박고구마 3kg",
+          "total": 100,
+          "adCount": 0,
+          "topN": 20,
+          "ourRank": null,
+          "ourAdRank": null,
+          "ourMall": null,
+          "sameWeightCount": 0,
+          "excluded": 20,
+          "min": null,
+          "median": null,
+          "pricePos": null,
+          "vsMedian": null,
+          "avgTitleLen": 16,
+          "weightShare": 0,
+          "topTokens": [
+            {
+              "token": "열림",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "창에서",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "에스아이엠쇼핑",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "갤러리아백화점",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "강추",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "다드림유통",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "달다",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "동내마트",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "무배",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "바이미스토어",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "산지담",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "살림콕콕",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "싱싱냉장고",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "엄마",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "영인팜",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            }
+          ],
+          "suggestions": [
+            "열림",
+            "창에서"
+          ],
+          "top": [
+            {
+              "rank": 1,
+              "screenRank": 1,
+              "title": "좋은 엄마\n새 창에서 열림",
+              "price": 16600,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 2,
+              "screenRank": 2,
+              "title": "영인팜\n새 창에서 열림",
+              "price": 19000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 3,
+              "screenRank": 3,
+              "title": "싱싱냉장고\n새 창에서 열림",
+              "price": 28000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 4,
+              "screenRank": 4,
+              "title": "강추 무배 동내마트\n새 창에서 열림",
+              "price": 9900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 5,
+              "screenRank": 5,
+              "title": "텐텐유통\n새 창에서 열림",
+              "price": 18500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 6,
+              "screenRank": 6,
+              "title": "다드림유통\n새 창에서 열림",
+              "price": 32570,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 7,
+              "screenRank": 7,
+              "title": "바이미스토어\n새 창에서 열림",
+              "price": 32570,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 8,
+              "screenRank": 8,
+              "title": "Eco Tree\n새 창에서 열림",
+              "price": 11900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 9,
+              "screenRank": 9,
+              "title": "KnS라이프\n새 창에서 열림",
+              "price": 35000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 10,
+              "screenRank": 10,
+              "title": "에스아이엠쇼핑\n새 창에서 열림",
+              "price": 11000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 11,
+              "screenRank": 11,
+              "title": "프루트제로\n새 창에서 열림",
+              "price": 14000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 12,
+              "screenRank": 12,
+              "title": "살림콕콕\n새 창에서 열림",
+              "price": 19000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 13,
+              "screenRank": 13,
+              "title": "에스아이엠쇼핑\n새 창에서 열림",
+              "price": 15900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 14,
+              "screenRank": 14,
+              "title": "에스아이엠쇼핑\n새 창에서 열림",
+              "price": 15900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 15,
+              "screenRank": 15,
+              "title": "에스아이엠쇼핑\n새 창에서 열림",
+              "price": 15900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 16,
+              "screenRank": 16,
+              "title": "자연담은 산지담\n새 창에서 열림",
+              "price": 11900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 17,
+              "screenRank": 17,
+              "title": "오늘도 달다\n새 창에서 열림",
+              "price": 23600,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 18,
+              "screenRank": 18,
+              "title": "갤러리아백화점\n새 창에서 열림",
+              "price": 9900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 19,
+              "screenRank": 19,
+              "title": "갤러리아백화점\n새 창에서 열림",
+              "price": 8900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 20,
+              "screenRank": 20,
+              "title": "Ocean Farming\n새 창에서 열림",
+              "price": 18000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "rank": null
+            }
+          ]
+        },
+        {
+          "keyword": "호풍미고구마",
+          "missing": true
+        },
+        {
+          "keyword": "해남호박고구마",
+          "missing": true
+        }
+      ],
       "manual": []
     },
     {
@@ -657,7 +967,317 @@
         },
         "share": 13
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "꿀고구마 3kg",
+          "total": 100,
+          "adCount": 0,
+          "topN": 20,
+          "ourRank": null,
+          "ourAdRank": null,
+          "ourMall": null,
+          "sameWeightCount": 0,
+          "excluded": 20,
+          "min": null,
+          "median": null,
+          "pricePos": null,
+          "vsMedian": null,
+          "avgTitleLen": 16,
+          "weightShare": 0,
+          "topTokens": [
+            {
+              "token": "열림",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "창에서",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "가득한",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "농장",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "햇살",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "에이치엔비유통",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "공식스토어",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "농사지음",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "농산물",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "다팜",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "담음",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "돌쇠네",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "마켓",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "모두의밥상",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "믿음가득식탁",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            }
+          ],
+          "suggestions": [
+            "열림",
+            "창에서"
+          ],
+          "top": [
+            {
+              "rank": 1,
+              "screenRank": 1,
+              "title": "다팜 친환경먹거리\n새 창에서 열림",
+              "price": 65000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 2,
+              "screenRank": 2,
+              "title": "풍수당\n새 창에서 열림",
+              "price": 42000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 3,
+              "screenRank": 3,
+              "title": "햇살 가득한 농장\n새 창에서 열림",
+              "price": 17200,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 4,
+              "screenRank": 4,
+              "title": "산지직송 직판장\n새 창에서 열림",
+              "price": 9900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 5,
+              "screenRank": 5,
+              "title": "자연을 담음\n새 창에서 열림",
+              "price": 14400,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 6,
+              "screenRank": 6,
+              "title": "햇살 가득한 농장\n새 창에서 열림",
+              "price": 17500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 7,
+              "screenRank": 7,
+              "title": "햇살 가득한 농장\n새 창에서 열림",
+              "price": 17600,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 8,
+              "screenRank": 8,
+              "title": "햇살 가득한 농장\n새 창에서 열림",
+              "price": 11300,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 9,
+              "screenRank": 9,
+              "title": "주식회사새터\n새 창에서 열림",
+              "price": 14500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 10,
+              "screenRank": 10,
+              "title": "율스키친\n새 창에서 열림",
+              "price": 23500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 11,
+              "screenRank": 11,
+              "title": "제철 한입\n새 창에서 열림",
+              "price": 15100,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 12,
+              "screenRank": 12,
+              "title": "믿음가득식탁\n새 창에서 열림",
+              "price": 23800,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 13,
+              "screenRank": 13,
+              "title": "오색향미\n새 창에서 열림",
+              "price": 15900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 14,
+              "screenRank": 14,
+              "title": "모두의밥상 공식스토어\n새 창에서 열림",
+              "price": 19500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 15,
+              "screenRank": 15,
+              "title": "에이치엔비유통\n새 창에서 열림",
+              "price": 22300,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 16,
+              "screenRank": 16,
+              "title": "에이치엔비유통\n새 창에서 열림",
+              "price": 21500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 17,
+              "screenRank": 17,
+              "title": "농사지음\n새 창에서 열림",
+              "price": 32000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 18,
+              "screenRank": 18,
+              "title": "써니누리\n새 창에서 열림",
+              "price": 16600,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 19,
+              "screenRank": 19,
+              "title": "돌쇠네 농산물\n새 창에서 열림",
+              "price": 14900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 20,
+              "screenRank": 20,
+              "title": "아란 마켓\n새 창에서 열림",
+              "price": 50000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "rank": null
+            }
+          ]
+        },
+        {
+          "keyword": "베니하루카",
+          "missing": true
+        },
+        {
+          "keyword": "해남꿀고구마",
+          "missing": true
+        }
+      ],
       "manual": []
     },
     {
@@ -982,7 +1602,20 @@
         },
         "share": 3.7
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "한입고구마",
+          "missing": true
+        },
+        {
+          "keyword": "꿀고구마 한입",
+          "missing": true
+        },
+        {
+          "keyword": "베니하루카 한입",
+          "missing": true
+        }
+      ],
       "manual": []
     },
     {
@@ -1307,7 +1940,313 @@
         },
         "share": 27.3
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "햇밤 2kg",
+          "total": 52,
+          "adCount": 0,
+          "topN": 20,
+          "ourRank": null,
+          "ourAdRank": null,
+          "ourMall": null,
+          "sameWeightCount": 0,
+          "excluded": 20,
+          "min": null,
+          "median": null,
+          "pricePos": null,
+          "vsMedian": null,
+          "avgTitleLen": 15,
+          "weightShare": 0,
+          "topTokens": [
+            {
+              "token": "열림",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "창에서",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "365팔구팔구",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "우리나누미",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "맛있는서연이네",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "바로보담",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "옹이맘",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "핫트랙스",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "솔직한농부",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "신성골이야기",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "싱싱지오",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "와이즈펀펀",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "우수셀러",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "지웨이리빙",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "universemarket",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            }
+          ],
+          "suggestions": [
+            "열림",
+            "창에서"
+          ],
+          "top": [
+            {
+              "rank": 1,
+              "screenRank": 1,
+              "title": "옹이맘\n새 창에서 열림",
+              "price": 17750,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 2,
+              "screenRank": 2,
+              "title": "옹이맘\n새 창에서 열림",
+              "price": 23130,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 3,
+              "screenRank": 3,
+              "title": "바로보담\n새 창에서 열림",
+              "price": 149900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 4,
+              "screenRank": 4,
+              "title": "우리나누미\n새 창에서 열림",
+              "price": 17500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 5,
+              "screenRank": 5,
+              "title": "우리나누미\n새 창에서 열림",
+              "price": 22880,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 6,
+              "screenRank": 6,
+              "title": "우리나누미\n새 창에서 열림",
+              "price": 28750,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 7,
+              "screenRank": 7,
+              "title": "365팔구팔구\n새 창에서 열림",
+              "price": 17630,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 8,
+              "screenRank": 8,
+              "title": "365팔구팔구\n새 창에서 열림",
+              "price": 23000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 9,
+              "screenRank": 9,
+              "title": "365팔구팔구\n새 창에서 열림",
+              "price": 28880,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 10,
+              "screenRank": 10,
+              "title": "솔직한농부\n우수셀러\n새 창에서 열림",
+              "price": 5500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 11,
+              "screenRank": 11,
+              "title": "싱싱지오\n새 창에서 열림",
+              "price": 12000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 12,
+              "screenRank": 12,
+              "title": "Universemarket\n새 창에서 열림",
+              "price": 29900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 13,
+              "screenRank": 13,
+              "title": "신성골이야기\n새 창에서 열림",
+              "price": 21000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 14,
+              "screenRank": 14,
+              "title": "지웨이리빙\n새 창에서 열림",
+              "price": 21000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 15,
+              "screenRank": 15,
+              "title": "맛있는서연이네\n새 창에서 열림",
+              "price": 23900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 16,
+              "screenRank": 16,
+              "title": "핫트랙스\n새 창에서 열림",
+              "price": 35900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 17,
+              "screenRank": 17,
+              "title": "핫트랙스\n새 창에서 열림",
+              "price": 23900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 18,
+              "screenRank": 18,
+              "title": "맛있는서연이네\n새 창에서 열림",
+              "price": 19900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 19,
+              "screenRank": 19,
+              "title": "바로보담\n새 창에서 열림",
+              "price": 6900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 20,
+              "screenRank": 20,
+              "title": "와이즈펀펀\n새 창에서 열림",
+              "price": 16900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "rank": null
+            }
+          ]
+        },
+        {
+          "keyword": "알밤",
+          "missing": true
+        }
+      ],
       "manual": []
     },
     {
@@ -1633,7 +2572,317 @@
         },
         "share": 9.2
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "타이벡감귤 5kg",
+          "total": 47,
+          "adCount": 0,
+          "topN": 20,
+          "ourRank": null,
+          "ourAdRank": null,
+          "ourMall": null,
+          "sameWeightCount": 0,
+          "excluded": 20,
+          "min": null,
+          "median": null,
+          "pricePos": null,
+          "vsMedian": null,
+          "avgTitleLen": 15,
+          "weightShare": 0,
+          "topTokens": [
+            {
+              "token": "열림",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "창에서",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "공식",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "공항길귤창고",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "과일꾼",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "과일농장",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "과일부티크",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "과일해적단",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "귤스타",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "나뚜라리농원",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "돌콤제주",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "백콩",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "새미농장",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "세모농",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "스마일프룻",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            }
+          ],
+          "suggestions": [
+            "열림",
+            "창에서"
+          ],
+          "top": [
+            {
+              "rank": 1,
+              "screenRank": 1,
+              "title": "백콩 과일농장\n새 창에서 열림",
+              "price": 60000,
+              "mall": "광고",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 2,
+              "screenRank": 2,
+              "title": "스마일-프룻\n새 창에서 열림",
+              "price": 48900,
+              "mall": "광고",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 3,
+              "screenRank": 3,
+              "title": "포암마켙\n새 창에서 열림",
+              "price": 38600,
+              "mall": "광고",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 4,
+              "screenRank": 4,
+              "title": "나뚜라리농원\n새 창에서 열림",
+              "price": 44800,
+              "mall": "광고",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 5,
+              "screenRank": 5,
+              "title": "세모농.\n새 창에서 열림",
+              "price": 38000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 6,
+              "screenRank": 6,
+              "title": "제주그린팜\n새 창에서 열림",
+              "price": 37800,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 7,
+              "screenRank": 7,
+              "title": "공항길귤창고\n새 창에서 열림",
+              "price": 56000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 8,
+              "screenRank": 8,
+              "title": "과일꾼\n공식\n새 창에서 열림",
+              "price": 26000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 9,
+              "screenRank": 9,
+              "title": "과일부티크\n우수셀러\n새 창에서 열림",
+              "price": 39800,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 10,
+              "screenRank": 10,
+              "title": "귤스타\n새 창에서 열림",
+              "price": 79900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 11,
+              "screenRank": 11,
+              "title": "과일해적단\n새 창에서 열림",
+              "price": 27900,
+              "mall": "광고",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 12,
+              "screenRank": 12,
+              "title": "어울렁\n새 창에서 열림",
+              "price": 190000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 13,
+              "screenRank": 13,
+              "title": "코어트렌드\n새 창에서 열림",
+              "price": 42900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 14,
+              "screenRank": 14,
+              "title": "새미농장\n새 창에서 열림",
+              "price": 35800,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 15,
+              "screenRank": 15,
+              "title": "전라도청년\n공식\n새 창에서 열림",
+              "price": 15900,
+              "mall": "광고",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 16,
+              "screenRank": 16,
+              "title": "돌콤제주\n새 창에서 열림",
+              "price": 39000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 17,
+              "screenRank": 17,
+              "title": "테이스티아일랜드\n새 창에서 열림",
+              "price": 34900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 18,
+              "screenRank": 18,
+              "title": "현직농부마켓\n새 창에서 열림",
+              "price": 43000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 19,
+              "screenRank": 19,
+              "title": "제주귤빛담다\n새 창에서 열림",
+              "price": 48000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 20,
+              "screenRank": 20,
+              "title": "행복팜 jeju\n새 창에서 열림",
+              "price": 15400,
+              "mall": "광고",
+              "kg": null,
+              "ours": false
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "rank": null
+            }
+          ]
+        },
+        {
+          "keyword": "타이벡감귤",
+          "missing": true
+        },
+        {
+          "keyword": "타이벡 귤",
+          "missing": true
+        }
+      ],
       "manual": []
     },
     {
@@ -1960,7 +3209,318 @@
         },
         "share": 26.1
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "대봉감 5kg",
+          "total": 100,
+          "adCount": 0,
+          "topN": 20,
+          "ourRank": null,
+          "ourAdRank": null,
+          "ourMall": null,
+          "sameWeightCount": 0,
+          "excluded": 20,
+          "min": null,
+          "median": null,
+          "pricePos": null,
+          "vsMedian": null,
+          "avgTitleLen": 16,
+          "weightShare": 0,
+          "topTokens": [
+            {
+              "token": "열림",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "창에서",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "스토어",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": false
+            },
+            {
+              "token": "산지노트",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "haruselect",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "바인",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "개인",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "농원",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "마트",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "바른",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "바른푸드장터",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "서기네농장",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "싱싱킹",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "에이치투블루",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "오투팜",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            }
+          ],
+          "suggestions": [
+            "열림",
+            "창에서",
+            "스토어"
+          ],
+          "top": [
+            {
+              "rank": 1,
+              "screenRank": 1,
+              "title": "참매골농원\n새 창에서 열림",
+              "price": 66000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 2,
+              "screenRank": 2,
+              "title": "오투팜 스토어\n새 창에서 열림",
+              "price": 18500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 3,
+              "screenRank": 3,
+              "title": "에이치투블루\n새 창에서 열림",
+              "price": 37900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 4,
+              "screenRank": 4,
+              "title": "프레시데이\n새 창에서 열림",
+              "price": 50000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 5,
+              "screenRank": 5,
+              "title": "지투지샵\n새 창에서 열림",
+              "price": 30500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 6,
+              "screenRank": 6,
+              "title": "한아름농수산\n새 창에서 열림",
+              "price": 30500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 7,
+              "screenRank": 7,
+              "title": "싱싱킹\n새 창에서 열림",
+              "price": 24900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 8,
+              "screenRank": 8,
+              "title": "마트 행복(개인)\n새 창에서 열림",
+              "price": 21990,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 9,
+              "screenRank": 9,
+              "title": "산지노트 스토어\n새 창에서 열림",
+              "price": 16000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 10,
+              "screenRank": 10,
+              "title": "산지노트 스토어\n새 창에서 열림",
+              "price": 13300,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 11,
+              "screenRank": 11,
+              "title": "산지노트 스토어\n새 창에서 열림",
+              "price": 14700,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 12,
+              "screenRank": 12,
+              "title": "서기네농장\n새 창에서 열림",
+              "price": 33800,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 13,
+              "screenRank": 13,
+              "title": "The 바른\n새 창에서 열림",
+              "price": 25990,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 14,
+              "screenRank": 14,
+              "title": "바른푸드장터\n새 창에서 열림",
+              "price": 58100,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 15,
+              "screenRank": 15,
+              "title": "프린스 농원\n새 창에서 열림",
+              "price": 50000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 16,
+              "screenRank": 16,
+              "title": "바인 스토어\n새 창에서 열림",
+              "price": 19000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 17,
+              "screenRank": 17,
+              "title": "바인 스토어\n새 창에서 열림",
+              "price": 22500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 18,
+              "screenRank": 18,
+              "title": "haruselect\n새 창에서 열림",
+              "price": 20900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 19,
+              "screenRank": 19,
+              "title": "haruselect\n새 창에서 열림",
+              "price": 17900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 20,
+              "screenRank": 20,
+              "title": "haruselect\n새 창에서 열림",
+              "price": 16900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "rank": null
+            }
+          ]
+        },
+        {
+          "keyword": "대봉감",
+          "missing": true
+        },
+        {
+          "keyword": "홍시 대봉",
+          "missing": true
+        }
+      ],
       "manual": []
     },
     {
@@ -2286,7 +3846,317 @@
         },
         "share": 46.3
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "단감 5kg",
+          "total": 99,
+          "adCount": 0,
+          "topN": 20,
+          "ourRank": null,
+          "ourAdRank": null,
+          "ourMall": null,
+          "sameWeightCount": 0,
+          "excluded": 20,
+          "min": null,
+          "median": null,
+          "pricePos": null,
+          "vsMedian": null,
+          "avgTitleLen": 15,
+          "weightShare": 0,
+          "topTokens": [
+            {
+              "token": "열림",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "창에서",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "개인",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "에이치투블루",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "과일코스코",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "농원",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "달다",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "멍균관",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "복숭아",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "사과",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "수mall",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "안녕푸드야",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "야문향기짱",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "오늘도",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "오늘의",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            }
+          ],
+          "suggestions": [
+            "열림",
+            "창에서"
+          ],
+          "top": [
+            {
+              "rank": 1,
+              "screenRank": 1,
+              "title": "진이 농원(개인)\n새 창에서 열림",
+              "price": 30000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 2,
+              "screenRank": 2,
+              "title": "오늘도 달다\n새 창에서 열림",
+              "price": 16800,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 3,
+              "screenRank": 3,
+              "title": "과일코스코\n새 창에서 열림",
+              "price": 90000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 4,
+              "screenRank": 4,
+              "title": "오를린\n새 창에서 열림",
+              "price": 49600,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 5,
+              "screenRank": 5,
+              "title": "에이치투블루\n새 창에서 열림",
+              "price": 25900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 6,
+              "screenRank": 6,
+              "title": "에이치투블루\n새 창에서 열림",
+              "price": 21900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 7,
+              "screenRank": 7,
+              "title": "사과 귤 포도 복숭아\n새 창에서 열림",
+              "price": 11800,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 8,
+              "screenRank": 8,
+              "title": "멍균관\n새 창에서 열림",
+              "price": 55900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 9,
+              "screenRank": 9,
+              "title": "야문향기짱\n새 창에서 열림",
+              "price": 35000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 10,
+              "screenRank": 10,
+              "title": "허니삼구\n새 창에서 열림",
+              "price": 100000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 11,
+              "screenRank": 11,
+              "title": "오늘의 파머스\n새 창에서 열림",
+              "price": 50000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 12,
+              "screenRank": 12,
+              "title": "girgo\n새 창에서 열림",
+              "price": 35500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 13,
+              "screenRank": 13,
+              "title": "옥도리네\n새 창에서 열림",
+              "price": 20000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 14,
+              "screenRank": 14,
+              "title": "안녕푸드야\n새 창에서 열림",
+              "price": 79000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 15,
+              "screenRank": 15,
+              "title": "all8\n새 창에서 열림",
+              "price": 40100,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 16,
+              "screenRank": 16,
+              "title": "수mall(개인)\n새 창에서 열림",
+              "price": 53000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 17,
+              "screenRank": 17,
+              "title": "황금열매\n새 창에서 열림",
+              "price": 50000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 18,
+              "screenRank": 18,
+              "title": "rhgiddp\n새 창에서 열림",
+              "price": 17200,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 19,
+              "screenRank": 19,
+              "title": "와우과일마켓\n새 창에서 열림",
+              "price": 190000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 20,
+              "screenRank": 20,
+              "title": "온담마켓2026\n새 창에서 열림",
+              "price": 40900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "rank": null
+            }
+          ]
+        },
+        {
+          "keyword": "단감",
+          "missing": true
+        },
+        {
+          "keyword": "햇단감",
+          "missing": true
+        }
+      ],
       "manual": []
     },
     {
@@ -2619,7 +4489,317 @@
         },
         "share": 27.7
       },
-      "shop": [],
+      "shop": [
+        {
+          "keyword": "황금향 5kg",
+          "total": 90,
+          "adCount": 0,
+          "topN": 20,
+          "ourRank": null,
+          "ourAdRank": null,
+          "ourMall": null,
+          "sameWeightCount": 0,
+          "excluded": 20,
+          "min": null,
+          "median": null,
+          "pricePos": null,
+          "vsMedian": null,
+          "avgTitleLen": 15,
+          "weightShare": 0,
+          "topTokens": [
+            {
+              "token": "열림",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "창에서",
+              "count": 20,
+              "share": 100,
+              "inOurTitle": false
+            },
+            {
+              "token": "무케렌시아",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "지투지샵",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": false
+            },
+            {
+              "token": "가져유백화점",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "갖고",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "갤러리아백화점",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "고흥",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "농장",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "맛딜",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "모든식품",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "바구니",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "상회",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "서귀포힐링농장",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            },
+            {
+              "token": "석희",
+              "count": 1,
+              "share": 5,
+              "inOurTitle": false
+            }
+          ],
+          "suggestions": [
+            "열림",
+            "창에서"
+          ],
+          "top": [
+            {
+              "rank": 1,
+              "screenRank": 1,
+              "title": "지투지샵\n새 창에서 열림",
+              "price": 100000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 2,
+              "screenRank": 2,
+              "title": "맛딜\n새 창에서 열림",
+              "price": 65900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 3,
+              "screenRank": 3,
+              "title": "가져유백화점\n새 창에서 열림",
+              "price": 72300,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 4,
+              "screenRank": 4,
+              "title": "지투지샵\n새 창에서 열림",
+              "price": 750000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 5,
+              "screenRank": 5,
+              "title": "푸드큐레이터\n새 창에서 열림",
+              "price": 95500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 6,
+              "screenRank": 6,
+              "title": "무케렌시아\n새 창에서 열림",
+              "price": 64000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 7,
+              "screenRank": 7,
+              "title": "무케렌시아\n새 창에서 열림",
+              "price": 67000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 8,
+              "screenRank": 8,
+              "title": "고흥 상회\n새 창에서 열림",
+              "price": 55000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 9,
+              "screenRank": 9,
+              "title": "제이바이오푸드\n새 창에서 열림",
+              "price": 91500,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 10,
+              "screenRank": 10,
+              "title": "제주사람마쑤다\n새 창에서 열림",
+              "price": 67900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 11,
+              "screenRank": 11,
+              "title": "서귀포힐링농장\n새 창에서 열림",
+              "price": 55000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 12,
+              "screenRank": 12,
+              "title": "모든식품\n새 창에서 열림",
+              "price": 45000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 13,
+              "screenRank": 13,
+              "title": "정직한 바구니\n새 창에서 열림",
+              "price": 25000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 14,
+              "screenRank": 14,
+              "title": "유남매스토어\n새 창에서 열림",
+              "price": 79170,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 15,
+              "screenRank": 15,
+              "title": "홀리셔스\n새 창에서 열림",
+              "price": 50200,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 16,
+              "screenRank": 16,
+              "title": "갖고 싶다\n새 창에서 열림",
+              "price": 86040,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 17,
+              "screenRank": 17,
+              "title": "갤러리아백화점\n새 창에서 열림",
+              "price": 65600,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 18,
+              "screenRank": 18,
+              "title": "온담마켓2026\n새 창에서 열림",
+              "price": 67900,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 19,
+              "screenRank": 19,
+              "title": "석희 농장\n새 창에서 열림",
+              "price": 58700,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            },
+            {
+              "rank": 20,
+              "screenRank": 20,
+              "title": "제주다팜스토어\n새 창에서 열림",
+              "price": 56000,
+              "mall": "새 창에서 열림",
+              "kg": null,
+              "ours": false
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-10-20",
+              "rank": null
+            }
+          ]
+        },
+        {
+          "keyword": "황금향",
+          "missing": true
+        },
+        {
+          "keyword": "황금향 선물",
+          "missing": true
+        }
+      ],
       "manual": []
     }
   ],
@@ -3754,6 +5934,60 @@
   },
   "actions": [
     {
+      "priority": "높음",
+      "kind": "순위",
+      "target": "해남 호박고구마 호풍미 특상",
+      "content": "\"호박고구마 3kg\" 자연 검색 결과 100개 안에 우리 상품 없음"
+    },
+    {
+      "priority": "높음",
+      "kind": "순위",
+      "target": "해남 꿀밤고구마 베니하루카 특상",
+      "content": "\"꿀고구마 3kg\" 자연 검색 결과 100개 안에 우리 상품 없음"
+    },
+    {
+      "priority": "높음",
+      "kind": "순위",
+      "target": "국내산 햇밤",
+      "content": "\"햇밤 2kg\" 자연 검색 결과 52개 안에 우리 상품 없음"
+    },
+    {
+      "priority": "높음",
+      "kind": "순위",
+      "target": "타이벡감귤 로얄과",
+      "content": "\"타이벡감귤 5kg\" 자연 검색 결과 47개 안에 우리 상품 없음"
+    },
+    {
+      "priority": "높음",
+      "kind": "순위",
+      "target": "대봉감 소과 난좌",
+      "content": "\"대봉감 5kg\" 자연 검색 결과 100개 안에 우리 상품 없음"
+    },
+    {
+      "priority": "높음",
+      "kind": "순위",
+      "target": "정품 단감",
+      "content": "\"단감 5kg\" 자연 검색 결과 99개 안에 우리 상품 없음"
+    },
+    {
+      "priority": "높음",
+      "kind": "순위",
+      "target": "황금향 로얄과",
+      "content": "\"황금향 5kg\" 자연 검색 결과 90개 안에 우리 상품 없음"
+    },
+    {
+      "priority": "중간",
+      "kind": "상품명",
+      "target": "해남 호박고구마 호풍미 특상",
+      "content": "\"호박고구마 3kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+    },
+    {
+      "priority": "중간",
+      "kind": "상품명",
+      "target": "해남 꿀밤고구마 베니하루카 특상",
+      "content": "\"꿀고구마 3kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+    },
+    {
       "priority": "중간",
       "kind": "상품명",
       "target": "해남 꿀밤고구마 베니하루카 한입",
@@ -3764,6 +5998,12 @@
       "kind": "검색어",
       "target": "해남 꿀밤고구마 베니하루카 한입",
       "content": "추적 검색어 묶음의 검색 수요가 같은 요청 내 3.7%로 작음 — 검색어 교체 검토(config/keywords.json)"
+    },
+    {
+      "priority": "중간",
+      "kind": "상품명",
+      "target": "국내산 햇밤",
+      "content": "\"햇밤 2kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
     },
     {
       "priority": "중간",
@@ -3779,15 +6019,33 @@
     },
     {
       "priority": "중간",
+      "kind": "상품명",
+      "target": "타이벡감귤 로얄과",
+      "content": "\"타이벡감귤 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+    },
+    {
+      "priority": "중간",
       "kind": "검색어",
       "target": "대봉감 소과 난좌",
       "content": "최근 7일 검색량이 직전 7일보다 82.1% 증가 — 노출 점검·재고 확인 시점"
     },
     {
       "priority": "중간",
+      "kind": "상품명",
+      "target": "대봉감 소과 난좌",
+      "content": "\"대봉감 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서, 스토어"
+    },
+    {
+      "priority": "중간",
       "kind": "검색어",
       "target": "정품 단감",
       "content": "최근 7일 검색량이 직전 7일보다 27.4% 증가 — 노출 점검·재고 확인 시점"
+    },
+    {
+      "priority": "중간",
+      "kind": "상품명",
+      "target": "정품 단감",
+      "content": "\"단감 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
     },
     {
       "priority": "중간",
@@ -3803,9 +6061,9 @@
     },
     {
       "priority": "중간",
-      "kind": "데이터",
-      "target": "전체",
-      "content": "쇼핑 검색 캡처가 없어 순위·경쟁 가격·상위 노출 키워드 분석을 건너뜀 — docs/capture.html의 북마클릿으로 캡처"
+      "kind": "상품명",
+      "target": "황금향 로얄과",
+      "content": "\"황금향 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
     },
     {
       "priority": "낮음",
@@ -3943,5 +6201,8 @@
       }
     ]
   },
-  "shopLatest": null
+  "shopLatest": {
+    "date": "2026-10-20",
+    "keywords": 7
+  }
 }
