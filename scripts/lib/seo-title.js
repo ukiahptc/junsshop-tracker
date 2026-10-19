@@ -87,7 +87,8 @@ function auditTitle(product, rules) {
   for (const t of tk) counts[t] = (counts[t] || 0) + 1;
   const dups = Object.entries(counts).filter(([, c]) => c > 1).map(([t, c]) => `${t}×${c}`);
   const core = norm(product.elements?.item || "").replace(/^(호박|꿀밤|꿀|밤|햇)/, "") || null; // 예: 호박고구마 → 고구마
-  const variants = core && core.length >= 2 ? [...new Set(tk.filter((t) => t.includes(core)))] : [];
+  // 유사 키워드: 품목 핵심어를 포함하는 토큰 (핵심어가 한 글자면 "햇밤·생밤·알밤"처럼 짧은 합성어만)
+  const variants = core ? [...new Set(tk.filter((t) => (core.length >= 2 ? t.includes(core) : t.endsWith(core) && t.length <= 3)))] : [];
   if (dups.length) add("duplicate", "단어 반복", "fail", `같은 단어 반복: ${dups.join(", ")}`, 0, W.duplicate);
   else if (variants.length >= R.stuffingThreshold) add("duplicate", "단어 반복", "warn", `유사 키워드 ${variants.length}개 나열(${variants.join(", ")}) — 키워드 스터핑으로 볼 수 있음`, W.duplicate * 0.5, W.duplicate);
   else add("duplicate", "단어 반복", "pass", "반복 없음", W.duplicate, W.duplicate);

@@ -3,8 +3,8 @@
     "date": "2026-10-20",
     "store": "준스샵스",
     "productCount": 4,
-    "avgTitleScore": 92,
-    "avgTagScore": 25,
+    "avgTitleScore": 98,
+    "avgTagScore": 50,
     "registered": 4,
     "demandLeader": "해남 호박고구마 호풍미 특상",
     "trendWindow": "2026-09-19 ~ 2026-10-17",
@@ -13,8 +13,8 @@
     "shopFiles": 0,
     "manualDate": null,
     "actionCounts": {
-      "높음": 3,
-      "중간": 10,
+      "높음": 2,
+      "중간": 6,
       "낮음": 5
     }
   },
@@ -296,7 +296,7 @@
       "weights": [
         "3kg"
       ],
-      "title": "해남 고구마 3kg 특상 베니하루카 꿀밤고구마 햇고구마 산지직송",
+      "title": "해남 꿀밤고구마 베니하루카 특상 3kg 산지직송 햇고구마",
       "tags": [
         "꿀밤고구마",
         "햇고구마",
@@ -328,16 +328,16 @@
       },
       "registered": true,
       "titleAudit": {
-        "title": "해남 고구마 3kg 특상 베니하루카 꿀밤고구마 햇고구마 산지직송",
-        "length": 35,
-        "score": 93,
+        "title": "해남 꿀밤고구마 베니하루카 특상 3kg 산지직송 햇고구마",
+        "length": 31,
+        "score": 98,
         "max": 100,
         "checks": [
           {
             "key": "length",
             "label": "길이",
             "status": "pass",
-            "detail": "35자 (권장 15~50자)",
+            "detail": "31자 (권장 15~50자)",
             "earned": 15,
             "max": 15
           },
@@ -360,9 +360,9 @@
           {
             "key": "duplicate",
             "label": "단어 반복",
-            "status": "warn",
-            "detail": "유사 키워드 3개 나열(고구마, 꿀밤고구마, 햇고구마) — 키워드 스터핑으로 볼 수 있음",
-            "earned": 5,
+            "status": "pass",
+            "detail": "반복 없음",
+            "earned": 10,
             "max": 10
           },
           {
@@ -377,7 +377,7 @@
             "key": "front",
             "label": "핵심 검색어 위치",
             "status": "pass",
-            "detail": "8번째 글자부터 등장",
+            "detail": "10번째 글자부터 등장",
             "earned": 10,
             "max": 10
           },
@@ -882,14 +882,36 @@
       "weights": [
         "2kg"
       ],
-      "title": "국내산 햇밤 2kg",
-      "tags": [],
-      "tagCounts": {},
+      "title": "2026년 부여 햇밤 생밤 알밤 왕밤 2kg",
+      "tags": [
+        "군밤",
+        "햇밤",
+        "알밤",
+        "생밤",
+        "공주밤",
+        "가을간식",
+        "겨울간식",
+        "영양간식",
+        "수험생간식",
+        "아이간식"
+      ],
+      "tagCounts": {
+        "군밤": 12722,
+        "햇밤": 303169,
+        "알밤": 120528,
+        "생밤": 1004587,
+        "공주밤": 201225,
+        "가을간식": 3027140,
+        "겨울간식": 426142,
+        "영양간식": 5277,
+        "수험생간식": 310383,
+        "아이간식": 91023
+      },
       "category": "",
-      "price": null,
+      "price": 11900,
       "url": "",
       "elements": {
-        "origin": "국내산",
+        "origin": "부여",
         "item": "햇밤",
         "variety": "",
         "grade": "",
@@ -897,17 +919,17 @@
       },
       "registered": true,
       "titleAudit": {
-        "title": "국내산 햇밤 2kg",
-        "length": 10,
-        "score": 79,
+        "title": "2026년 부여 햇밤 생밤 알밤 왕밤 2kg",
+        "length": 24,
+        "score": 95,
         "max": 100,
         "checks": [
           {
             "key": "length",
             "label": "길이",
-            "status": "warn",
-            "detail": "10자 — 너무 짧음(권장 15~50자)",
-            "earned": 9,
+            "status": "pass",
+            "detail": "24자 (권장 15~50자)",
+            "earned": 15,
             "max": 15
           },
           {
@@ -929,24 +951,24 @@
           {
             "key": "duplicate",
             "label": "단어 반복",
-            "status": "pass",
-            "detail": "반복 없음",
-            "earned": 10,
+            "status": "warn",
+            "detail": "유사 키워드 4개 나열(햇밤, 생밤, 알밤, 왕밤) — 키워드 스터핑으로 볼 수 있음",
+            "earned": 5,
             "max": 10
           },
           {
             "key": "coverage",
             "label": "추적 검색어 포함",
-            "status": "warn",
-            "detail": "1/2 포함 · 미포함: 알밤",
-            "earned": 15,
+            "status": "pass",
+            "detail": "2/2 포함",
+            "earned": 30,
             "max": 30
           },
           {
             "key": "front",
             "label": "핵심 검색어 위치",
             "status": "pass",
-            "detail": "5번째 글자부터 등장",
+            "detail": "10번째 글자부터 등장",
             "earned": 10,
             "max": 10
           },
@@ -961,39 +983,76 @@
         ],
         "coverage": {
           "covered": [
-            "햇밤 2kg"
+            "햇밤 2kg",
+            "알밤"
           ],
           "split": [],
           "partial": [],
-          "missing": [
-            "알밤"
-          ]
+          "missing": []
         },
-        "recommended": "국내산 햇밤 2kg",
-        "extraTokens": [
-          "알밤"
-        ]
+        "recommended": "부여 햇밤 2kg",
+        "extraTokens": []
       },
       "tagAudit": {
-        "tags": [],
-        "score": 0,
+        "tags": [
+          "군밤",
+          "햇밤",
+          "알밤",
+          "생밤",
+          "공주밤",
+          "가을간식",
+          "겨울간식",
+          "영양간식",
+          "수험생간식",
+          "아이간식"
+        ],
+        "score": 100,
         "max": 100,
         "checks": [
           {
             "key": "count",
             "label": "태그 수",
-            "status": "fail",
-            "detail": "미입력 (최대 10개)",
-            "earned": 0,
+            "status": "pass",
+            "detail": "10개",
+            "earned": 30,
             "max": 30
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자·공백",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "duplicate",
+            "label": "중복 태그",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "titleOverlap",
+            "label": "상품명과 중복",
+            "status": "pass",
+            "detail": "3개 중복(햇밤, 알밤, 생밤)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "keywordFill",
+            "label": "추적 검색어 보완",
+            "status": "pass",
+            "detail": "추적 검색어 모두 상품명 또는 태그에 있음",
+            "earned": 15,
+            "max": 15
           }
         ],
-        "missingKeywords": [
-          "햇밤 2kg",
-          "알밤"
-        ]
+        "missingKeywords": []
       },
-      "grade": "보통",
+      "grade": "양호",
       "demand": {
         "request": 0,
         "name": "국내산 햇밤",
@@ -1720,12 +1779,6 @@
       "content": "태그 미입력 — 상품명에 없는 연관 검색어로 10개까지 등록"
     },
     {
-      "priority": "높음",
-      "kind": "태그",
-      "target": "국내산 햇밤",
-      "content": "태그 미입력 — 상품명에 없는 연관 검색어로 10개까지 등록"
-    },
-    {
       "priority": "중간",
       "kind": "가격",
       "target": "해남 호박고구마 호풍미 특상",
@@ -1736,12 +1789,6 @@
       "kind": "검색어",
       "target": "해남 호박고구마 호풍미 특상",
       "content": "최근 7일 검색량이 직전 7일보다 23.6% 증가 — 노출 점검·재고 확인 시점"
-    },
-    {
-      "priority": "중간",
-      "kind": "상품명",
-      "target": "해남 꿀밤고구마 베니하루카 특상",
-      "content": "단어 반복: 유사 키워드 3개 나열(고구마, 꿀밤고구마, 햇고구마) — 키워드 스터핑으로 볼 수 있음"
     },
     {
       "priority": "중간",
@@ -1759,25 +1806,7 @@
       "priority": "중간",
       "kind": "상품명",
       "target": "국내산 햇밤",
-      "content": "길이: 10자 — 너무 짧음(권장 15~50자)"
-    },
-    {
-      "priority": "중간",
-      "kind": "상품명",
-      "target": "국내산 햇밤",
-      "content": "추적 검색어 포함: 1/2 포함 · 미포함: 알밤"
-    },
-    {
-      "priority": "중간",
-      "kind": "상품명",
-      "target": "국내산 햇밤",
-      "content": "추적 검색어 중 상품명에 없는 단어 검토: 알밤 (50자 이내에서 추가 또는 태그로 보완)"
-    },
-    {
-      "priority": "중간",
-      "kind": "가격",
-      "target": "국내산 햇밤",
-      "content": "판매가 미입력 — 입력하면 경쟁 가격 대비 위치를 계산"
+      "content": "단어 반복: 유사 키워드 4개 나열(햇밤, 생밤, 알밤, 왕밤) — 키워드 스터핑으로 볼 수 있음"
     },
     {
       "priority": "중간",
