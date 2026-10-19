@@ -55,6 +55,7 @@ function renderHtml(R) {
 <header><h3>${p.idx}. ${esc(p.name)}</h3><span class="grade ${p.grade === "양호" ? "g1" : p.grade === "보통" ? "g2" : "g3"}">${p.grade}</span></header>
 <div class="kv"><span>상품명</span><span class="title">${p.title ? esc(p.title) : '<em class="muted">미입력</em>'} <span class="muted">(${p.titleAudit.length}자${p.titleUpdated ? ` · ${esc(p.titleUpdated)} 변경` : ""})</span></span></div>
 <div class="kv"><span>추적 검색어</span><span>${p.keywords.map(esc).join(" · ")}</span></div>
+${p.ads?.length ? `<div class="kv"><span>운영 중 광고</span><span>${p.ads.map((a) => esc(`${a.keyword} (${a.since}~${a.note ? ", " + a.note : ""})`)).join(", ")}</span></div>` : ""}
 ${demand}
 <div class="two">
 <div><div class="sb"><span>상품명 ${p.titleAudit.score}점</span>${scoreBar(p.titleAudit.score, "t")}</div><ul class="checks">${checks(p.titleAudit)}</ul>
