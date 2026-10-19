@@ -24,6 +24,24 @@ function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
 const DECORATIVE = /[★☆♥♡◆■●▶◀♣♠※→←↑↓✧✨✩✰✳✴❖❤\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u;
 
+const SHORT = new Set(["꿀", "밤", "햇"]); // 한 글자 접두어로 허용
+// text(정규화)가 token을 그대로 포함하거나, 품목 핵심어(core)로 쪼갠 조각들을 모두 포함하면 true
+// 반환: "whole" | "split" | null
+function coverage(text, token, core) {
+  if (text.includes(token)) return "whole";
+  if (!core || !token.includes(core)) return null;
+  const pieces = token.split(core).filter(Boolean);
+  const ok = (piece) => {
+    if (text.includes(piece)) return true;
+    for (let i = 1; i < piece.length; i++) {
+      const a = piece.slice(0, i), b = piece.slice(i);
+      if ((a.length >= 2 || SHORT.has(a)) && (b.length >= 2 || SHORT.has(b)) && text.includes(a) && ok(b)) return true;
+    }
+    return false;
+  };
+  return pieces.every(ok) ? "split" : null;
+}
+
 // ---------- 상품명 진단 ----------
 // product: { title, elements:{weight,...}, keywords:[...], weights:[...] }
 function auditTitle(product, rules) {
@@ -83,8 +101,9 @@ function auditTitle(product, rules) {
     let whole = 0, bySplit = 0;
     const miss = [];
     for (const p of parts) {
-      if (ntw.includes(p)) whole++;
-      else if (core && p.includes(core) && p.split(core).filter(Boolean).every((piece) => ntw.includes(piece))) bySplit++; // 예: 호풍미고구마 → 호풍미 + 고구마
+      const c = coverage(ntw, p, core);
+      if (c === "whole") whole++;
+      else if (c === "split") bySplit++; // 예: 호풍미고구마 → 호풍미 + 고구마, 해남꿀고구마 → 해남 + 꿀 + 고구마
       else miss.push(p);
     }
     if (whole === parts.length) covered.push(kw);
@@ -123,7 +142,7 @@ function auditTitle(product, rules) {
   // 권장 구조: 원산지 → 품목 → 품종 → 등급 → 중량 (빈 요소는 생략)
   const el = product.elements || {};
   const recommended = ["origin", "item", "variety", "grade", "weight"].map((k) => el[k]).filter(Boolean).join(" ");
-  const inText = (txt, t) => txt.includes(t) || (core && t.includes(core) && t.split(core).filter(Boolean).every((piece) => txt.includes(piece)));
+  const inText = (txt, t) => Boolean(coverage(txt, t, core));
   const extraTokens = [...new Set(kws.flatMap(tokens))]
     .filter((t) => !/\d/.test(t))
     .filter((t) => !inText(norm(recommended), norm(t)) && !inText(nt, norm(t)));
@@ -168,8 +187,9 @@ function auditTags(product, rules) {
   else add("titleOverlap", "상품명과 중복", "pass", overlap.length ? `${overlap.length}개 중복(${overlap.join(", ")})` : "중복 없음", W.titleOverlap, W.titleOverlap);
 
   const kws = product.keywords || [];
-  const allText = norm(product.title) + "|" + tags.map(norm).join("|");
-  const missingKeywords = kws.filter((kw) => !tokens(kw).every((p) => allText.includes(/\d/.test(p) ? normWeight(p) : norm(p))));
+  const allText = normWeight(product.title) + "|" + tags.map(normWeight).join("|");
+  const core = norm(product.elements?.item || "").replace(/^(호박|꿀밤|꿀|밤|햇)/, "") || null;
+  const missingKeywords = kws.filter((kw) => !tokens(kw).every((p) => coverage(allText, /\d/.test(p) ? normWeight(p) : norm(p), core)));
   const fillRatio = kws.length ? 1 - missingKeywords.length / kws.length : 1;
   add("keywordFill", "추적 검색어 보완", fillRatio >= 0.8 ? "pass" : "warn",
     missingKeywords.length ? `상품명·태그 어디에도 없음: ${missingKeywords.join(", ")}` : "추적 검색어 모두 상품명 또는 태그에 있음", W.keywordFill * fillRatio, W.keywordFill);
@@ -182,4 +202,4 @@ function gradeOf(score, rules) {
   return rules.grade[rules.grade.length - 1].label;
 }
 
-module.exports = { auditTitle, auditTags, gradeOf, tokens, norm, normWeight };
+module.exports = { auditTitle, auditTags, gradeOf, tokens, norm, normWeight, coverage };

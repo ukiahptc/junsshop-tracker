@@ -28,7 +28,7 @@ function buildProducts() {
     const p = (PRODUCTS.products || []).find((x) => x.name === it.name) || {};
     return {
       idx: i + 1, name: it.name, keywords: it.keywords, weights: it.weights,
-      title: p.title || "", tags: p.tags || [], category: p.category || "", price: p.price ?? null, url: p.url || "",
+      title: p.title || "", tags: p.tags || [], tagCounts: p.tagCounts || {}, category: p.category || "", price: p.price ?? null, url: p.url || "",
       elements: p.elements || {}, registered: Boolean(p.title),
     };
   });
@@ -232,7 +232,8 @@ function renderMd(R) {
     for (const c of p.titleAudit.checks) L.push(`  - [${mark(c.status)}] ${c.label}: ${c.detail} (${c.earned}/${c.max})`);
     L.push(`- 권장 구조(원산지 품목 품종 등급 중량): ${p.titleAudit.recommended || "elements 미입력"}`);
     if (p.titleAudit.extraTokens.length) L.push(`- 추적 검색어 중 상품명에 없는 단어: ${p.titleAudit.extraTokens.join(", ")}`);
-    L.push(`- 태그(${p.tags.length}개): ${p.tags.length ? p.tags.join(", ") : "미입력"} — ${p.tagAudit.score}점`);
+    const tagLabel = (t) => (p.tagCounts[t] ? `${t}(${p.tagCounts[t].toLocaleString("ko-KR")})` : t);
+    L.push(`- 태그(${p.tags.length}개): ${p.tags.length ? p.tags.map(tagLabel).join(", ") : "미입력"} — ${p.tagAudit.score}점${Object.keys(p.tagCounts).length ? " · 괄호는 태그 검색 수" : ""}`);
     for (const c of p.tagAudit.checks) L.push(`  - [${mark(c.status)}] ${c.label}: ${c.detail}`);
     if (p.demand) {
       const d = p.demand;

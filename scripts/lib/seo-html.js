@@ -60,7 +60,7 @@ ${demand}
 <div><div class="sb"><span>상품명 ${p.titleAudit.score}점</span>${scoreBar(p.titleAudit.score, "t")}</div><ul class="checks">${checks(p.titleAudit)}</ul>
 <div class="kv small"><span>권장 구조</span><span>${esc(p.titleAudit.recommended) || '<em class="muted">elements 미입력</em>'}${p.titleAudit.extraTokens.length ? ` <span class="muted">· 검토 단어: ${esc(p.titleAudit.extraTokens.join(", "))}</span>` : ""}</span></div></div>
 <div><div class="sb"><span>태그 ${p.tagAudit.score}점</span>${scoreBar(p.tagAudit.score, "g")}</div><ul class="checks">${checks(p.tagAudit)}</ul>
-<div class="kv small"><span>태그</span><span>${p.tags.length ? p.tags.map(esc).join(", ") : '<em class="muted">미입력</em>'}</span></div></div>
+<div class="kv small"><span>태그</span><span>${p.tags.length ? p.tags.map((t) => esc(t) + (p.tagCounts?.[t] ? `<span class="muted">(${fmt(p.tagCounts[t])})</span>` : "")).join(", ") : '<em class="muted">미입력</em>'}</span></div></div>
 </div>
 ${shop}${manual}
 </section>`;

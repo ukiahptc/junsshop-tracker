@@ -3,8 +3,8 @@
     "date": "2026-10-20",
     "store": "준스샵스",
     "productCount": 4,
-    "avgTitleScore": 94,
-    "avgTagScore": 0,
+    "avgTitleScore": 92,
+    "avgTagScore": 25,
     "registered": 4,
     "demandLeader": "해남 호박고구마 호풍미 특상",
     "trendWindow": "2026-09-19 ~ 2026-10-17",
@@ -13,7 +13,7 @@
     "shopFiles": 0,
     "manualDate": null,
     "actionCounts": {
-      "높음": 4,
+      "높음": 3,
       "중간": 10,
       "낮음": 5
     }
@@ -32,6 +32,7 @@
       ],
       "title": "해남 호박고구마 호풍미 특상 3kg",
       "tags": [],
+      "tagCounts": {},
       "category": "",
       "price": null,
       "url": "",
@@ -295,10 +296,28 @@
       "weights": [
         "3kg"
       ],
-      "title": "해남 꿀밤고구마 베니하루카 특상 3kg",
-      "tags": [],
+      "title": "해남 고구마 3kg 특상 베니하루카 꿀밤고구마 햇고구마 산지직송",
+      "tags": [
+        "꿀밤고구마",
+        "햇고구마",
+        "군고구마용",
+        "다이어트고구마",
+        "군고구마",
+        "호박고구마",
+        "고구마구이",
+        "겨울간식",
+        "고구마다이어트"
+      ],
+      "tagCounts": {
+        "다이어트고구마": 1196597,
+        "군고구마": 13990,
+        "호박고구마": 9567,
+        "고구마구이": 525524,
+        "겨울간식": 426142,
+        "고구마다이어트": 123764
+      },
       "category": "",
-      "price": null,
+      "price": 12900,
       "url": "",
       "elements": {
         "origin": "해남",
@@ -309,16 +328,16 @@
       },
       "registered": true,
       "titleAudit": {
-        "title": "해남 꿀밤고구마 베니하루카 특상 3kg",
-        "length": 21,
-        "score": 98,
+        "title": "해남 고구마 3kg 특상 베니하루카 꿀밤고구마 햇고구마 산지직송",
+        "length": 35,
+        "score": 93,
         "max": 100,
         "checks": [
           {
             "key": "length",
             "label": "길이",
             "status": "pass",
-            "detail": "21자 (권장 15~50자)",
+            "detail": "35자 (권장 15~50자)",
             "earned": 15,
             "max": 15
           },
@@ -341,9 +360,9 @@
           {
             "key": "duplicate",
             "label": "단어 반복",
-            "status": "pass",
-            "detail": "반복 없음",
-            "earned": 10,
+            "status": "warn",
+            "detail": "유사 키워드 3개 나열(고구마, 꿀밤고구마, 햇고구마) — 키워드 스터핑으로 볼 수 있음",
+            "earned": 5,
             "max": 10
           },
           {
@@ -358,7 +377,7 @@
             "key": "front",
             "label": "핵심 검색어 위치",
             "status": "pass",
-            "detail": "10번째 글자부터 등장",
+            "detail": "8번째 글자부터 등장",
             "earned": 10,
             "max": 10
           },
@@ -386,24 +405,62 @@
         "extraTokens": []
       },
       "tagAudit": {
-        "tags": [],
-        "score": 0,
+        "tags": [
+          "꿀밤고구마",
+          "햇고구마",
+          "군고구마용",
+          "다이어트고구마",
+          "군고구마",
+          "호박고구마",
+          "고구마구이",
+          "겨울간식",
+          "고구마다이어트"
+        ],
+        "score": 100,
         "max": 100,
         "checks": [
           {
             "key": "count",
             "label": "태그 수",
-            "status": "fail",
-            "detail": "미입력 (최대 10개)",
-            "earned": 0,
+            "status": "pass",
+            "detail": "9개",
+            "earned": 30,
             "max": 30
+          },
+          {
+            "key": "symbols",
+            "label": "특수문자·공백",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "duplicate",
+            "label": "중복 태그",
+            "status": "pass",
+            "detail": "없음",
+            "earned": 20,
+            "max": 20
+          },
+          {
+            "key": "titleOverlap",
+            "label": "상품명과 중복",
+            "status": "pass",
+            "detail": "2개 중복(꿀밤고구마, 햇고구마)",
+            "earned": 15,
+            "max": 15
+          },
+          {
+            "key": "keywordFill",
+            "label": "추적 검색어 보완",
+            "status": "pass",
+            "detail": "추적 검색어 모두 상품명 또는 태그에 있음",
+            "earned": 15,
+            "max": 15
           }
         ],
-        "missingKeywords": [
-          "꿀고구마 3kg",
-          "베니하루카",
-          "해남꿀고구마"
-        ]
+        "missingKeywords": []
       },
       "grade": "양호",
       "demand": {
@@ -562,6 +619,7 @@
       ],
       "title": "해남 꿀밤고구마 베니하루카 한입 3kg",
       "tags": [],
+      "tagCounts": {},
       "category": "",
       "price": null,
       "url": "",
@@ -826,6 +884,7 @@
       ],
       "title": "국내산 햇밤 2kg",
       "tags": [],
+      "tagCounts": {},
       "category": "",
       "price": null,
       "url": "",
@@ -1657,12 +1716,6 @@
     {
       "priority": "높음",
       "kind": "태그",
-      "target": "해남 꿀밤고구마 베니하루카 특상",
-      "content": "태그 미입력 — 상품명에 없는 연관 검색어로 10개까지 등록"
-    },
-    {
-      "priority": "높음",
-      "kind": "태그",
       "target": "해남 꿀밤고구마 베니하루카 한입",
       "content": "태그 미입력 — 상품명에 없는 연관 검색어로 10개까지 등록"
     },
@@ -1686,9 +1739,9 @@
     },
     {
       "priority": "중간",
-      "kind": "가격",
+      "kind": "상품명",
       "target": "해남 꿀밤고구마 베니하루카 특상",
-      "content": "판매가 미입력 — 입력하면 경쟁 가격 대비 위치를 계산"
+      "content": "단어 반복: 유사 키워드 3개 나열(고구마, 꿀밤고구마, 햇고구마) — 키워드 스터핑으로 볼 수 있음"
     },
     {
       "priority": "중간",
