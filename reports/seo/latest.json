@@ -343,310 +343,307 @@
           "ourRank": null,
           "ourAdRank": null,
           "ourMall": null,
-          "sameWeightCount": 0,
-          "excluded": 20,
-          "multiCount": 0,
-          "min": null,
-          "median": null,
-          "pricePos": null,
-          "vsMedian": null,
-          "avgTitleLen": 16,
-          "weightShare": 0,
+          "sameWeightCount": 11,
+          "excluded": 9,
+          "multiCount": 9,
+          "min": 9300,
+          "median": 14900,
+          "pricePos": 3,
+          "vsMedian": -13.4,
+          "avgTitleLen": 36,
+          "weightShare": 60,
           "topTokens": [
             {
-              "token": "열림",
-              "count": 20,
-              "share": 100,
-              "inOurTitle": false
+              "token": "호박고구마",
+              "count": 18,
+              "share": 90,
+              "inOurTitle": true
             },
             {
-              "token": "창에서",
-              "count": 20,
-              "share": 100,
-              "inOurTitle": false
+              "token": "호풍미",
+              "count": 13,
+              "share": 65,
+              "inOurTitle": true
             },
             {
-              "token": "에스아이엠쇼핑",
+              "token": "해남",
+              "count": 8,
+              "share": 40,
+              "inOurTitle": true
+            },
+            {
+              "token": "특상",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": true
+            },
+            {
+              "token": "고구마",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": true
+            },
+            {
+              "token": "비세척",
               "count": 4,
               "share": 20,
               "inOurTitle": false
             },
             {
-              "token": "갤러리아백화점",
+              "token": "고당도",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "꿀고구마",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "한입",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "26년",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": true
+            },
+            {
+              "token": "개당",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "강추",
-              "count": 1,
-              "share": 5,
+              "token": "내외",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "다드림유통",
-              "count": 1,
-              "share": 5,
+              "token": "당근고구마",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "달다",
-              "count": 1,
-              "share": 5,
+              "token": "밋앤밀",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "동내마트",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "무배",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "바이미스토어",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "산지담",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "살림콕콕",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "싱싱냉장고",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "엄마",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "영인팜",
-              "count": 1,
-              "share": 5,
+              "token": "베니하루카",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             }
           ],
-          "suggestions": [
-            "열림",
-            "창에서"
-          ],
+          "suggestions": [],
           "top": [
             {
               "rank": 1,
               "screenRank": 1,
-              "title": "좋은 엄마\n새 창에서 열림",
-              "price": 16600,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "햇 꿀 고구마 호박고구마 호풍미 3kg 베니하루카",
+              "price": 12700,
+              "mall": "신선로움",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 2,
               "screenRank": 2,
-              "title": "영인팜\n새 창에서 열림",
-              "price": 19000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "[밋앤밀] 해남농부 호박고구마 특상 3kg(개당 130~300g 내외)",
+              "price": 15800,
+              "mall": "밋앤밀",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 3,
               "screenRank": 3,
-              "title": "싱싱냉장고\n새 창에서 열림",
-              "price": 28000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "[밋앤밀] 해남농부 호박고구마 중상 3kg(개당 70~120g 내외)",
+              "price": 14900,
+              "mall": "밋앤밀",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 4,
               "screenRank": 4,
-              "title": "강추 무배 동내마트\n새 창에서 열림",
-              "price": 9900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "국내산 해남 한입 꿀 호박고구마 2kg 3kg 5kg 한입 중 특상",
+              "price": 12000,
+              "mall": "오늘의산지 마켓",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 5,
               "screenRank": 5,
-              "title": "텐텐유통\n새 창에서 열림",
-              "price": 18500,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "호풍미 프리미엄 꿀 호박 고구마 대 (300g 이상) 3kg 5kg",
+              "price": 11700,
+              "mall": "리아쓰마켓",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 6,
               "screenRank": 6,
-              "title": "다드림유통\n새 창에서 열림",
-              "price": 32570,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "호풍미 호박고구마 특상(120-300g) 3kg",
+              "price": 13400,
+              "mall": "건강한조합",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 7,
               "screenRank": 7,
-              "title": "바이미스토어\n새 창에서 열림",
-              "price": 32570,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "국내산 해남 꿀 밤 호박 고구마 베니하루카 햇고구마 3kg 5kg 10kg",
+              "price": 16900,
+              "mall": "뚠빵이네.",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 8,
               "screenRank": 8,
-              "title": "Eco Tree\n새 창에서 열림",
-              "price": 11900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "해남 호박고구마 꿀고구마 3kg 가정용 제철 고구마 산지직송",
+              "price": 12900,
+              "mall": "고도700",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 9,
               "screenRank": 9,
-              "title": "KnS라이프\n새 창에서 열림",
-              "price": 35000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "호박고구마 존맛탱 26년 햇 호풍미 김제 영암 호박고구마 당근고구마 대, 3kg, 1개",
+              "price": 9300,
+              "mall": "신과",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 10,
               "screenRank": 10,
-              "title": "에스아이엠쇼핑\n새 창에서 열림",
-              "price": 11000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "해남 고당도 호박고구마 비세척 2kg 3kg 호풍미 군고구마 꿀맛 다이어트 간식",
+              "price": 11740,
+              "mall": "홍쁘로 스토리",
+              "kg": 3,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 11,
               "screenRank": 11,
-              "title": "프루트제로\n새 창에서 열림",
-              "price": 14000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "26년 햇고구마 해남 호풍미 당근고구마 호박고구마 3kg 5kg 10kg",
+              "price": 7900,
+              "mall": "프로벨류",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 12,
               "screenRank": 12,
-              "title": "살림콕콕\n새 창에서 열림",
-              "price": 19000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "해남 호박고구마(호풍미) 중상 3kg (비세척)",
+              "price": 15000,
+              "mall": "해찬",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 13,
               "screenRank": 13,
-              "title": "에스아이엠쇼핑\n새 창에서 열림",
+              "title": "해남 호박고구마(호풍미) 특상 3kg (비세척)",
               "price": 15900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "mall": "해찬",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 14,
               "screenRank": 14,
-              "title": "에스아이엠쇼핑\n새 창에서 열림",
-              "price": 15900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "고창 꿀고구마 3KG 호박고구마 밤고구마 고구마10kg 고구마5kg 꿀고구마10kg",
+              "price": 36750,
+              "mall": "다드림유통",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 15,
               "screenRank": 15,
-              "title": "에스아이엠쇼핑\n새 창에서 열림",
-              "price": 15900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "햇 호박고구마(고당도 호풍미) 대, 3kg, 1개",
+              "price": 14900,
+              "mall": "사각사각몰",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 16,
               "screenRank": 16,
-              "title": "자연담은 산지담\n새 창에서 열림",
-              "price": 11900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "햇 호박고구마(고당도 호풍미) 중, 3kg, 1개",
+              "price": 14900,
+              "mall": "사각사각몰",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 17,
               "screenRank": 17,
-              "title": "오늘도 달다\n새 창에서 열림",
-              "price": 23600,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "해남고구마 세척 호박고구마 꿀고구마 호풍미 중, 3kg, 1개",
+              "price": 15000,
+              "mall": "에코프레시",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 18,
               "screenRank": 18,
-              "title": "갤러리아백화점\n새 창에서 열림",
-              "price": 9900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "당진 지은농원 황토 호박고구마(호풍미) 상중 3kg 5kg 10kg",
+              "price": 14700,
+              "mall": "가락시장 찐여사",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 19,
               "screenRank": 19,
-              "title": "갤러리아백화점\n새 창에서 열림",
-              "price": 8900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "땅끝 해남 산지직송 비세척 호풍미 호박고구마 한입 중 대 특상 2kg 3kg 5kg 10kg",
+              "price": 7800,
+              "mall": "삼식이네 가게(개인)",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 20,
               "screenRank": 20,
-              "title": "Ocean Farming\n새 창에서 열림",
-              "price": 18000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "국내산 세척 호풍미고구마 2kg 3kg 5kg 한입 중 특상 달콤한 호박고구마",
+              "price": 4500,
+              "mall": "주식회사 서연컴퍼니",
+              "kg": 5,
+              "multi": true,
               "ours": false
             }
           ],
@@ -991,316 +988,317 @@
       "shop": [
         {
           "keyword": "꿀고구마 3kg",
-          "total": 100,
-          "adCount": 0,
+          "total": 114,
+          "adCount": 36,
           "topN": 20,
           "ourRank": null,
           "ourAdRank": null,
           "ourMall": null,
-          "sameWeightCount": 0,
-          "excluded": 20,
-          "multiCount": 0,
-          "min": null,
-          "median": null,
-          "pricePos": null,
-          "vsMedian": null,
-          "avgTitleLen": 16,
-          "weightShare": 0,
+          "sameWeightCount": 5,
+          "excluded": 15,
+          "multiCount": 14,
+          "min": 8500,
+          "median": 11000,
+          "pricePos": 4,
+          "vsMedian": 17.3,
+          "avgTitleLen": 41,
+          "weightShare": 25,
           "topTokens": [
             {
-              "token": "열림",
-              "count": 20,
-              "share": 100,
+              "token": "해남",
+              "count": 15,
+              "share": 75,
+              "inOurTitle": true
+            },
+            {
+              "token": "꿀고구마",
+              "count": 14,
+              "share": 70,
               "inOurTitle": false
             },
             {
-              "token": "창에서",
-              "count": 20,
-              "share": 100,
+              "token": "베니하루카",
+              "count": 11,
+              "share": 55,
+              "inOurTitle": true
+            },
+            {
+              "token": "고구마",
+              "count": 9,
+              "share": 45,
+              "inOurTitle": true
+            },
+            {
+              "token": "세척",
+              "count": 6,
+              "share": 30,
               "inOurTitle": false
             },
             {
-              "token": "가득한",
+              "token": "햇고구마",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": true
+            },
+            {
+              "token": "호박고구마",
+              "count": 5,
+              "share": 25,
+              "inOurTitle": false
+            },
+            {
+              "token": "26년",
               "count": 4,
               "share": 20,
               "inOurTitle": false
             },
             {
-              "token": "농장",
+              "token": "황토",
               "count": 4,
               "share": 20,
               "inOurTitle": false
             },
             {
-              "token": "햇살",
-              "count": 4,
-              "share": 20,
+              "token": "밤고구마",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": true
+            },
+            {
+              "token": "한입",
+              "count": 3,
+              "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "에이치엔비유통",
+              "token": "호박",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "호풍미",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "2026년",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "공식스토어",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "농사지음",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "농산물",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "다팜",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "담음",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "돌쇠네",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "마켓",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "모두의밥상",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "믿음가득식탁",
-              "count": 1,
-              "share": 5,
+              "token": "맛있는",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             }
           ],
           "suggestions": [
-            "열림",
-            "창에서"
+            "꿀고구마",
+            "세척",
+            "호박고구마"
           ],
           "top": [
             {
               "rank": 1,
-              "screenRank": 1,
-              "title": "다팜 친환경먹거리\n새 창에서 열림",
-              "price": 65000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 5,
+              "title": "26년 해남 금호영농조합 베니하루카 꿀밤고구마 호박고구마 3kg 5kg",
+              "price": 13000,
+              "mall": "참이맛이야",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 2,
-              "screenRank": 2,
-              "title": "풍수당\n새 창에서 열림",
-              "price": 42000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 6,
+              "title": "26년 햇 해남 유기농 꿀 고구마 3kg 5kg 베니하루카 친환경 꿀고구마",
+              "price": 20900,
+              "mall": "오색향미",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 3,
-              "screenRank": 3,
-              "title": "햇살 가득한 농장\n새 창에서 열림",
-              "price": 17200,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 7,
+              "title": "영암 무농약 토울고구마 3kg 소 꿀밤 호박 세척 고구마 호풍미",
+              "price": 13900,
+              "mall": "농부곳간",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 4,
-              "screenRank": 4,
-              "title": "산지직송 직판장\n새 창에서 열림",
-              "price": 9900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 8,
+              "title": "2026 해남 세척 꿀 밤고구마 5kg 3kg 2kg 베니하루카 꿀고구마",
+              "price": 12900,
+              "mall": "투데이팜",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 5,
-              "screenRank": 5,
-              "title": "자연을 담음\n새 창에서 열림",
-              "price": 14400,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 10,
+              "title": "[세척] 26년 호풍미 해남 고구마 무농약 햇고구마 꿀 밤고구마 한입, 3kg, 1개",
+              "price": 10300,
+              "mall": "루치아파머스마켓",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 6,
-              "screenRank": 6,
-              "title": "햇살 가득한 농장\n새 창에서 열림",
-              "price": 17500,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 11,
+              "title": "해남 꿀고구마 베니하루카 3kg 5kg 사이즈별 특상품 밤고구마 호박고구마",
+              "price": 12900,
+              "mall": "바다사나이우수셀러",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 7,
-              "screenRank": 7,
-              "title": "햇살 가득한 농장\n새 창에서 열림",
-              "price": 17600,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 12,
+              "title": "[26년 수확]해남 달망 꿀고구마 2kg 3kg 5kg 10kg 베니 호박 밤 꿀",
+              "price": 8200,
+              "mall": "달망푸드",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 8,
-              "screenRank": 8,
-              "title": "햇살 가득한 농장\n새 창에서 열림",
-              "price": 11300,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 14,
+              "title": "해남 꿀고구마 햇고구마 베니하루카 고구마 3kg 5kg",
+              "price": 6900,
+              "mall": "백미양식",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 9,
-              "screenRank": 9,
-              "title": "주식회사새터\n새 창에서 열림",
-              "price": 14500,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 15,
+              "title": "해남 꿀 고구마 베니하루카 특, 3kg, 1개",
+              "price": 12900,
+              "mall": "푸드공작소우수셀러",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 10,
-              "screenRank": 10,
-              "title": "율스키친\n새 창에서 열림",
-              "price": 23500,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 16,
+              "title": "해남 꿀 고구마 3kg 5kg 고구마 베니하루카 세척",
+              "price": 14900,
+              "mall": "별고을 상회",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 11,
-              "screenRank": 11,
-              "title": "제철 한입\n새 창에서 열림",
-              "price": 15100,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 17,
+              "title": "[평화노래농장] 2026 충남 홍성 유기농 황토 베니하루카 꿀고구마 3kg 5kg",
+              "price": 22900,
+              "mall": "Forest Rd 227",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 12,
-              "screenRank": 12,
-              "title": "믿음가득식탁\n새 창에서 열림",
-              "price": 23800,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 19,
+              "title": "(햇고구마)달고 맛있는 태안 안면도 황토 호박고구마 꿀고구마 3kg 5kg 10kg (햇고구마 입니다 아래 유의사항 읽어주세요)",
+              "price": 15900,
+              "mall": "안면도 시골농산",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 13,
-              "screenRank": 13,
-              "title": "오색향미\n새 창에서 열림",
-              "price": 15900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 20,
+              "title": "야채왕 맛있는 꿀고구마 3KG 한입사이즈 메인 요리부터 디저트까지 한계없는 달콤함",
+              "price": 11000,
+              "mall": "야채왕우수셀러",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 14,
-              "screenRank": 14,
-              "title": "모두의밥상 공식스토어\n새 창에서 열림",
-              "price": 19500,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 22,
+              "title": "해남 햇 호박고구마 꿀고구마 3kg 5kg 산지직송 너무 맛있어서 재구매율 높음",
+              "price": 10050,
+              "mall": "괴산영농조합법인",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 15,
-              "screenRank": 15,
-              "title": "에이치엔비유통\n새 창에서 열림",
-              "price": 22300,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 23,
+              "title": "해남 세척 꿀고구마 호박고구마 3kg 5kg 베니하루카",
+              "price": 9900,
+              "mall": "푸드맛킹",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 16,
-              "screenRank": 16,
-              "title": "에이치엔비유통\n새 창에서 열림",
-              "price": 21500,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 24,
+              "title": "해남 고구마 세척 꿀고구마 한입(20-50g), 3kg, 1개",
+              "price": 8500,
+              "mall": "마녀바스켓공식우수셀러",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 17,
-              "screenRank": 17,
-              "title": "농사지음\n새 창에서 열림",
-              "price": 32000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 25,
+              "title": "고구마 해남 황토 호풍미 호박 꿀 고구마 10kg 한입 비세척 햇고구마 베니하루카",
+              "price": 19000,
+              "mall": "산들녘청년들",
+              "kg": 10,
               "multi": false,
               "ours": false
             },
             {
               "rank": 18,
-              "screenRank": 18,
-              "title": "써니누리\n새 창에서 열림",
-              "price": 16600,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 27,
+              "title": "2026년 햇고구마 꿀고구마 3kg 5kg 10kg 해남 못골농장",
+              "price": 16900,
+              "mall": "해남고구마생산자협회",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 19,
-              "screenRank": 19,
-              "title": "돌쇠네 농산물\n새 창에서 열림",
-              "price": 14900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 28,
+              "title": "파지 고구마 작은 왕 큰 못난이 꿀고구마 해남 10키로 5키로 10kg 5kg 3kg",
+              "price": 6900,
+              "mall": "우리바다농수산",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 20,
-              "screenRank": 20,
-              "title": "아란 마켓\n새 창에서 열림",
-              "price": 50000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 29,
+              "title": "[2026년 햇고구마] 꿀고구마 고창 황토 베니하루카 팜보스 3kg 5kg",
+              "price": 9600,
+              "mall": "팜보스",
+              "kg": 5,
+              "multi": true,
               "ours": false
             }
           ],
@@ -1985,194 +1983,197 @@
       "shop": [
         {
           "keyword": "햇밤 2kg",
-          "total": 52,
+          "total": 60,
           "adCount": 0,
           "topN": 20,
           "ourRank": null,
           "ourAdRank": null,
           "ourMall": null,
-          "sameWeightCount": 0,
-          "excluded": 20,
-          "multiCount": 0,
-          "min": null,
-          "median": null,
-          "pricePos": null,
-          "vsMedian": null,
-          "avgTitleLen": 15,
-          "weightShare": 0,
+          "sameWeightCount": 14,
+          "excluded": 6,
+          "multiCount": 5,
+          "min": 12000,
+          "median": 18450,
+          "pricePos": 1,
+          "vsMedian": -35.5,
+          "avgTitleLen": 39,
+          "weightShare": 70,
           "topTokens": [
             {
-              "token": "열림",
-              "count": 20,
-              "share": 100,
+              "token": "공주",
+              "count": 9,
+              "share": 45,
               "inOurTitle": false
             },
             {
-              "token": "창에서",
-              "count": 20,
-              "share": 100,
+              "token": "햇밤",
+              "count": 8,
+              "share": 40,
+              "inOurTitle": true
+            },
+            {
+              "token": "견과류",
+              "count": 6,
+              "share": 30,
               "inOurTitle": false
             },
             {
-              "token": "365팔구팔구",
+              "token": "고소하고",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": false
+            },
+            {
+              "token": "구워먹고",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": false
+            },
+            {
+              "token": "쪄먹고",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": false
+            },
+            {
+              "token": "햇밤고구마",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "26년햇고구마",
               "count": 3,
               "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "우리나누미",
+              "token": "5키로",
               "count": 3,
               "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "맛있는서연이네",
-              "count": 2,
-              "share": 10,
+              "token": "가을",
+              "count": 3,
+              "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "바로보담",
-              "count": 2,
-              "share": 10,
+              "token": "갤러리아",
+              "count": 3,
+              "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "옹이맘",
-              "count": 2,
-              "share": 10,
+              "token": "고소한",
+              "count": 3,
+              "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "핫트랙스",
-              "count": 2,
-              "share": 10,
+              "token": "공주햇밤",
+              "count": 3,
+              "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "솔직한농부",
-              "count": 1,
-              "share": 5,
+              "token": "과일",
+              "count": 3,
+              "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "신성골이야기",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "싱싱지오",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "와이즈펀펀",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "우수셀러",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "지웨이리빙",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "universemarket",
-              "count": 1,
-              "share": 5,
+              "token": "꿀고구마",
+              "count": 3,
+              "share": 15,
               "inOurTitle": false
             }
           ],
           "suggestions": [
-            "열림",
-            "창에서"
+            "공주",
+            "견과류",
+            "고소하고",
+            "구워먹고",
+            "쪄먹고"
           ],
           "top": [
             {
               "rank": 1,
               "screenRank": 1,
-              "title": "옹이맘\n새 창에서 열림",
-              "price": 17750,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "[갤러리아] [GAP인증] 산지직송 충남 공주 정안 옥광밤 2kg(특)",
+              "price": 50900,
+              "mall": "갤러리아백화점",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 2,
               "screenRank": 2,
-              "title": "옹이맘\n새 창에서 열림",
-              "price": 23130,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "[갤러리아] [GAP인증] 산지직송 충남 공주 정안 옥광밤 2kg(대)",
+              "price": 42500,
+              "mall": "갤러리아백화점",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 3,
               "screenRank": 3,
-              "title": "바로보담\n새 창에서 열림",
-              "price": 149900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "[갤러리아] [GAP인증] 산지직송 충남 공주 정안 옥광밤 2kg(중)",
+              "price": 30900,
+              "mall": "갤러리아백화점",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 4,
               "screenRank": 4,
-              "title": "우리나누미\n새 창에서 열림",
-              "price": 17500,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "부여 대 간식 사이즈 보관용 햇밤 2kg",
+              "price": 17900,
+              "mall": "건국상사몰",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 5,
               "screenRank": 5,
-              "title": "우리나누미\n새 창에서 열림",
-              "price": 22880,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "해남 고구마10키로 5키로 2kg 햇밤고구마 26년햇고구마 파지 꿀고구마 시세 품종 제철",
+              "price": 6900,
+              "mall": "바로보담",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 6,
               "screenRank": 6,
-              "title": "우리나누미\n새 창에서 열림",
-              "price": 28750,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "햇밤고구마 26년햇고구마 해남 고구마10키로 5키로 2kg 2026년 꿀고구마 파지 시세",
+              "price": 6900,
+              "mall": "바로보담",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 7,
               "screenRank": 7,
-              "title": "365팔구팔구\n새 창에서 열림",
-              "price": 17630,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 부드럽고 고소한 맛있는 견과류 국내산 공주 햇밤 2kg(특)",
+              "price": 23200,
+              "mall": "옹이맘",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 8,
               "screenRank": 8,
-              "title": "365팔구팔구\n새 창에서 열림",
-              "price": 23000,
-              "mall": "새 창에서 열림",
+              "title": "바로먹는 호박고구마 햇고구마 강화속노랑고구마 베로니카 햇밤",
+              "price": 13400,
+              "mall": "주주farm",
               "kg": null,
               "multi": false,
               "ours": false
@@ -2180,121 +2181,121 @@
             {
               "rank": 9,
               "screenRank": 9,
-              "title": "365팔구팔구\n새 창에서 열림",
-              "price": 28880,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 부드럽고 고소한 맛있는 견과류 국내산 공주 햇밤 2kg(중)",
+              "price": 14200,
+              "mall": "옹이맘",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 10,
               "screenRank": 10,
-              "title": "솔직한농부\n우수셀러\n새 창에서 열림",
-              "price": 5500,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 부드럽고 고소한 맛있는 견과류 국내산 공주 햇밤 2kg(대)",
+              "price": 18500,
+              "mall": "옹이맘",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 11,
               "screenRank": 11,
-              "title": "싱싱지오\n새 창에서 열림",
-              "price": 12000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "26년햇고구마 햇밤고구마 해남 햇호박고구마 호풍미 10키로 5키로 2kg 꿀고구마 파지",
+              "price": 6900,
+              "mall": "바로보담",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 12,
               "screenRank": 12,
-              "title": "Universemarket\n새 창에서 열림",
-              "price": 29900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 쪄먹고 구워먹고 맛있꼬 고소하고 부드러운 가을 과일 국내산 공주햇밤 2kg(중)",
+              "price": 14000,
+              "mall": "우리나누미",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 13,
               "screenRank": 13,
-              "title": "신성골이야기\n새 창에서 열림",
-              "price": 21000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 쪄먹고 구워먹고 맛있꼬 고소하고 부드러운 가을 과일 국내산 공주햇밤 2kg(대)",
+              "price": 18300,
+              "mall": "우리나누미",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 14,
               "screenRank": 14,
-              "title": "지웨이리빙\n새 창에서 열림",
-              "price": 21000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 쪄먹고 구워먹고 맛있꼬 고소하고 부드러운 가을 과일 국내산 공주햇밤 2kg(특)",
+              "price": 23000,
+              "mall": "우리나누미",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 15,
               "screenRank": 15,
-              "title": "맛있는서연이네\n새 창에서 열림",
-              "price": 23900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 구워먹고 쪄먹고 고소하고 담백한 견과류 국내산 공주 햇밤 2kg(중)",
+              "price": 14100,
+              "mall": "365팔구팔구",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 16,
               "screenRank": 16,
-              "title": "핫트랙스\n새 창에서 열림",
-              "price": 35900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 구워먹고 쪄먹고 고소하고 담백한 견과류 국내산 공주 햇밤 2kg(대)",
+              "price": 18400,
+              "mall": "365팔구팔구",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 17,
               "screenRank": 17,
-              "title": "핫트랙스\n새 창에서 열림",
-              "price": 23900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "팜 구워먹고 쪄먹고 고소하고 담백한 견과류 국내산 공주 햇밤 2kg(특)",
+              "price": 23100,
+              "mall": "365팔구팔구",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 18,
               "screenRank": 18,
-              "title": "맛있는서연이네\n새 창에서 열림",
-              "price": 19900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "당일세척건조 나주 햇밤고구마 고마어트 세척고구마 2kg 5kg",
+              "price": 5500,
+              "mall": "솔직한농부우수셀러",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 19,
               "screenRank": 19,
-              "title": "바로보담\n새 창에서 열림",
-              "price": 6900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "국내산 미니밤단호박2kg 햇밤단호박 싱싱지오",
+              "price": 12000,
+              "mall": "싱싱지오",
+              "kg": 2,
               "multi": false,
               "ours": false
             },
             {
               "rank": 20,
               "screenRank": 20,
-              "title": "와이즈펀펀\n새 창에서 열림",
-              "price": 16900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "제주 미니밤호박 보우짱 로얄과 햇밤호박 2kg 3kg 5kg 10kg",
+              "price": 24900,
+              "mall": "Universemarket",
+              "kg": 10,
+              "multi": true,
               "ours": false
             }
           ],
@@ -3297,7 +3298,7 @@
       "shop": [
         {
           "keyword": "대봉감 5kg",
-          "total": 100,
+          "total": 61,
           "adCount": 0,
           "topN": 20,
           "ourRank": null,
@@ -3305,137 +3306,137 @@
           "ourMall": null,
           "sameWeightCount": 0,
           "excluded": 20,
-          "multiCount": 0,
+          "multiCount": 4,
           "min": null,
           "median": null,
           "pricePos": null,
           "vsMedian": null,
-          "avgTitleLen": 16,
-          "weightShare": 0,
+          "avgTitleLen": 28,
+          "weightShare": 10,
           "topTokens": [
             {
-              "token": "열림",
-              "count": 20,
-              "share": 100,
+              "token": "대봉감",
+              "count": 18,
+              "share": 90,
+              "inOurTitle": true
+            },
+            {
+              "token": "대봉시",
+              "count": 10,
+              "share": 50,
               "inOurTitle": false
             },
             {
-              "token": "창에서",
-              "count": 20,
-              "share": 100,
-              "inOurTitle": false
+              "token": "홍시",
+              "count": 10,
+              "share": 50,
+              "inOurTitle": true
             },
             {
-              "token": "스토어",
+              "token": "곶감용",
               "count": 6,
               "share": 30,
               "inOurTitle": false
             },
             {
-              "token": "산지노트",
+              "token": "연시",
+              "count": 5,
+              "share": 25,
+              "inOurTitle": false
+            },
+            {
+              "token": "청도반시",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "홍시감",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "경북",
               "count": 3,
               "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "haruselect",
+              "token": "고당도",
               "count": 3,
               "share": 15,
               "inOurTitle": false
             },
             {
-              "token": "바인",
+              "token": "단감",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "대봉단감",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "대봉",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": true
+            },
+            {
+              "token": "부유",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "개인",
-              "count": 1,
-              "share": 5,
+              "token": "부유단감",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "농원",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "마트",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "바른",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "바른푸드장터",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "서기네농장",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "싱싱킹",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "에이치투블루",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "오투팜",
-              "count": 1,
-              "share": 5,
+              "token": "생감",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             }
           ],
           "suggestions": [
-            "열림",
-            "창에서",
-            "스토어"
+            "대봉시",
+            "곶감용",
+            "연시"
           ],
           "top": [
             {
               "rank": 1,
               "screenRank": 1,
-              "title": "참매골농원\n새 창에서 열림",
-              "price": 66000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "고당도 햇 태추단감 3kg 5kg 부유단감 청도반시 홍시 연시 대봉감",
+              "price": 24900,
+              "mall": "윤가원",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 2,
               "screenRank": 2,
-              "title": "오투팜 스토어\n새 창에서 열림",
-              "price": 18500,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "대봉감 2kg 5kg 가정용 간식 햇감",
+              "price": 23000,
+              "mall": "오늘도 달다",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 3,
               "screenRank": 3,
-              "title": "에이치투블루\n새 창에서 열림",
-              "price": 37900,
-              "mall": "새 창에서 열림",
+              "title": "26 제철 햇 대봉감 태추 단감 청도 반시 연시 홍시 부유 진영 배단감",
+              "price": 9900,
+              "mall": "써니프레쉬",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3443,19 +3444,19 @@
             {
               "rank": 4,
               "screenRank": 4,
-              "title": "프레시데이\n새 창에서 열림",
-              "price": 50000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "국산 대봉감 연시 홍시 대봉시 감 대봉단감 생과 5kg 7kg 10kg",
+              "price": 28900,
+              "mall": "후길이네 꼬몽푸드",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 5,
               "screenRank": 5,
-              "title": "지투지샵\n새 창에서 열림",
-              "price": 30500,
-              "mall": "새 창에서 열림",
+              "title": "맛있는 경남 경북 상서 부유 단감 대봉감 대봉시 상주 둥시감",
+              "price": 7900,
+              "mall": "라이프 by 힐링스타일",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3463,9 +3464,9 @@
             {
               "rank": 6,
               "screenRank": 6,
-              "title": "한아름농수산\n새 창에서 열림",
-              "price": 30500,
-              "mall": "새 창에서 열림",
+              "title": "프리미엄 초고당도 대봉감 홍시 대봉시 진영 단감",
+              "price": 16800,
+              "mall": "모두밥상",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3473,19 +3474,19 @@
             {
               "rank": 7,
               "screenRank": 7,
-              "title": "싱싱킹\n새 창에서 열림",
-              "price": 24900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "경북 대봉감 3kg 홍시용 곶감용",
+              "price": 13900,
+              "mall": "진심이닿다",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 8,
               "screenRank": 8,
-              "title": "마트 행복(개인)\n새 창에서 열림",
-              "price": 21990,
-              "mall": "새 창에서 열림",
+              "title": "대봉감 홍시 대봉시",
+              "price": 15900,
+              "mall": "프로벨류",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3493,19 +3494,19 @@
             {
               "rank": 9,
               "screenRank": 9,
-              "title": "산지노트 스토어\n새 창에서 열림",
-              "price": 16000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "곶감용 떫은 감 둥시 홍시용 대봉 감 생감 20 kg 10kg",
+              "price": 75900,
+              "mall": "상주아람곶감공식우수셀러",
+              "kg": 20,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 10,
               "screenRank": 10,
-              "title": "산지노트 스토어\n새 창에서 열림",
-              "price": 13300,
-              "mall": "새 창에서 열림",
+              "title": "대봉감 후숙 과일 달콤한 말랑말랑 감",
+              "price": 24000,
+              "mall": "아용상점",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3513,9 +3514,9 @@
             {
               "rank": 11,
               "screenRank": 11,
-              "title": "산지노트 스토어\n새 창에서 열림",
-              "price": 14700,
-              "mall": "새 창에서 열림",
+              "title": "26년 햇 국내산 대봉감",
+              "price": 22000,
+              "mall": "윤슬그린",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3523,9 +3524,9 @@
             {
               "rank": 12,
               "screenRank": 12,
-              "title": "서기네농장\n새 창에서 열림",
-              "price": 33800,
-              "mall": "새 창에서 열림",
+              "title": "햇감 대봉감 후숙 홍시 대봉단감 떫은감 홍시감 대봉시 곶감용",
+              "price": 21900,
+              "mall": "제철담은 농장",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3533,29 +3534,29 @@
             {
               "rank": 13,
               "screenRank": 13,
-              "title": "The 바른\n새 창에서 열림",
-              "price": 25990,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "대봉감 홍시 곶감용 산지출고 경북청도 3kg",
+              "price": 19900,
+              "mall": "금일농수산",
+              "kg": 3,
               "multi": false,
               "ours": false
             },
             {
               "rank": 14,
               "screenRank": 14,
-              "title": "바른푸드장터\n새 창에서 열림",
-              "price": 58100,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "대봉감 홍시 대봉단감 대봉시 10kg 산지직송",
+              "price": 21800,
+              "mall": "봄여름 과일 겨울",
+              "kg": 10,
               "multi": false,
               "ours": false
             },
             {
               "rank": 15,
               "screenRank": 15,
-              "title": "프린스 농원\n새 창에서 열림",
-              "price": 50000,
-              "mall": "새 창에서 열림",
+              "title": "대봉감 청도반시 씨없는 홍시 대봉감단 연시 곶감용 대봉시 영암 하동",
+              "price": 11500,
+              "mall": "과일친구들",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3563,9 +3564,9 @@
             {
               "rank": 16,
               "screenRank": 16,
-              "title": "바인 스토어\n새 창에서 열림",
-              "price": 19000,
-              "mall": "새 창에서 열림",
+              "title": "국내산 고당도 대봉감 제철 홍시 중과 대과",
+              "price": 12500,
+              "mall": "그린마켓0",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3573,9 +3574,9 @@
             {
               "rank": 17,
               "screenRank": 17,
-              "title": "바인 스토어\n새 창에서 열림",
-              "price": 22500,
-              "mall": "새 창에서 열림",
+              "title": "[산지직송] 싱싱파머스 경북 햇 대봉감 홍시감 곶감용",
+              "price": 23900,
+              "mall": "싱싱파머스1",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3583,9 +3584,9 @@
             {
               "rank": 18,
               "screenRank": 18,
-              "title": "haruselect\n새 창에서 열림",
-              "price": 20900,
-              "mall": "새 창에서 열림",
+              "title": "청도반시 대봉감 청도홍시 스무디 홍시감 연시 대봉시 부유단감 곶감용감 떪은감 햇단감 생감",
+              "price": 14900,
+              "mall": "싱싱모아팜.",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3593,9 +3594,9 @@
             {
               "rank": 19,
               "screenRank": 19,
-              "title": "haruselect\n새 창에서 열림",
-              "price": 17900,
-              "mall": "새 창에서 열림",
+              "title": "대봉 감 대봉홍시 고당도 햇 대봉시 찰대봉",
+              "price": 31500,
+              "mall": "가족건강",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3603,9 +3604,9 @@
             {
               "rank": 20,
               "screenRank": 20,
-              "title": "haruselect\n새 창에서 열림",
-              "price": 16900,
-              "mall": "새 창에서 열림",
+              "title": "대봉감 대봉시 태추단감 홍시감 청도반시",
+              "price": 25120,
+              "mall": "누베담NUVEDAM",
               "kg": null,
               "multi": false,
               "ours": false
@@ -3955,316 +3956,317 @@
       "shop": [
         {
           "keyword": "단감 5kg",
-          "total": 99,
-          "adCount": 0,
+          "total": 73,
+          "adCount": 24,
           "topN": 20,
           "ourRank": null,
           "ourAdRank": null,
           "ourMall": null,
-          "sameWeightCount": 0,
-          "excluded": 20,
-          "multiCount": 0,
-          "min": null,
-          "median": null,
-          "pricePos": null,
-          "vsMedian": null,
-          "avgTitleLen": 15,
-          "weightShare": 0,
+          "sameWeightCount": 2,
+          "excluded": 18,
+          "multiCount": 16,
+          "min": 39900,
+          "median": 51950,
+          "pricePos": 1,
+          "vsMedian": -67.5,
+          "avgTitleLen": 32,
+          "weightShare": 30,
           "topTokens": [
             {
-              "token": "열림",
-              "count": 20,
-              "share": 100,
+              "token": "단감",
+              "count": 10,
+              "share": 50,
+              "inOurTitle": true
+            },
+            {
+              "token": "태추단감",
+              "count": 9,
+              "share": 45,
               "inOurTitle": false
             },
             {
-              "token": "창에서",
-              "count": 20,
-              "share": 100,
+              "token": "부유",
+              "count": 7,
+              "share": 35,
               "inOurTitle": false
             },
             {
-              "token": "개인",
+              "token": "부유단감",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": false
+            },
+            {
+              "token": "대과",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "태추",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "gap인증",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "고당도",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": true
+            },
+            {
+              "token": "배감",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "진영단감",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "경남",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "에이치투블루",
+              "token": "대봉감",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "과일코스코",
-              "count": 1,
-              "share": 5,
+              "token": "못난이",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "농원",
-              "count": 1,
-              "share": 5,
+              "token": "배단감",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "달다",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "멍균관",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "복숭아",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "사과",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "수mall",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "안녕푸드야",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "야문향기짱",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "오늘도",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "오늘의",
-              "count": 1,
-              "share": 5,
+              "token": "상서",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             }
           ],
           "suggestions": [
-            "열림",
-            "창에서"
+            "태추단감",
+            "부유",
+            "부유단감"
           ],
           "top": [
             {
               "rank": 1,
-              "screenRank": 1,
-              "title": "진이 농원(개인)\n새 창에서 열림",
-              "price": 30000,
-              "mall": "새 창에서 열림",
+              "screenRank": 5,
+              "title": "경남 햇단감 이두 상서 부유단감",
+              "price": 20900,
+              "mall": "이베따",
               "kg": null,
               "multi": false,
               "ours": false
             },
             {
               "rank": 2,
-              "screenRank": 2,
-              "title": "오늘도 달다\n새 창에서 열림",
-              "price": 16800,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 6,
+              "title": "[슈퍼적립]지리산 단감 햇 감 부유단감 대과 특대과 왕특과 3kg 5kg",
+              "price": 21900,
+              "mall": "감동몰공식",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 3,
-              "screenRank": 3,
-              "title": "과일코스코\n새 창에서 열림",
-              "price": 90000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 7,
+              "title": "단감 감 부유 경남 진영단감 10kg 5kg",
+              "price": 24900,
+              "mall": "봉이네농장",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 4,
-              "screenRank": 4,
-              "title": "오를린\n새 창에서 열림",
-              "price": 49600,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 8,
+              "title": "TV방영맛집 수농원 태추단감 GAP인증 배감 대과, 2.5kg, 1개",
+              "price": 29000,
+              "mall": "수농원",
+              "kg": 2.5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 5,
-              "screenRank": 5,
-              "title": "에이치투블루\n새 창에서 열림",
-              "price": 25900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 9,
+              "title": "TV방영맛집 수농원 태추단감 GAP인증 배감 왕특대, 5kg, 1개",
+              "price": 64000,
+              "mall": "수농원",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 6,
-              "screenRank": 6,
-              "title": "에이치투블루\n새 창에서 열림",
-              "price": 21900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 10,
+              "title": "창원 태추단감 2.5kg 5kg 주하네팜 고당도 배단감",
+              "price": 29900,
+              "mall": "주하네 Farm",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 7,
-              "screenRank": 7,
-              "title": "사과 귤 포도 복숭아\n새 창에서 열림",
-              "price": 11800,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 12,
+              "title": "GAP인증 태추 부유 단감 산지직송 고당도 배감 2.5kg 5kg 10kg",
+              "price": 29840,
+              "mall": "청년농부와 아빠농부",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 8,
-              "screenRank": 8,
-              "title": "멍균관\n새 창에서 열림",
-              "price": 55900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 13,
+              "title": "태추단감 부유단감 상서 감 10kg 5kg",
+              "price": 14900,
+              "mall": "달콤한 수확",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 9,
-              "screenRank": 9,
-              "title": "야문향기짱\n새 창에서 열림",
-              "price": 35000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 14,
+              "title": "부유 단감 5kg 10kg 선물용 대과 감 장성 산지직송",
+              "price": 29900,
+              "mall": "선수단감농원",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 10,
-              "screenRank": 10,
-              "title": "허니삼구\n새 창에서 열림",
-              "price": 100000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "screenRank": 16,
+              "title": "태추단감 5kg 함평 GAP인증 특대과 대과 280g이상 산지직송",
+              "price": 39900,
+              "mall": "함평농부의 친환경 이야기",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 11,
-              "screenRank": 11,
-              "title": "오늘의 파머스\n새 창에서 열림",
-              "price": 50000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 17,
+              "title": "단감 농장직송 태추단감 3kg 5kg 10kg 부유 햇 제철 민재농원",
+              "price": 25800,
+              "mall": "민재농원",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 12,
-              "screenRank": 12,
-              "title": "girgo\n새 창에서 열림",
-              "price": 35500,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 18,
+              "title": "단감 부유 산청 햇단감 못난이 가정용 5kg 10kg 산지직송",
+              "price": 16800,
+              "mall": "지리산 청감농원",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 13,
-              "screenRank": 13,
-              "title": "옥도리네\n새 창에서 열림",
-              "price": 20000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 19,
+              "title": "당일수확 태추단감 고당도 부유단감 대추단감 배단감 2.5kg 5kg",
+              "price": 36500,
+              "mall": "남도의식탁",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 14,
-              "screenRank": 14,
-              "title": "안녕푸드야\n새 창에서 열림",
-              "price": 79000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 21,
+              "title": "단감 감 진영 부유단감 대봉감 태추 5kg 10kg 흙쟁이농원",
+              "price": 16900,
+              "mall": "흙쟁이",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 15,
-              "screenRank": 15,
-              "title": "all8\n새 창에서 열림",
-              "price": 40100,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 22,
+              "title": "태추 청도반시 못난이 단감 5kg 10kg",
+              "price": 13900,
+              "mall": "하루담음",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 16,
-              "screenRank": 16,
-              "title": "수mall(개인)\n새 창에서 열림",
-              "price": 53000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 23,
+              "title": "진영단감 농가직송 청년농부 달감농원 햇 부유단감 선물용 5kg 10kg",
+              "price": 27500,
+              "mall": "달감농원",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 17,
-              "screenRank": 17,
-              "title": "황금열매\n새 창에서 열림",
-              "price": 50000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 25,
+              "title": "진영단감 단감 창원단감 부유 태추단감 5kg 10kg 감사팜",
+              "price": 31800,
+              "mall": "단감농장 감사팜",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 18,
-              "screenRank": 18,
-              "title": "rhgiddp\n새 창에서 열림",
-              "price": 17200,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 26,
+              "title": "전라도 차량 단감 특품 5kg 10kg",
+              "price": 18800,
+              "mall": "제이청과",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 19,
-              "screenRank": 19,
-              "title": "와우과일마켓\n새 창에서 열림",
-              "price": 190000,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 28,
+              "title": "태추 부유 차량단감 대봉감 5kg 10kg",
+              "price": 39000,
+              "mall": "남도농산",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 20,
-              "screenRank": 20,
-              "title": "온담마켓2026\n새 창에서 열림",
-              "price": 40900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "screenRank": 29,
+              "title": "창원 진영 프리미엄 태추단감 태주 명품 선물세트 2.5kg 5kg",
+              "price": 34900,
+              "mall": "푸새농원",
+              "kg": 5,
+              "multi": true,
               "ours": false
             }
           ],
@@ -4619,315 +4621,317 @@
       "shop": [
         {
           "keyword": "황금향 5kg",
-          "total": 90,
+          "total": 100,
           "adCount": 0,
           "topN": 20,
           "ourRank": null,
           "ourAdRank": null,
           "ourMall": null,
-          "sameWeightCount": 0,
-          "excluded": 20,
-          "multiCount": 0,
-          "min": null,
-          "median": null,
-          "pricePos": null,
-          "vsMedian": null,
-          "avgTitleLen": 15,
-          "weightShare": 0,
+          "sameWeightCount": 17,
+          "excluded": 3,
+          "multiCount": 3,
+          "min": 22000,
+          "median": 42000,
+          "pricePos": 3,
+          "vsMedian": -36,
+          "avgTitleLen": 27,
+          "weightShare": 95,
           "topTokens": [
             {
-              "token": "열림",
-              "count": 20,
-              "share": 100,
+              "token": "황금향",
+              "count": 19,
+              "share": 95,
+              "inOurTitle": true
+            },
+            {
+              "token": "제주",
+              "count": 9,
+              "share": 45,
               "inOurTitle": false
             },
             {
-              "token": "창에서",
-              "count": 20,
-              "share": 100,
+              "token": "가정용",
+              "count": 6,
+              "share": 30,
               "inOurTitle": false
             },
             {
-              "token": "무케렌시아",
+              "token": "중소과",
+              "count": 6,
+              "share": 30,
+              "inOurTitle": false
+            },
+            {
+              "token": "대과",
+              "count": 5,
+              "share": 25,
+              "inOurTitle": false
+            },
+            {
+              "token": "제주도",
+              "count": 4,
+              "share": 20,
+              "inOurTitle": false
+            },
+            {
+              "token": "노지",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "하우스",
+              "count": 3,
+              "share": 15,
+              "inOurTitle": false
+            },
+            {
+              "token": "고당도",
+              "count": 2,
+              "share": 10,
+              "inOurTitle": true
+            },
+            {
+              "token": "과일",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "지투지샵",
+              "token": "명절",
               "count": 2,
               "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "가져유백화점",
-              "count": 1,
-              "share": 5,
+              "token": "소과",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "갖고",
-              "count": 1,
-              "share": 5,
+              "token": "제철",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "갤러리아백화점",
-              "count": 1,
-              "share": 5,
+              "token": "추석",
+              "count": 2,
+              "share": 10,
               "inOurTitle": false
             },
             {
-              "token": "고흥",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "농장",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "맛딜",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "모든식품",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "바구니",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "상회",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "서귀포힐링농장",
-              "count": 1,
-              "share": 5,
-              "inOurTitle": false
-            },
-            {
-              "token": "석희",
+              "token": "2030과이내",
               "count": 1,
               "share": 5,
               "inOurTitle": false
             }
           ],
           "suggestions": [
-            "열림",
-            "창에서"
+            "제주",
+            "가정용",
+            "중소과",
+            "대과"
           ],
           "top": [
             {
               "rank": 1,
               "screenRank": 1,
-              "title": "지투지샵\n새 창에서 열림",
-              "price": 100000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주 황금향 대과 5kg 선물용 세트 25과산지직송",
+              "price": 65210,
+              "mall": "26스토어",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 2,
               "screenRank": 2,
-              "title": "맛딜\n새 창에서 열림",
-              "price": 65900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "설날 과일세트 황금향 5kg 선물세트",
+              "price": 39500,
+              "mall": "대박-나길",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 3,
               "screenRank": 3,
-              "title": "가져유백화점\n새 창에서 열림",
-              "price": 72300,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "꽉찬 제주 황금향 5kg 소과 (가정용) / 고당도 달콤 과즙 제철 귤",
+              "price": 41500,
+              "mall": "오늘사마켓",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 4,
               "screenRank": 4,
-              "title": "지투지샵\n새 창에서 열림",
-              "price": 750000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "황금향 대과 5kg",
+              "price": 32360,
+              "mall": "그린타임",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 5,
               "screenRank": 5,
-              "title": "푸드큐레이터\n새 창에서 열림",
-              "price": 95500,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "황금향 중소과 5kg Golden tangerine medium size",
+              "price": 41300,
+              "mall": "청풍마루(개인)",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 6,
               "screenRank": 6,
-              "title": "무케렌시아\n새 창에서 열림",
-              "price": 64000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "황금향 대과 5kg",
+              "price": 49770,
+              "mall": "황금성3007",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 7,
               "screenRank": 7,
-              "title": "무케렌시아\n새 창에서 열림",
-              "price": 67000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주도 하우스 황금향 5kg 노지 중소과 로얄과 대과",
+              "price": 22000,
+              "mall": "팜스제임",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 8,
               "screenRank": 8,
-              "title": "고흥 상회\n새 창에서 열림",
-              "price": 55000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "산지직송 제주 황금향 5kg 15-20과 선물용 제주연가",
+              "price": 44300,
+              "mall": "햇살맞춤",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 9,
               "screenRank": 9,
-              "title": "제이바이오푸드\n새 창에서 열림",
-              "price": 91500,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "제주 황금향 고당도 산지직송 봄이네 하우스/노지 가정용 과일 선물세트 2KG 3KG 5KG",
+              "price": 28900,
+              "mall": "iambom",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 10,
               "screenRank": 10,
-              "title": "제주사람마쑤다\n새 창에서 열림",
-              "price": 67900,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주도 황금향 특대 5kg 명절 선물세트 추석",
+              "price": 48000,
+              "mall": "와글농장",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 11,
               "screenRank": 11,
-              "title": "서귀포힐링농장\n새 창에서 열림",
-              "price": 55000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주황금향 대과 5kg 가정용 25과수내 벌크포장",
+              "price": 63250,
+              "mall": "26스토어",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 12,
               "screenRank": 12,
-              "title": "모든식품\n새 창에서 열림",
-              "price": 45000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주 황금향 5kg 소과 22-30과 명절 설 추석 선물세트",
+              "price": 91200,
+              "mall": "eeum",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 13,
               "screenRank": 13,
-              "title": "정직한 바구니\n새 창에서 열림",
-              "price": 25000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주 황금향 가정용 5kg 14-40과 제주도 과일 감귤",
+              "price": 42000,
+              "mall": "달콤과일농산",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 14,
               "screenRank": 14,
-              "title": "유남매스토어\n새 창에서 열림",
-              "price": 79170,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "황금향 중소과 5kg",
+              "price": 26730,
+              "mall": "그린타임",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 15,
               "screenRank": 15,
-              "title": "홀리셔스\n새 창에서 열림",
-              "price": 50200,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "황금향 중소과 5kg",
+              "price": 38770,
+              "mall": "황금성3007",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 16,
               "screenRank": 16,
-              "title": "갖고 싶다\n새 창에서 열림",
-              "price": 86040,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "제주 황금향 선물용 3kg 5kg 산지직송",
+              "price": 32900,
+              "mall": "해품은감귤농장",
+              "kg": 5,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 17,
               "screenRank": 17,
-              "title": "갤러리아백화점\n새 창에서 열림",
-              "price": 65600,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "제주도 황금향 선물세트 5kg 중소과 25-34과",
+              "price": 53970,
+              "mall": "황금성3007",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 18,
               "screenRank": 18,
-              "title": "온담마켓2026\n새 창에서 열림",
-              "price": 67900,
-              "mall": "새 창에서 열림",
-              "kg": null,
-              "multi": false,
+              "title": "제주 황금향 가정용 선물용 3kg 5kg 10kg 제철 하우스 노지 서귀포",
+              "price": 22900,
+              "mall": "별숲농장",
+              "kg": 10,
+              "multi": true,
               "ours": false
             },
             {
               "rank": 19,
               "screenRank": 19,
-              "title": "석희 농장\n새 창에서 열림",
-              "price": 58700,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "추석명절용 황금향 선물용 5kg",
+              "price": 59800,
+              "mall": "해바담탐라라(개인)",
+              "kg": 5,
               "multi": false,
               "ours": false
             },
             {
               "rank": 20,
               "screenRank": 20,
-              "title": "제주다팜스토어\n새 창에서 열림",
-              "price": 56000,
-              "mall": "새 창에서 열림",
-              "kg": null,
+              "title": "한끼밥상 제주 황금향 가정용 중소과 5kg (20-30과이내)",
+              "price": 41000,
+              "mall": "한끼밥상1",
+              "kg": 5,
               "multi": false,
               "ours": false
             }
@@ -6091,13 +6095,13 @@
       "priority": "높음",
       "kind": "순위",
       "target": "해남 꿀밤고구마 베니하루카 특상",
-      "content": "\"꿀고구마 3kg\" 자연 검색 결과 100개 안에 우리 상품 없음"
+      "content": "\"꿀고구마 3kg\" 자연 검색 결과 114개 안에 우리 상품 없음"
     },
     {
       "priority": "높음",
       "kind": "순위",
       "target": "국내산 햇밤",
-      "content": "\"햇밤 2kg\" 자연 검색 결과 52개 안에 우리 상품 없음"
+      "content": "\"햇밤 2kg\" 자연 검색 결과 60개 안에 우리 상품 없음"
     },
     {
       "priority": "높음",
@@ -6109,31 +6113,31 @@
       "priority": "높음",
       "kind": "순위",
       "target": "대봉감 소과 난좌",
-      "content": "\"대봉감 5kg\" 자연 검색 결과 100개 안에 우리 상품 없음"
+      "content": "\"대봉감 5kg\" 자연 검색 결과 61개 안에 우리 상품 없음"
     },
     {
       "priority": "높음",
       "kind": "순위",
       "target": "정품 단감",
-      "content": "\"단감 5kg\" 자연 검색 결과 99개 안에 우리 상품 없음"
+      "content": "\"단감 5kg\" 자연 검색 결과 73개 안에 우리 상품 없음"
     },
     {
       "priority": "높음",
       "kind": "순위",
       "target": "황금향 로얄과",
-      "content": "\"황금향 5kg\" 자연 검색 결과 90개 안에 우리 상품 없음"
+      "content": "\"황금향 5kg\" 자연 검색 결과 100개 안에 우리 상품 없음"
     },
     {
       "priority": "중간",
-      "kind": "상품명",
-      "target": "해남 호박고구마 호풍미 특상",
-      "content": "\"호박고구마 3kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+      "kind": "가격",
+      "target": "해남 꿀밤고구마 베니하루카 특상",
+      "content": "\"꿀고구마 3kg\" 같은 중량 경쟁 중간값보다 17.3% 높음 (중간값 11,000원)"
     },
     {
       "priority": "중간",
       "kind": "상품명",
       "target": "해남 꿀밤고구마 베니하루카 특상",
-      "content": "\"꿀고구마 3kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+      "content": "\"꿀고구마 3kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 꿀고구마, 세척, 호박고구마"
     },
     {
       "priority": "중간",
@@ -6151,7 +6155,7 @@
       "priority": "중간",
       "kind": "상품명",
       "target": "국내산 햇밤",
-      "content": "\"햇밤 2kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+      "content": "\"햇밤 2kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 공주, 견과류, 고소하고, 구워먹고, 쪄먹고"
     },
     {
       "priority": "중간",
@@ -6181,7 +6185,7 @@
       "priority": "중간",
       "kind": "상품명",
       "target": "대봉감 소과 난좌",
-      "content": "\"대봉감 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서, 스토어"
+      "content": "\"대봉감 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 대봉시, 곶감용, 연시"
     },
     {
       "priority": "중간",
@@ -6193,7 +6197,7 @@
       "priority": "중간",
       "kind": "상품명",
       "target": "정품 단감",
-      "content": "\"단감 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+      "content": "\"단감 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 태추단감, 부유, 부유단감"
     },
     {
       "priority": "중간",
@@ -6211,7 +6215,7 @@
       "priority": "중간",
       "kind": "상품명",
       "target": "황금향 로얄과",
-      "content": "\"황금향 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 열림, 창에서"
+      "content": "\"황금향 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 제주, 가정용, 중소과, 대과"
     },
     {
       "priority": "낮음",
