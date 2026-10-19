@@ -1,0 +1,453 @@
+{
+  "date": "2026-10-20",
+  "capturedAt": "2026-10-19T17:31:48.663Z",
+  "source": "bookmarklet",
+  "keywords": [
+    {
+      "keyword": "타이벡감귤 5kg",
+      "sort": "rel",
+      "capturedAt": "2026-10-19T17:31:23.769Z",
+      "url": "https://search.shopping.naver.com/ns/search?query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&prevQuery=%ED%96%87%EB%B0%A4%202kg",
+      "version": 2,
+      "raw": [
+        {
+          "cls": "compositeCardContainer_composite_card_container__9PwzX composite_card_container",
+          "a": [
+            {
+              "h": "https://smartstore.naver.com/main/products/13820703217?nl-query=%ED%83%80%EC%9D%",
+              "t": "",
+              "c": "link_link___agig basicProductCard_link__Cz8_d _nlog_click _n"
+            },
+            {
+              "h": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.nav",
+              "t": "예솔이네제철과일",
+              "c": "link_link___agig mallLink_mall_link__kG2fb _nlog_click _nlog"
+            }
+          ],
+          "img": [
+            ""
+          ],
+          "text": "예솔이네제철과일타이벡감귤 극조생 감귤 타이벡 귤 햇귤 중과 로얄과 3kg 5kg 가정용 감귤14,800원(100g당1,480원)무료배송무료교환반품"
+        },
+        {
+          "cls": "compositeCardContainer_composite_card_container__9PwzX composite_card_container",
+          "a": [
+            {
+              "h": "https://smartstore.naver.com/main/products/13818789194?nl-query=%ED%83%80%EC%9D%",
+              "t": "",
+              "c": "link_link___agig basicProductCard_link__Cz8_d _nlog_click _n"
+            },
+            {
+              "h": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.nav",
+              "t": "GreenBee24",
+              "c": "link_link___agig mallLink_mall_link__kG2fb _nlog_click _nlog"
+            }
+          ],
+          "img": [
+            ""
+          ],
+          "text": "GreenBee24제주 토박이 농부재배 감귤 타이벡 노지감귤 밀감 5kg20,000원12% 17,600원(100g당352원)무료배송"
+        },
+        {
+          "cls": "compositeCardContainer_composite_card_container__9PwzX composite_card_container",
+          "a": [
+            {
+              "h": "https://smartstore.naver.com/main/products/13808612268?nl-query=%ED%83%80%EC%9D%",
+              "t": "",
+              "c": "link_link___agig basicProductCard_link__Cz8_d _nlog_click _n"
+            },
+            {
+              "h": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.nav",
+              "t": "오를린",
+              "c": "link_link___agig mallLink_mall_link__kG2fb _nlog_click _nlog"
+            }
+          ],
+          "img": [
+            ""
+          ],
+          "text": "오를린감귤 타이벡 노지 극조생 햇감귤 청귤 카라향 10kg 5kg 3kg 중과 로얄과 풋귤64,200원84% 10,100원(100g당337원)무료배송"
+        }
+      ],
+      "items": [
+        {
+          "title": "타이벡감귤 극조생 감귤 타이벡 귤 햇귤 중과 로얄과 3kg 5kg 가정용 감귤",
+          "price": 14800,
+          "mall": "예솔이네제철과일",
+          "link": "https://smartstore.naver.com/main/products/13820703217?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=c904a018745a4d33afecc71401e1a9a6&NaPm=ci%3Dc904a018745a4d33afecc71401e1a9a6%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12369505%7Chk%3Db60e29b3d37ccac55454ed7e9124fc51d84992b8",
+          "ad": false,
+          "src": "dom",
+          "rank": 1
+        },
+        {
+          "title": "제주 토박이 농부재배 감귤 타이벡 노지감귤 밀감 5kg",
+          "price": 20000,
+          "mall": "GreenBee24",
+          "link": "https://smartstore.naver.com/main/products/13818789194?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=5eb3e30ce6f54a3b99060c550997ff15&NaPm=ci%3D5eb3e30ce6f54a3b99060c550997ff15%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12575801%7Chk%3D1dd972b472880678582b86e5eea436cf6ebdec1c",
+          "ad": false,
+          "src": "dom",
+          "rank": 2
+        },
+        {
+          "title": "감귤 타이벡 노지 극조생 햇감귤 청귤 카라향 10kg 5kg 3kg 중과 로얄과 풋귤",
+          "price": 64200,
+          "mall": "오를린",
+          "link": "https://smartstore.naver.com/main/products/13808612268?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=1df6f241d21a4cefa17a6aa809cf4993&NaPm=ci%3D1df6f241d21a4cefa17a6aa809cf4993%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D11498944%7Chk%3D91e5466027af4c199a009768b6ebf3da29bed9d9",
+          "ad": false,
+          "src": "dom",
+          "rank": 3
+        },
+        {
+          "title": "제주도 위미 극조생 햇귤 감귤 황금향 3 kg 5키로 한박스 택배 효돈 귤 타이백 타이벡",
+          "price": 55000,
+          "mall": "촌플러스",
+          "link": "https://smartstore.naver.com/main/products/4745272422?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=e15a601ba91443ac9f3c135d5132bcee&NaPm=ci%3De15a601ba91443ac9f3c135d5132bcee%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D1068718%7Chk%3Dc036ff29fe313b7cf6c29f8ba98e3dce22675ffc",
+          "ad": false,
+          "src": "dom",
+          "rank": 4
+        },
+        {
+          "title": "제주도 타이벡 노지 감귤 극조생 프리미엄 5KG",
+          "price": 16600,
+          "mall": "두둥실구름이네",
+          "link": "https://smartstore.naver.com/main/products/13821007047?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=a4261121d3684c529d7bf30739dcfedb&NaPm=ci%3Da4261121d3684c529d7bf30739dcfedb%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D268815%7Chk%3Df7ca881b3cbf7f5eddff79bd9bba4016eaee35df",
+          "ad": false,
+          "src": "dom",
+          "rank": 5
+        },
+        {
+          "title": "황금향 불로초감귤 제주귤 타이벡감귤 제주도귤 노지 만다린",
+          "price": 28080,
+          "mall": "복자푸드창고",
+          "link": "https://smartstore.naver.com/main/products/12545821286?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=d10cb75cf963423387beadf59e6f5fb6&NaPm=ci%3Dd10cb75cf963423387beadf59e6f5fb6%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D11590064%7Chk%3D538c032a93d0c2b0333c53d7bf628871c9b6ce76",
+          "ad": false,
+          "src": "dom",
+          "rank": 6
+        },
+        {
+          "title": "고당도 타이벡 유라실생 감귤 3kg 5kg",
+          "price": 14800,
+          "mall": "해온찬",
+          "link": "https://smartstore.naver.com/main/products/13821941240?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=a3354097d42f40da9ef68aa5ed5b9096&NaPm=ci%3Da3354097d42f40da9ef68aa5ed5b9096%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12653603%7Chk%3Da281fa01443819e1922388079f2020d1cd9ccbf6",
+          "ad": false,
+          "src": "dom",
+          "rank": 7
+        },
+        {
+          "title": "스테비아농법 타이벡감귤 고당도 3kg 5kg",
+          "price": 13100,
+          "mall": "해온찬",
+          "link": "https://smartstore.naver.com/main/products/13821941751?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=441d514740a04ebbb0035ccb49f5323f&NaPm=ci%3D441d514740a04ebbb0035ccb49f5323f%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12653603%7Chk%3Dd62644a7be420c1a9c38148335827c75753f1fa3",
+          "ad": false,
+          "src": "dom",
+          "rank": 8
+        },
+        {
+          "title": "[일50개한정]제주직송 초고당도 타이벡 감귤 로열과 5kg",
+          "price": 31000,
+          "mall": "또또와 상점",
+          "link": "https://smartstore.naver.com/main/products/13819350668?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=e6a3b21f2fcc47908c5c33e1933f4635&NaPm=ci%3De6a3b21f2fcc47908c5c33e1933f4635%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12601015%7Chk%3Dcfb8fb7b065d3002ae3c29f37ea677d14680d72f",
+          "ad": false,
+          "src": "dom",
+          "rank": 9
+        },
+        {
+          "title": "제주도 서귀포 타이벡 감귤 고당도 위미 최상품 감귤 3kg 5kg",
+          "price": 28900,
+          "mall": "귤코롬",
+          "link": "https://smartstore.naver.com/main/products/13821000557?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=551be8fe0f5b4edda35239e43dacb06f&NaPm=ci%3D551be8fe0f5b4edda35239e43dacb06f%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12650037%7Chk%3D092751cab368d2bbfcc55136c9bed4877c398ea8",
+          "ad": false,
+          "src": "dom",
+          "rank": 10
+        },
+        {
+          "title": "[산지직송] 싱싱파머스 고당도 타이벡 제주 감귤 극조생 로얄과 3kg 5kg",
+          "price": 9900,
+          "mall": "싱싱파머스1",
+          "link": "https://smartstore.naver.com/main/products/13820496069?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=c7f0516d5a37456996112935dbc09f56&NaPm=ci%3Dc7f0516d5a37456996112935dbc09f56%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12639517%7Chk%3Da04155b7a219e02e40cba1dd13172ca404ba2c53",
+          "ad": false,
+          "src": "dom",
+          "rank": 11
+        },
+        {
+          "title": "[이솔팜] 제주 서귀포 새콤달콤한 감귤 스테비아농법 타이벡 산지직송 3kg 5kg 10kg",
+          "price": 21800,
+          "mall": "이솔Farm",
+          "link": "https://smartstore.naver.com/main/products/13819034527?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=facc0b7e0b77485b9d6ee8369a72aae3&NaPm=ci%3Dfacc0b7e0b77485b9d6ee8369a72aae3%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12637716%7Chk%3D19527ec80328411ceed9addc30112c29562ac441",
+          "ad": false,
+          "src": "dom",
+          "rank": 12
+        },
+        {
+          "title": "신선 달콤한 타이벡 감귤 제주도 감귤",
+          "price": 36000,
+          "mall": "팜타스틱",
+          "link": "https://smartstore.naver.com/main/products/13800160249?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=8616114642104cf68cf18fe375be3d68&NaPm=ci%3D8616114642104cf68cf18fe375be3d68%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D3057200%7Chk%3Df190093d7a2f787c2a21fcb1dea6c307df148978",
+          "ad": false,
+          "src": "dom",
+          "rank": 13
+        },
+        {
+          "title": "신선 달콤한 타이벡 감귤 제주도 감귤",
+          "price": 36000,
+          "mall": "만물청년",
+          "link": "https://smartstore.naver.com/main/products/13800167056?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=204aeb44dfad4a379cb56d8a4fd1b9b5&NaPm=ci%3D204aeb44dfad4a379cb56d8a4fd1b9b5%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D5045835%7Chk%3De7993cb94f5125630d0f1cf2a92979c33763d47b",
+          "ad": false,
+          "src": "dom",
+          "rank": 14
+        },
+        {
+          "title": "청귤 10kg 조생귤 극조생 귤 감귤 노지 타이벡",
+          "price": 24000,
+          "mall": "시원한천재",
+          "link": "https://smartstore.naver.com/main/products/13787915226?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=a26343921a5f4c7288acfb4436173528&NaPm=ci%3Da26343921a5f4c7288acfb4436173528%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D11595834%7Chk%3D05b528cc6c0c4cf3c5ff572301129adea4c9414f",
+          "ad": false,
+          "src": "dom",
+          "rank": 15
+        },
+        {
+          "title": "제주 타이벡 감귤[고당도]",
+          "price": 19000,
+          "mall": "NY SELECT",
+          "link": "https://smartstore.naver.com/main/products/13795078686?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=a2a0823ccf374290912d8efce968fb9c&NaPm=ci%3Da2a0823ccf374290912d8efce968fb9c%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12646873%7Chk%3D5fbc3b14c49171f4a621dd90f8d02349ae002c30",
+          "ad": false,
+          "src": "dom",
+          "rank": 16
+        },
+        {
+          "title": "제주감귤 타이벡감귤 황금향 극조생 제주한귤",
+          "price": 30000,
+          "mall": "참 좋은 과일",
+          "link": "https://smartstore.naver.com/main/products/13805177290?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=1af698b55e284f43a2a0b5999b14f62a&NaPm=ci%3D1af698b55e284f43a2a0b5999b14f62a%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12651673%7Chk%3D870d6ae769ed66b7a06a76b45fc7fcdf00c9417e",
+          "ad": false,
+          "src": "dom",
+          "rank": 17
+        },
+        {
+          "title": "농장직송 제주 타이벡감귤, 극조생귤 생산자직판 5킬로",
+          "price": 25000,
+          "mall": "남원퍼스트농산",
+          "link": "https://smartstore.naver.com/main/products/9354287800?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=5e493c6bf58d4eb6a1631d01ec2d6fe0&NaPm=ci%3D5e493c6bf58d4eb6a1631d01ec2d6fe0%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D1101944%7Chk%3Deb06ca7e45182afadd74817ca91a73b091af9d31",
+          "ad": false,
+          "src": "dom",
+          "rank": 18
+        },
+        {
+          "title": "부산과일 과일맛집 고당도대박꿀 타이벡감귤",
+          "price": 25000,
+          "mall": "프루띠에 fruttie",
+          "link": "https://smartstore.naver.com/main/products/12728121908?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=c16ef519185e445eae60d66325b2c9b6&NaPm=ci%3Dc16ef519185e445eae60d66325b2c9b6%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D3125352%7Chk%3Df1bda28a34b5ec16d4d5119c9083944c74accea0",
+          "ad": false,
+          "src": "dom",
+          "rank": 19
+        },
+        {
+          "title": "제주 타이벡감귤 불로초감귤 유라조생귤 그린향 황금향 홍매향",
+          "price": 38800,
+          "mall": "프레시농",
+          "link": "https://smartstore.naver.com/main/products/13812432578?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=10de5843519149bca0d8ae15cfe37853&NaPm=ci%3D10de5843519149bca0d8ae15cfe37853%7Cct%3Dmvfj5ytc%7Ctr%3Dnslsl%7Csn%3D12615911%7Chk%3D23cf46f438e5e8de7b9b8598ee63c5c5dfb1f22b",
+          "ad": false,
+          "src": "dom",
+          "rank": 20
+        },
+        {
+          "title": "제주 노지 감귤 효돈 극조생 감귤 하우스 유라조생 귤 제주도 타이벡",
+          "price": 20400,
+          "mall": "마켓폴폴",
+          "link": "https://smartstore.naver.com/main/products/13762189330?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=468ecec24ff8419ca000d05ffa3a586a&NaPm=ci%3D468ecec24ff8419ca000d05ffa3a586a%7Cct%3Dmvfj5ytd%7Ctr%3Dnslsl%7Csn%3D9053664%7Chk%3Dca588c9e9051eddaffd99b5c8dc09cafd0813ad1",
+          "ad": false,
+          "src": "dom",
+          "rank": 21
+        },
+        {
+          "title": "제주 서귀포 타이벡 감귤 제철 밀감",
+          "price": 21800,
+          "mall": "농수산왔수다",
+          "link": "https://smartstore.naver.com/main/products/13811341314?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=4ace621a2ebc4fbaaf75c0b32c49209f&NaPm=ci%3D4ace621a2ebc4fbaaf75c0b32c49209f%7Cct%3Dmvfj5ytd%7Ctr%3Dnslsl%7Csn%3D11782174%7Chk%3Def2e6b388c86a1ab31de10ce4eca8e12b94cc737",
+          "ad": false,
+          "src": "dom",
+          "rank": 22
+        },
+        {
+          "title": "초고당도 제주 타이벡 감귤 특품과 중품과",
+          "price": 22700,
+          "mall": "엔돌핀유통",
+          "link": "https://smartstore.naver.com/main/products/12712238266?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=dfef7412b2634dafac3aa98c20af2214&NaPm=ci%3Ddfef7412b2634dafac3aa98c20af2214%7Cct%3Dmvfj5ytj%7Ctr%3Dnslsl%7Csn%3D9794004%7Chk%3D0e842159482f0d1b6b44fe42fe59d833a8c41f5e",
+          "ad": false,
+          "src": "dom",
+          "rank": 23
+        },
+        {
+          "title": "제주 하우스 노지 효돈 타이벡 감귤 유라조생 제주감귤",
+          "price": 45160,
+          "mall": "더프루츠",
+          "link": "https://smartstore.naver.com/main/products/9339836022?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=043ed3ad92694e868ea916ed9001a9df&NaPm=ci%3D043ed3ad92694e868ea916ed9001a9df%7Cct%3Dmvfj5ytj%7Ctr%3Dnslsl%7Csn%3D7946265%7Chk%3D533dc57fcc541c954b453fcf10823ab8acbfb5c0",
+          "ad": false,
+          "src": "dom",
+          "rank": 24
+        },
+        {
+          "title": "GAP 스테비아 타이벡 농법 제주 서귀포 타이벡 감귤 고당도 제철과일 새콤달콤 중대과",
+          "price": 17600,
+          "mall": "정직한테이블",
+          "link": "https://smartstore.naver.com/main/products/13800153008?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=fcb532e65e194af780650e6837643d30&NaPm=ci%3Dfcb532e65e194af780650e6837643d30%7Cct%3Dmvfj5ytj%7Ctr%3Dnslsl%7Csn%3D12550408%7Chk%3D71eab6a14f82e6d26cd978969db2b11676bd2325",
+          "ad": false,
+          "src": "dom",
+          "rank": 25
+        },
+        {
+          "title": "[황금찬귤] 첫 타이벡 감귤 제주 서귀포 가정용 새콤달콤 햇 하우스 감귤 3kg",
+          "price": 86900,
+          "mall": "황금찬농수산",
+          "link": "https://smartstore.naver.com/main/products/11616459808?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=51f2195aea2a4a68a49bac531f1ab936&NaPm=ci%3D51f2195aea2a4a68a49bac531f1ab936%7Cct%3Dmvfj5ytj%7Ctr%3Dnslsl%7Csn%3D622033%7Chk%3D825a425b575d712aafaf7d0029f34f999eff34c7",
+          "ad": false,
+          "src": "dom",
+          "rank": 26
+        },
+        {
+          "title": "GAP 스테비아 타이벡 농법 제주 서귀포 타이벡 감귤 고당도 제철과일 새콤달콤 로얄과",
+          "price": 22200,
+          "mall": "정직한테이블",
+          "link": "https://smartstore.naver.com/main/products/13800114255?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=96cdee91bb884a2ca165526719123441&NaPm=ci%3D96cdee91bb884a2ca165526719123441%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12550408%7Chk%3D8944e1c0551697ecefcc795d1e237acf9768432d",
+          "ad": false,
+          "src": "dom",
+          "rank": 27
+        },
+        {
+          "title": "효돈감귤 타이벡감귤 제주 황금향 밀감 노지 타이백",
+          "price": 60000,
+          "mall": "다복153",
+          "link": "https://smartstore.naver.com/main/products/13761828422?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=b28593e8efc54c999dbe79e50c382633&NaPm=ci%3Db28593e8efc54c999dbe79e50c382633%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12627664%7Chk%3D675edff452cbf63d2cd5357e79eed207c045e647",
+          "ad": false,
+          "src": "dom",
+          "rank": 28
+        },
+        {
+          "title": "[꿀팜] 새콤달콤 초고당도 타이벡 귤 제주 감귤",
+          "price": 30000,
+          "mall": "꿀팜 kkulfarm",
+          "link": "https://smartstore.naver.com/main/products/13807669280?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=00fa50dee9a7412f831873f3195e1ca6&NaPm=ci%3D00fa50dee9a7412f831873f3195e1ca6%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12578374%7Chk%3D1dbf88349ee4238fcf2bf23a155da74d9882f007",
+          "ad": false,
+          "src": "dom",
+          "rank": 29
+        },
+        {
+          "title": "유라조생귤 그린향 감귤 유라실생귤 유라귤 타이백 타이벡 감귤 미래향 비가림 불로초",
+          "price": 60000,
+          "mall": "제철밥상연구소",
+          "link": "https://smartstore.naver.com/main/products/13816211921?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=a25c3fea126741b9805ebf0fd97ecc3b&NaPm=ci%3Da25c3fea126741b9805ebf0fd97ecc3b%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12484028%7Chk%3D72eaa3dd25cf0c06252c586b432c8e9fe3b89dcb",
+          "ad": false,
+          "src": "dom",
+          "rank": 30
+        },
+        {
+          "title": "고당도 제주도 타이벡 감귤",
+          "price": 18000,
+          "mall": "윤슬그린",
+          "link": "https://smartstore.naver.com/main/products/13807735005?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=662fba89f6b14349b19c71ea8f4cc752&NaPm=ci%3D662fba89f6b14349b19c71ea8f4cc752%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12591327%7Chk%3D6f93a9d443adadd55f5eaad57824becc0210062f",
+          "ad": false,
+          "src": "dom",
+          "rank": 31
+        },
+        {
+          "title": "효돈감귤 타이백감귤 타이벡 제주 밀감 노지 황금향",
+          "price": 55000,
+          "mall": "언니의 착한 소비",
+          "link": "https://smartstore.naver.com/main/products/13759448310?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=3659a32c9e4848999cdfa72df21b74ae&NaPm=ci%3D3659a32c9e4848999cdfa72df21b74ae%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D7964794%7Chk%3Dff1a782262f59d1fed0757f297e23979a2c9118f",
+          "ad": false,
+          "src": "dom",
+          "rank": 32
+        },
+        {
+          "title": "남천동과일맛집 프루띠에 타이벡꿀밀감",
+          "price": 20000,
+          "mall": "프루띠에 fruttie",
+          "link": "https://smartstore.naver.com/main/products/10965547349?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=e1782cbbe543490f9678ec0e60049009&NaPm=ci%3De1782cbbe543490f9678ec0e60049009%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D3125352%7Chk%3Dbb879ab73800b637a48922f766fc9a9200b75543",
+          "ad": false,
+          "src": "dom",
+          "rank": 33
+        },
+        {
+          "title": "제주 비타민 감귤 극조생 타이벡입니다. 새콤달콤 제철 감귤~ 12Brix, 10kg, 1개",
+          "price": 30000,
+          "mall": "wlsalshdtks(개인)",
+          "link": "https://smartstore.naver.com/main/products/13775686333?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=0ed70663480a484d9b9a51c47af4f62f&NaPm=ci%3D0ed70663480a484d9b9a51c47af4f62f%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12644325%7Chk%3Dd722b6b55033a164a35595cfe5eca47b9f474fcd",
+          "ad": false,
+          "src": "dom",
+          "rank": 34
+        },
+        {
+          "title": "제주 감귤 레드향 황금향 천혜향 한라봉 산하홍 홍귤 타이벡 조생 효돈다우렁 불로초 설국향",
+          "price": 100000,
+          "mall": "언니의입맛",
+          "link": "https://smartstore.naver.com/main/products/5082489154?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=b4d405ebfb7b4fd39d197379466b4d33&NaPm=ci%3Db4d405ebfb7b4fd39d197379466b4d33%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D1252625%7Chk%3D4b70bc269f0d45bc116e646d3793948aee5a8674",
+          "ad": false,
+          "src": "dom",
+          "rank": 35
+        },
+        {
+          "title": "유라조생귤 그린향 감귤 비가림 유라실생귤 유라귤 효돈 타이백 타이벡 감귤 미래향",
+          "price": 60000,
+          "mall": "제철밥상연구소",
+          "link": "https://smartstore.naver.com/main/products/13820077855?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=96a206b3e1a24c0aa5903d1250528ee2&NaPm=ci%3D96a206b3e1a24c0aa5903d1250528ee2%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12484028%7Chk%3D16617b43b8c67d0164429cbeb181620b5c4322fb",
+          "ad": false,
+          "src": "dom",
+          "rank": 36
+        },
+        {
+          "title": "당도선별 제주 감귤 노지 귤 타이벡 밀감 3KG 5KG269661 감귤 대과 1KG(L~3L)",
+          "price": 28400,
+          "mall": "연경브라보",
+          "link": "https://smartstore.naver.com/main/products/13759479414?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=2762dc8e246942b68439bf4462d93dd2&NaPm=ci%3D2762dc8e246942b68439bf4462d93dd2%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12511871%7Chk%3D75dca8c7555003fc6dae67b26c7075022cc190a1",
+          "ad": false,
+          "src": "dom",
+          "rank": 37
+        },
+        {
+          "title": "초록지음 타이벡 감귤 5kg 소과",
+          "price": 31400,
+          "mall": "비엠프레시",
+          "link": "https://smartstore.naver.com/main/products/13814430634?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=c2cdd2f49fe84fadb2ea9189a1a76508&NaPm=ci%3Dc2cdd2f49fe84fadb2ea9189a1a76508%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12588530%7Chk%3D643c356abb99f8fbcec9a8f2b2c9e74b10b5ecb5",
+          "ad": false,
+          "src": "dom",
+          "rank": 38
+        },
+        {
+          "title": "당도보장! 맛보장! 꿀짱효돈감귤 타이벡감귤/효돈감귤/감귤10kg/감귤5kg/극조생감귤/조생감귤",
+          "price": 30000,
+          "mall": "꿀짱효돈감귤",
+          "link": "https://smartstore.naver.com/main/products/6236381118?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=a3724c31b72941b0987c8305de5fa269&NaPm=ci%3Da3724c31b72941b0987c8305de5fa269%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D5349714%7Chk%3D63f6b4393bdf0b3d6daac11b361a66105e6c93ca",
+          "ad": false,
+          "src": "dom",
+          "rank": 39
+        },
+        {
+          "title": "[특판 위미농협] 최고당도 12브릭스 감귤 소과 꼬마귤 5kg / 10kg 문주왕 싱귤생귤 타이벡 노지 조생 서귀포 위미 효돈 비파괴광센서 불로초",
+          "price": 100000,
+          "mall": "핸썸제주",
+          "link": "https://smartstore.naver.com/main/products/7714346083?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=9061a91858304b7f89652981b2115b04&NaPm=ci%3D9061a91858304b7f89652981b2115b04%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D1571196%7Chk%3Da6dceaef5f28f5dbb719f60ed28923dc7c7baa8d",
+          "ad": false,
+          "src": "dom",
+          "rank": 40
+        },
+        {
+          "title": "[무료배송] 제주 타이벡 감귤 대과(L~2L~3L) 5kg(박스포함)",
+          "price": 18720,
+          "mall": "신선 상회",
+          "link": "https://smartstore.naver.com/main/products/13814810115?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=c40fd6ed55e34624ba15ac70ad0a1d51&NaPm=ci%3Dc40fd6ed55e34624ba15ac70ad0a1d51%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D12446710%7Chk%3Db22dff6cd5f375aea9f45bf24e7631529ff3a01c",
+          "ad": false,
+          "src": "dom",
+          "rank": 41
+        },
+        {
+          "title": "제주 감귤 타이벡 비가림 하우스 제라한 하례 제라한 조생 노지 꽃 유라조생 오도리 복동이 귤 12~15Brix, 5kg,",
+          "price": 40000,
+          "mall": "원두막농산",
+          "link": "https://smartstore.naver.com/main/products/13810763772?nl-query=%ED%83%80%EC%9D%B4%EB%B2%A1%EA%B0%90%EA%B7%A4%205kg&nl-au=ecf519d208a54eb19cb01eaa5861ddfb&NaPm=ci%3Decf519d208a54eb19cb01eaa5861ddfb%7Cct%3Dmvfj5ytk%7Ctr%3Dnslsl%7Csn%3D533764%7Chk%3D924f62eed46a0bfc496ebcf361603c9ce4d5b98b",
+          "ad": false,
+          "src": "dom",
+          "rank": 42
+        }
+      ]
+    }
+  ]
+}
