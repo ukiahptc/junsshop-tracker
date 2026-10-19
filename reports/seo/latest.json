@@ -1698,7 +1698,7 @@
         "아이간식": 91023
       },
       "category": "",
-      "price": 11900,
+      "price": 13900,
       "url": "",
       "elements": {
         "origin": "부여",
@@ -1997,8 +1997,8 @@
           "min": 12000,
           "median": 18450,
           "medianAll": 18100,
-          "pricePos": 1,
-          "vsMedian": -35.5,
+          "pricePos": 2,
+          "vsMedian": -24.7,
           "avgTitleLen": 39,
           "weightShare": 70,
           "topTokens": [
@@ -2353,7 +2353,7 @@
         "아이간식": 91023
       },
       "category": "",
-      "price": 15900,
+      "price": 16500,
       "url": "",
       "elements": {
         "origin": "",
@@ -2655,7 +2655,7 @@
           "median": 22500,
           "medianAll": 25000,
           "pricePos": 1,
-          "vsMedian": -29.3,
+          "vsMedian": -26.7,
           "avgTitleLen": 31,
           "weightShare": 50,
           "topTokens": [
@@ -3672,7 +3672,7 @@
         "겨울간식": 426142
       },
       "category": "",
-      "price": 16900,
+      "price": 21900,
       "url": "",
       "elements": {
         "origin": "국내산",
@@ -3974,7 +3974,7 @@
           "median": 51950,
           "medianAll": 28250,
           "pricePos": 1,
-          "vsMedian": -67.5,
+          "vsMedian": -57.8,
           "avgTitleLen": 32,
           "weightShare": 30,
           "topTokens": [
@@ -4330,7 +4330,7 @@
         "제사": 314395
       },
       "category": "",
-      "price": 26900,
+      "price": 29900,
       "url": "",
       "elements": {
         "origin": "",
@@ -4640,7 +4640,7 @@
           "median": 42000,
           "medianAll": 41400,
           "pricePos": 3,
-          "vsMedian": -36,
+          "vsMedian": -28.8,
           "avgTitleLen": 27,
           "weightShare": 95,
           "topTokens": [
