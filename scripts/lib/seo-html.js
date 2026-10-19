@@ -51,6 +51,8 @@ function renderHtml(R) {
     const manual = p.manual.length ? `<table><thead><tr><th>검색어</th><th>우리 순위</th><th>입력 가격</th><th>최저가</th><th>중간값</th><th>중간값 대비</th></tr></thead><tbody>` +
       p.manual.map((r) => r.missing ? `<tr><td>${esc(r.keyword)}</td><td colspan="5" class="muted">미입력</td></tr>` :
         `<tr><td>${esc(r.keyword)}</td><td>${r.rank === null ? "20위 밖" : r.rank + "위"}</td><td>${r.n}개</td><td>${fmt(r.min)}</td><td>${fmt(r.median)}${r.sameWeightCount < 3 && r.medianAll ? ` <span class="muted">(전체 ${fmt(r.medianAll)})</span>` : ""}</td><td>${pct(r.vsMedian)}</td></tr>`).join("") + "</tbody></table>" : "";
+    const adsT = p.adStats?.length ? `<table><thead><tr><th>광고 소재</th><th>입찰가</th><th>품질지수</th><th>노출</th><th>클릭</th><th>CTR</th><th>비용</th><th>전환</th><th>전환매출</th><th>ROAS</th></tr></thead><tbody>` +
+      p.adStats.map((c) => `<tr><td>${esc(c.status)}</td><td>${fmt(c.bid)}</td><td>${c.quality ?? "-"}/7</td><td>${fmt(c.impressions)}</td><td>${fmt(c.clicks)}</td><td>${c.ctr ?? "-"}%</td><td>${fmt(c.cost)}</td><td>${fmt(c.conversions)}</td><td>${fmt(c.revenue)}</td><td>${c.roas ?? "-"}%</td></tr>`).join("") + "</tbody></table>" : "";
     return `<section class="card">
 <header><h3>${p.idx}. ${esc(p.name)}</h3><span class="grade ${p.grade === "양호" ? "g1" : p.grade === "보통" ? "g2" : "g3"}">${p.grade}</span></header>
 <div class="kv"><span>상품명</span><span class="title">${p.title ? esc(p.title) : '<em class="muted">미입력</em>'} <span class="muted">(${p.titleAudit.length}자${p.titleUpdated ? ` · ${esc(p.titleUpdated)} 변경` : ""})</span></span></div>
@@ -63,7 +65,7 @@ ${demand}
 <div><div class="sb"><span>태그 ${p.tagAudit.score}점</span>${scoreBar(p.tagAudit.score, "g")}</div><ul class="checks">${checks(p.tagAudit)}</ul>
 <div class="kv small"><span>태그</span><span>${p.tags.length ? p.tags.map((t) => esc(t) + (p.tagCounts?.[t] ? `<span class="muted">(${fmt(p.tagCounts[t])})</span>` : "")).join(", ") : '<em class="muted">미입력</em>'}</span></div></div>
 </div>
-${shop}${manual}
+${adsT}${shop}${manual}
 </section>`;
   }).join("");
 

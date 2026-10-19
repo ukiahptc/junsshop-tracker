@@ -12,10 +12,12 @@
     "shopDate": "2026-10-20",
     "shopFiles": 1,
     "manualDate": null,
+    "adsDate": null,
+    "adsFile": null,
     "actionCounts": {
       "높음": 7,
       "중간": 15,
-      "낮음": 9
+      "낮음": 8
     }
   },
   "products": [
@@ -49,9 +51,9 @@
         "간식고구마"
       ],
       "tagCounts": {},
-      "category": "",
+      "category": "식품 > 농산물 > 채소 > 고구마",
       "price": 12900,
-      "url": "",
+      "url": "https://smartstore.naver.com/main/products/13796261021",
       "elements": {
         "origin": "해남",
         "item": "호박고구마",
@@ -194,6 +196,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 0,
         "name": "해남 호박고구마 호풍미 특상",
@@ -679,7 +682,13 @@
       ],
       "title": "해남 꿀밤고구마 베니하루카 특상 3kg 산지직송 햇고구마",
       "titleUpdated": "2026-10-20",
-      "ads": [],
+      "ads": [
+        {
+          "keyword": "쇼핑검색광고 소재",
+          "since": "2026-10-20",
+          "note": "기본 입찰 400원"
+        }
+      ],
       "tags": [
         "꿀밤고구마",
         "햇고구마",
@@ -846,6 +855,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 0,
         "name": "해남 꿀밤고구마 베니하루카 특상",
@@ -1504,6 +1514,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 0,
         "name": "해남 꿀밤고구마 베니하루카 한입",
@@ -1672,7 +1683,13 @@
       ],
       "title": "2026년 부여 햇밤 알밤 2kg 국내산 산지직송",
       "titleUpdated": "2026-10-20",
-      "ads": [],
+      "ads": [
+        {
+          "keyword": "쇼핑검색광고 소재",
+          "since": "2026-10-20",
+          "note": "기본 입찰 400원"
+        }
+      ],
       "tags": [
         "군밤",
         "햇밤",
@@ -1843,6 +1860,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 0,
         "name": "국내산 햇밤",
@@ -2327,9 +2345,15 @@
       "weights": [
         "5kg"
       ],
-      "title": "타이벡감귤 로얄과 5kg 2026년 햇감귤 고당도 산지직송",
+      "title": "제주 타이벡감귤 로얄과 5kg 극조생 햇감귤 고당도 산지직송",
       "titleUpdated": "2026-10-20",
-      "ads": [],
+      "ads": [
+        {
+          "keyword": "쇼핑검색광고 소재",
+          "since": "2026-10-20",
+          "note": "기본 입찰 400원"
+        }
+      ],
       "tags": [
         "제주감귤",
         "조생감귤",
@@ -2356,7 +2380,7 @@
       "price": 16500,
       "url": "",
       "elements": {
-        "origin": "",
+        "origin": "제주",
         "item": "타이벡감귤",
         "variety": "",
         "grade": "로얄과",
@@ -2364,8 +2388,8 @@
       },
       "registered": true,
       "titleAudit": {
-        "title": "타이벡감귤 로얄과 5kg 2026년 햇감귤 고당도 산지직송",
-        "length": 32,
+        "title": "제주 타이벡감귤 로얄과 5kg 극조생 햇감귤 고당도 산지직송",
+        "length": 33,
         "score": 100,
         "max": 100,
         "checks": [
@@ -2373,7 +2397,7 @@
             "key": "length",
             "label": "길이",
             "status": "pass",
-            "detail": "32자 (권장 15~50자)",
+            "detail": "33자 (권장 15~50자)",
             "earned": 15,
             "max": 15
           },
@@ -2413,7 +2437,7 @@
             "key": "front",
             "label": "핵심 검색어 위치",
             "status": "pass",
-            "detail": "1번째 글자부터 등장",
+            "detail": "4번째 글자부터 등장",
             "earned": 10,
             "max": 10
           },
@@ -2436,7 +2460,7 @@
           "partial": [],
           "missing": []
         },
-        "recommended": "타이벡감귤 로얄과 5kg",
+        "recommended": "제주 타이벡감귤 로얄과 5kg",
         "extraTokens": []
       },
       "tagAudit": {
@@ -2499,6 +2523,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 0,
         "name": "타이벡감귤 로얄과",
@@ -2675,7 +2700,7 @@
               "token": "극조생",
               "count": 7,
               "share": 35,
-              "inOurTitle": false
+              "inOurTitle": true
             },
             {
               "token": "타이벡감귤",
@@ -2687,7 +2712,7 @@
               "token": "제주",
               "count": 6,
               "share": 30,
-              "inOurTitle": false
+              "inOurTitle": true
             },
             {
               "token": "고당도",
@@ -2751,8 +2776,6 @@
             }
           ],
           "suggestions": [
-            "극조생",
-            "제주",
             "제주도"
           ],
           "top": [
@@ -3159,6 +3182,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 1,
         "name": "대봉감 소과 난좌",
@@ -3648,7 +3672,13 @@
       ],
       "title": "국내산 정품 단감 5kg 햇단감 아삭 고당도 산지직송",
       "titleUpdated": "2026-10-20",
-      "ads": [],
+      "ads": [
+        {
+          "keyword": "쇼핑검색광고 소재",
+          "since": "2026-10-20",
+          "note": "기본 입찰 400원"
+        }
+      ],
       "tags": [
         "가을과일",
         "겨울과일",
@@ -3818,6 +3848,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 1,
         "name": "정품 단감",
@@ -4484,6 +4515,7 @@
         "missingKeywords": []
       },
       "grade": "양호",
+      "adStats": [],
       "demand": {
         "request": 1,
         "name": "황금향 로얄과",
@@ -6180,7 +6212,7 @@
       "priority": "중간",
       "kind": "상품명",
       "target": "타이벡감귤 로얄과",
-      "content": "\"타이벡감귤 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 극조생, 제주, 제주도"
+      "content": "\"타이벡감귤 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 제주도"
     },
     {
       "priority": "중간",
@@ -6223,12 +6255,6 @@
       "kind": "상품명",
       "target": "황금향 로얄과",
       "content": "\"황금향 5kg\" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: 제주, 가정용, 중소과, 대과"
-    },
-    {
-      "priority": "낮음",
-      "kind": "설정",
-      "target": "해남 호박고구마 호풍미 특상",
-      "content": "카테고리 미입력 — 등록 카테고리를 적으면 보고서에 표시"
     },
     {
       "priority": "낮음",

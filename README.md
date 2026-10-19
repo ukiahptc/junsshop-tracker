@@ -85,6 +85,10 @@ node scripts/seo-analyze.js
 ```
 `reports/seo/날짜.md`, `reports/seo/latest.md`, `reports/seo/latest.json`, `docs/index.html`이 생깁니다. GitHub에서는 **Actions → seo**가 매일 07:00 KST와 `data/shop`·`data/manual`·`config`·`scripts` 변경 시 자동 실행되어 커밋합니다.
 
+### 4. 광고 성과 (광고주센터 보고서, 로컬 전용)
+광고주센터 → 보고서 → **소재** 보고서를 엑셀로 내려받아 `data/ads/소재_YYYY-MM-DD.xlsx`로 두고 `node scripts/seo-analyze.js --ads`를 실행하면 품목별 광고 상태·입찰가·품질지수·노출·클릭·비용·전환·ROAS가 보고서와 대시보드에 붙습니다.
+광고비가 들어 있어 `data/ads/*.xlsx`는 `.gitignore`로 제외돼 있고, `--ads`로 만든 결과물은 커밋하지 마세요. 공개해도 괜찮다면 `.gitignore`의 해당 줄을 지우면 Actions에서도 포함됩니다.
+
 ## 경쟁 가격·우리 순위 캡처 (주 1회, 검색어당 클릭 1번)
 
 쇼핑 검색 API가 없어졌지만 가격을 손으로 적지 않아도 됩니다. 네이버쇼핑 검색 결과 페이지에서 **북마클릿**(북마크에 저장한 작은 스크립트)을 클릭하면 화면의 상품 목록(제목·가격·판매처·순위)이 통째로 복사됩니다.

@@ -4,12 +4,14 @@
 //  출력: reports/seo/YYYY-MM-DD.md, reports/seo/latest.md, reports/seo/latest.json, docs/index.html
 //  사용: node scripts/seo-analyze.js                      # 전체 분석
 //        node scripts/seo-analyze.js --title "상품명 후보"   # 상품명 후보만 빠르게 진단 (1번 품목 기준, --item N 으로 변경)
+//        node scripts/seo-analyze.js --ads                  # data/ads/*.xlsx(광고주센터 소재 보고서)까지 포함 — 결과물은 로컬 확인용, 커밋 금지
 // 외부 패키지 없음 (Node 20+)
 const fs = require("fs");
 const path = require("path");
 const { auditTitle, auditTags, gradeOf, tokens, norm } = require("./lib/seo-title");
 const { analyzeKeyword, median } = require("./lib/seo-shop");
 const { renderHtml } = require("./lib/seo-html");
+const { loadAds } = require("./lib/ads");
 
 const ROOT = path.resolve(__dirname, "..");
 const readJson = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
@@ -137,6 +139,8 @@ function analyze() {
   const trend = loadTrend();
   const shop = loadShop();
   const manual = loadManual();
+  // 광고주센터 소재 보고서 (data/ads/*.xlsx). 광고비가 들어 있어 --ads 를 줄 때만 읽고, 그 결과물은 커밋하지 않는다
+  const ads = args.includes("--ads") ? loadAds(path.join(ROOT, "data", "ads")) : { files: [], latest: null };
   const actions = [];
   const act = (priority, kind, target, content) => actions.push({ priority, kind, target, content });
 
@@ -154,6 +158,14 @@ function analyze() {
     else for (const c of p.tagAudit.checks) if (c.status !== "pass") act(c.status === "fail" ? "높음" : "낮음", "태그", p.name, `${c.label}: ${c.detail}`);
     if (!p.category) act("낮음", "설정", p.name, "카테고리 미입력 — 등록 카테고리를 적으면 보고서에 표시");
     if (p.price == null) act("중간", "가격", p.name, "판매가 미입력 — 입력하면 경쟁 가격 대비 위치를 계산");
+
+    // 광고 소재 (상품명 또는 스토어 상품번호로 매칭)
+    p.adStats = ads.latest ? ads.latest.creatives.filter((c) => c.title === p.title || (p.storeId && c.storeId === p.storeId) || (p.naverId && c.naverId === p.naverId)) : [];
+    for (const c of p.adStats) {
+      if (/검토/.test(c.status)) act("낮음", "광고", p.name, `광고 소재 "${c.status}" — 승인되면 노출 시작 (입찰가 ${c.bid ? c.bid.toLocaleString("ko-KR") + "원" : "-"}, 품질지수 ${c.quality ?? "-"}/7)`);
+      else if (c.impressions === 0) act("중간", "광고", p.name, `광고 소재 운영 가능이나 노출 0 — 입찰가(${c.bid ?? "-"}원)·일 예산·캠페인 상태 확인`);
+      else if (c.clicks && c.purchases === 0 && c.cost >= 10000) act("중간", "광고", p.name, `광고 클릭 ${c.clicks}회·비용 ${c.cost.toLocaleString("ko-KR")}원에 구매 0 — 상세페이지·가격 점검`);
+    }
 
     // 검색 수요
     p.demand = trend.groups.find((g) => g.name === p.name) || null;
@@ -217,6 +229,7 @@ function analyze() {
     trendFiles: trend.fileCount || 0,
     shopDate: shop.latest?.date || null, shopFiles: shop.history.length,
     manualDate: !shop.latest && manual.latest ? manual.latest.date : null,
+    adsDate: ads.latest?.date || null, adsFile: ads.latest?.file || null,
     actionCounts: { 높음: actions.filter((a) => a.priority === "높음").length, 중간: actions.filter((a) => a.priority === "중간").length, 낮음: actions.filter((a) => a.priority === "낮음").length },
   };
   return { summary, products, trend, actions, rules: RULES, shopLatest: shop.latest ? { date: shop.latest.date, keywords: (shop.latest.json.keywords || []).length } : null };
@@ -234,6 +247,7 @@ function renderMd(R) {
   L.push(`○ 분석 품목: ${S.productCount}개 (등록 정보 입력 ${S.registered}개) · 상품명 평균 ${S.avgTitleScore}점 · 태그 평균 ${S.avgTagScore}점`);
   L.push(`○ 검색 수요: ${S.trendWindow ? `${S.trendWindow} (최근 7일 수요 1위: ${S.demandLeader})` : "데이터 없음"}`);
   L.push(`○ 쇼핑 검색 캡처: ${S.shopDate ? `${S.shopDate} 기준` : S.manualDate ? `없음 (수동 입력 ${S.manualDate} 사용)` : "없음"}`);
+  L.push(`○ 광고 보고서: ${S.adsDate ? `${S.adsDate} 기준 (${S.adsFile})` : "없음 (data/ads/에 광고주센터 소재 보고서 xlsx)"}`);
   L.push(`○ 조치 항목: 높음 ${S.actionCounts.높음} · 중간 ${S.actionCounts.중간} · 낮음 ${S.actionCounts.낮음}`, "");
 
   L.push("□ 품목별 상품명·태그 진단", "");
@@ -253,6 +267,11 @@ function renderMd(R) {
     if (p.demand) {
       const d = p.demand;
       L.push(`- 검색 수요(추적 검색어 묶음): 30일 평균 ${d.avg30.toFixed(1)} · 최근 7일 ${d.avg7.toFixed(1)} · 직전 7일 대비 ${d.change === null ? "-" : (d.change > 0 ? "+" : "") + d.change + "%"} · 묶음 내 점유 ${fmt(d.share)}% · 최고점 ${d.peak?.date} (${d.peak?.ratio.toFixed(1)})`);
+    }
+    if (p.adStats.length) {
+      L.push("- 광고 소재(광고주센터 보고서):");
+      L.push("  | 상태 | 입찰가 | 품질지수 | 노출 | 클릭 | CTR | 비용 | 전환 | 전환매출 | ROAS |", "  |---|---|---|---|---|---|---|---|---|---|");
+      for (const c of p.adStats) L.push(`  | ${c.status} | ${fmt(c.bid)} | ${c.quality ?? "-"}/7 | ${fmt(c.impressions)} | ${fmt(c.clicks)} | ${c.ctr ?? "-"}% | ${fmt(c.cost)} | ${fmt(c.conversions)} | ${fmt(c.revenue)} | ${c.roas ?? "-"}% |`);
     }
     if (p.shop.length) {
       L.push("- 쇼핑 검색 캡처 분석:");
