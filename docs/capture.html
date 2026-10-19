@@ -22,7 +22,7 @@ details summary{cursor:pointer;color:var(--ink2);font-size:13px}
 
 <div class="card">
 <h2 style="margin-top:0">1. 북마클릿 등록 (최초 1회)</h2>
-<p><b>PC(Chrome·Edge)</b>: 아래 파란 버튼을 북마크바(즐겨찾기 모음)로 <b>드래그</b>합니다. 북마크바가 안 보이면 <code>Ctrl+Shift+B</code>.</p>
+<p><b>PC(Chrome·Edge)</b>: 아래 파란 버튼을 북마크바(즐겨찾기 모음)로 <b>드래그</b>합니다. 북마클릿이 갱신되면(현재 v2) 기존 북마크를 지우고 다시 드래그해야 합니다. 북마크바가 안 보이면 <code>Ctrl+Shift+B</code>.</p>
 <p><b>아이폰 Safari</b>: ① 이 페이지를 북마크에 추가 → ② 북마크 편집 → 방금 만든 북마크의 주소(URL)를 아래 "코드 복사"로 복사한 코드로 바꿔 저장. 이름은 "쇼핑 캡처"로.</p>
 <p><a id="bm" class="bm" href="#">준스샵 쇼핑 캡처</a> <button id="copyCode" style="margin-left:8px">코드 복사</button> <span id="copyMsg" class="muted"></span></p>
 </div>
@@ -69,6 +69,7 @@ function bookmarklet(){
   var q=(new URLSearchParams(location.search).get('query')||'').trim();
   var sort=new URLSearchParams(location.search).get('sort')||'rel';
   var items=[];
+  function clean(el){if(!el)return '';var c=el.cloneNode(true);var hid=c.querySelectorAll('[class*="blind"],[class*="hidden"],[class*="screen_out"],.sr-only');for(var i=0;i<hid.length;i++)hid[i].remove();return (c.innerText||c.textContent||'').replace(/새 창에서 열림/g,'').replace(/\s+/g,' ').trim();}
   try{
     var nd=document.getElementById('__NEXT_DATA__');
     if(nd){
@@ -81,28 +82,40 @@ function bookmarklet(){
           o.forEach(function(e){walk(e,d+1)});
         }else{for(var k in o)walk(o[k],d+1);}
       })(JSON.parse(nd.textContent),0);
-      if(best)items=best.arr.map(function(e){var it=e.item||e;return{title:it.productTitle||it.productName||'',price:Number(it.lowPrice||it.price||it.mobileLowPrice||0),mall:it.mallName||it.mallNameOrg||'',link:it.mallProductUrl||it.productUrl||it.crUrl||'',ad:!!(it.adId||it.adcrUrl)};}).filter(function(x){return x.title;});
+      if(best)items=best.arr.map(function(e){var it=e.item||e;return{title:it.productTitle||it.productName||'',price:Number(it.lowPrice||it.price||it.mobileLowPrice||0),mall:it.mallName||it.mallNameOrg||'',link:it.mallProductUrl||it.productUrl||it.crUrl||'',ad:!!(it.adId||it.adcrUrl),src:'next'};}).filter(function(x){return x.title;});
     }
   }catch(e){}
+  var raw=[];
   if(items.length<5){
     items=[];
     var lis=document.querySelectorAll('li');
     for(var i=0;i<lis.length;i++){
       var li=lis[i];if(li.querySelector('li'))continue;
-      var txt=li.innerText||'';var pm=txt.match(/(\d{1,3}(?:,\d{3})+|\d{4,})\s*원/);if(!pm)continue;
-      var as=li.querySelectorAll('a');var title='',link='',mall='';
-      for(var j=0;j<as.length;j++){var t=(as[j].innerText||'').trim();var h=as[j].href||'';
-        if(t.length>title.length&&t.length>=8&&!/원$/.test(t)){title=t;link=h;}
-        if(/smartstore\.naver\.com\/|brand\.naver\.com\//.test(h)&&t&&t.length<30&&!mall)mall=t;}
-      if(!mall){var ml=li.querySelector('[class*="mall"],[class*="Mall"]');if(ml)mall=(ml.innerText||'').trim().split('\n')[0];}
-      if(!title)continue;
-      items.push({title:title.replace(/^(광고|AD)\s*/,''),price:Number(pm[1].replace(/,/g,'')),mall:mall,link:link,ad:/^(광고|AD)(\s|$)/.test(txt.trim())});
+      var txt=clean(li);var pm=txt.match(/(\d{1,3}(?:,\d{3})+|\d{4,})\s*원/);if(!pm)continue;
+      var as=li.querySelectorAll('a'),imgs=li.querySelectorAll('img');
+      var title='',link='',mall='',mallLink='';
+      var tEl=li.querySelector('[class*="productTitle"],[class*="product_title"],[class*="prodTitle"],[class*="_title"],[class*="Title"],[class*="tit"]');
+      if(tEl)title=clean(tEl);
+      for(var j=0;j<as.length;j++){var a=as[j],h=a.href||'',t=clean(a);
+        if(/smartstore\.naver\.com\/inflow\/outlink|smartstore\.naver\.com\/[^\/]+$|brand\.naver\.com\//.test(h)){if(t&&t.length<=30&&!mall){mall=t;mallLink=h;}continue;}
+        if(/cr\.shopping\.naver\.com|\/catalog\/|\/products\/|ader\.naver\.com|adcr\.naver\.com/.test(h)){if(!link)link=h;if(!title&&t.length>=8&&!/원$/.test(t))title=t;}
+      }
+      if(!title){for(var m=0;m<imgs.length;m++){var al=(imgs[m].alt||'').trim();if(al.length>=8){title=al;break;}}}
+      if(!title){var longest='';for(var j2=0;j2<as.length;j2++){var t2=clean(as[j2]);if(t2.length>longest.length&&t2.length>=8&&!/원$/.test(t2)&&t2!==mall)longest=t2;}title=longest;}
+      if(!mall){var ml=li.querySelector('[class*="mall"],[class*="Mall"],[class*="seller"],[class*="store"]');if(ml)mall=clean(ml).split(' ')[0];}
+      var ad=false;var sp=li.querySelectorAll('span,em,b,strong,div');for(var s2=0;s2<sp.length;s2++){var tt=(sp[s2].textContent||'').trim();if(tt==='광고'||tt==='AD'){ad=true;break;}}
+      if(!ad&&/ader\.naver\.com|adcr\.naver\.com/.test(link))ad=true;
+      if(!ad&&/^(광고|AD)(\s|$)/.test(txt))ad=true;
+      if(raw.length<3){var ra=[];for(var r=0;r<as.length&&r<8;r++)ra.push({h:(as[r].href||'').slice(0,80),t:clean(as[r]).slice(0,60),c:String(as[r].className).slice(0,60)});var ri=[];for(var r2=0;r2<imgs.length&&r2<3;r2++)ri.push((imgs[r2].alt||'').slice(0,60));raw.push({cls:String(li.className).slice(0,80),a:ra,img:ri,text:txt.slice(0,160)});}
+      if(!title&&!mall)continue;
+      items.push({title:title,price:Number(pm[1].replace(/,/g,'')),mall:mall,link:link||mallLink,ad:ad,src:'dom'});
     }
   }
   items=items.map(function(x,i){x.rank=i+1;return x;});
-  var out={keyword:q,sort:sort,capturedAt:new Date().toISOString(),url:location.href,items:items};
+  var out={keyword:q,sort:sort,capturedAt:new Date().toISOString(),url:location.href,version:2,raw:raw,items:items};
   var s=JSON.stringify(out);
-  function done(how){alert('"'+q+'" '+items.length+'개 캡처'+(items.length?'':' — 0개입니다. 페이지를 스크롤한 뒤 다시 시도하거나 README "캡처가 안 될 때" 참고')+'\n'+how);}
+  var noTitle=items.filter(function(x){return !x.title;}).length;
+  function done(how){alert('"'+q+'" '+items.length+'개 캡처 (광고 '+items.filter(function(x){return x.ad;}).length+'개, 제목 없음 '+noTitle+'개)'+(items.length?'':' — 0개입니다. 페이지를 스크롤한 뒤 다시 시도하거나 README "캡처가 안 될 때" 참고')+'\n'+how);}
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(s).then(function(){done('클립보드에 복사됨 → 캡처 도구에 붙여넣기');},function(){prompt('아래 내용을 전체 복사하세요',s);});}
   else prompt('아래 내용을 전체 복사하세요',s);
 }
