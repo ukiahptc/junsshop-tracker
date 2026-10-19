@@ -28,7 +28,7 @@ function buildProducts() {
     const p = (PRODUCTS.products || []).find((x) => x.name === it.name) || {};
     return {
       idx: i + 1, name: it.name, keywords: it.keywords, weights: it.weights,
-      title: p.title || "", tags: p.tags || [], tagCounts: p.tagCounts || {}, category: p.category || "", price: p.price ?? null, url: p.url || "",
+      title: p.title || "", titleUpdated: p.titleUpdated || "", tags: p.tags || [], tagCounts: p.tagCounts || {}, category: p.category || "", price: p.price ?? null, url: p.url || "",
       elements: p.elements || {}, registered: Boolean(p.title),
     };
   });
@@ -163,8 +163,8 @@ function analyze() {
           return { date: h.date, rank: analyzeKeyword(c, { storeNames: STORE_NAMES, targetKg, topN: 1000 }).ourRank };
         });
         p.shop.push(r);
-        if (r.ourRank === null) act("높음", "순위", p.name, `"${kw}" 검색 결과 ${r.total}개 안에 우리 상품 없음`);
-        else if (r.ourRank > 10) act("중간", "순위", p.name, `"${kw}" ${r.ourRank}위 — 1페이지 상단(10위 안) 밖`);
+        if (r.ourRank === null) act("높음", "순위", p.name, `"${kw}" 자연 검색 결과 ${r.total}개 안에 우리 상품 없음${r.ourAdRank ? ` (광고로는 ${r.ourAdRank}번째 노출)` : ""}`);
+        else if (r.ourRank > 10) act("중간", "순위", p.name, `"${kw}" 자연 ${r.ourRank}위 — 1페이지 상단(10위 안) 밖`);
         if (r.vsMedian !== null && r.vsMedian > 10) act("중간", "가격", p.name, `"${kw}" 같은 중량 경쟁 중간값보다 ${r.vsMedian}% 높음 (중간값 ${r.median.toLocaleString("ko-KR")}원)`);
         if (r.suggestions.length) act("중간", "상품명", p.name, `"${kw}" 상위 노출 상품명에 흔하지만 우리 상품명에 없는 단어: ${r.suggestions.join(", ")}`);
       }
@@ -228,7 +228,7 @@ function renderMd(R) {
   L.push("");
   for (const p of R.products) {
     L.push(`### ${p.idx}. ${p.name}`);
-    L.push(`- 상품명: ${p.title || "(미입력)"} — ${p.titleAudit.score}점(${p.grade})`);
+    L.push(`- 상품명: ${p.title || "(미입력)"} — ${p.titleAudit.score}점(${p.grade})${p.titleUpdated ? ` · 변경일 ${p.titleUpdated}` : ""}`);
     for (const c of p.titleAudit.checks) L.push(`  - [${mark(c.status)}] ${c.label}: ${c.detail} (${c.earned}/${c.max})`);
     L.push(`- 권장 구조(원산지 품목 품종 등급 중량): ${p.titleAudit.recommended || "elements 미입력"}`);
     if (p.titleAudit.extraTokens.length) L.push(`- 추적 검색어 중 상품명에 없는 단어: ${p.titleAudit.extraTokens.join(", ")}`);
@@ -241,10 +241,10 @@ function renderMd(R) {
     }
     if (p.shop.length) {
       L.push("- 쇼핑 검색 캡처 분석:");
-      L.push("  | 검색어 | 우리 순위 | 같은 중량 경쟁 | 최저가 | 중간값 | 우리 가격 위치 | 상위 상품명에 흔한 단어(우리 상품명에 없음) |", "  |---|---|---|---|---|---|---|");
+      L.push("  | 검색어 | 자연 순위 | 광고 | 같은 중량 경쟁 | 최저가 | 중간값 | 우리 가격 위치 | 상위 상품명에 흔한 단어(우리 상품명에 없음) |", "  |---|---|---|---|---|---|---|---|");
       for (const r of p.shop) {
-        if (r.missing) { L.push(`  | ${r.keyword} | 캡처 없음 | | | | | |`); continue; }
-        L.push(`  | ${r.keyword} | ${r.ourRank === null ? `${r.total}개 밖` : r.ourRank + "위"} | ${r.sameWeightCount}개(제외 ${r.excluded}) | ${fmt(r.min)} | ${fmt(r.median)} | ${r.pricePos === null ? "-" : `${r.pricePos}번째로 저렴(중간값 대비 ${r.vsMedian > 0 ? "+" : ""}${r.vsMedian}%)`} | ${r.suggestions.join(", ") || "-"} |`);
+        if (r.missing) { L.push(`  | ${r.keyword} | 캡처 없음 | | | | | | |`); continue; }
+        L.push(`  | ${r.keyword} | ${r.ourRank === null ? `${r.total}개 밖` : r.ourRank + "위"} | ${r.adCount ? (r.ourAdRank ? `우리 ${r.ourAdRank}번째/${r.adCount}개` : `${r.adCount}개(우리 없음)`) : "-"} | ${r.sameWeightCount}개(제외 ${r.excluded}) | ${fmt(r.min)} | ${fmt(r.median)} | ${r.pricePos === null ? "-" : `${r.pricePos}번째로 저렴(중간값 대비 ${r.vsMedian > 0 ? "+" : ""}${r.vsMedian}%)`} | ${r.suggestions.join(", ") || "-"} |`);
       }
     }
     if (p.manual.length) {

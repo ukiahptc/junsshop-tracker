@@ -35,17 +35,23 @@ function isOurs(item, storeNames) {
 // one keyword capture: { keyword, items:[{rank,title,lprice|price,mallName|mall}] }
 function analyzeKeyword(cap, opts) {
   const { storeNames, targetKg, ourPrice, topN = 20, ourTitle = "" } = opts;
-  const items = (cap.items || []).map((it, i) => ({
-    rank: it.rank || i + 1,
+  const all = (cap.items || []).map((it, i) => ({
+    screenRank: it.rank || i + 1,
     title: it.title || "",
     price: Number(it.lprice ?? it.price) || 0,
     mall: it.mallName || it.mall || "",
     kg: parseWeightKg(it.title),
     ours: isOurs(it, storeNames),
+    ad: Boolean(it.ad),
   }));
+  // 광고 소재는 자연 순위에서 제외하고 따로 센다 (광고를 돌리면 우리 광고가 먼저 보여 자연 순위를 가리기 때문)
+  const items = all.filter((it) => !it.ad).map((it, i) => ({ ...it, rank: i + 1 }));
+  const ads = all.filter((it) => it.ad).map((it, i) => ({ ...it, rank: i + 1 }));
   const top = items.slice(0, topN);
   const ours = items.filter((it) => it.ours);
   const ourRank = ours.length ? ours[0].rank : null;
+  const ourAd = ads.find((it) => it.ours);
+  const ourAdRank = ourAd ? ourAd.rank : null;
 
   const sameWt = top.filter((it) => !it.ours && it.price > 0 && targetKg != null && it.kg != null && Math.abs(it.kg - targetKg) < 0.01);
   const excluded = top.filter((it) => !it.ours && !(targetKg != null && it.kg != null && Math.abs(it.kg - targetKg) < 0.01)).length;
@@ -74,10 +80,10 @@ function analyzeKeyword(cap, opts) {
   const wtShare = top.length ? Math.round((top.filter((it) => it.kg != null && targetKg != null && Math.abs(it.kg - targetKg) < 0.01).length / top.length) * 100) : null;
 
   return {
-    keyword: cap.keyword, total: items.length, topN: top.length, ourRank, ourMall: ours.length ? ours[0].mall : null,
+    keyword: cap.keyword, total: items.length, adCount: ads.length, topN: top.length, ourRank, ourAdRank, ourMall: ours.length ? ours[0].mall : ourAd ? ourAd.mall : null,
     sameWeightCount: prices.length, excluded, min: minP, median: medP, pricePos, vsMedian, avgTitleLen, weightShare: wtShare,
     topTokens, suggestions,
-    top: top.map(({ rank, title, price, mall, kg, ours }) => ({ rank, title, price, mall, kg, ours })),
+    top: top.map(({ rank, screenRank, title, price, mall, kg, ours }) => ({ rank, screenRank, title, price, mall, kg, ours })),
   };
 }
 
