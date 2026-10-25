@@ -2,7 +2,7 @@ name: collect
 
 on:
   schedule:
-    - cron: "30 21 * * *"   # 매일 06:30 KST (UTC 21:30)
+    - cron: "17 20 * * *"   # 매일 05:17 KST (UTC 20:17). GitHub 예약 실행이 1~2시간 밀리는 일이 잦아 브리핑(07:50 KST) 전에 끝나도록 앞당김
   workflow_dispatch:
 
 permissions:

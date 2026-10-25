@@ -13,9 +13,9 @@
 | `data/shop/YYYY-MM-DD.json` | 네이버 개발자센터 쇼핑 검색 API | 검색어별 정확도순 상위 최대 1,100개 | **수집 불가** — 쇼핑 검색 API가 2026-07-31 종료됐고 대체 API 없음. `config/keywords.json`의 `shop.enabled=false` |
 | `data/shop/YYYY-MM-DD.json` | 네이버쇼핑 화면에서 **북마클릿**으로 캡처 (`docs/capture.html`) | 검색어별 상위 상품 제목·가격·판매처·순위 | 주 1회, 검색어당 클릭 1번 (아래 절차) |
 | `data/manual/YYYY-MM-DD.csv` | 네이버쇼핑 화면을 보고 직접 입력 | 검색어·중량별 경쟁 가격(최대 10개), 우리 순위 | 북마클릿이 안 될 때의 대체 수단 |
-| `reports/seo/`, `docs/index.html` | `scripts/seo-analyze.js` | SEO 분석 보고서·대시보드 | 매일 07:00 KST 자동 생성, 데이터·설정 변경 시에도 생성 |
+| `reports/seo/`, `docs/index.html` | `scripts/seo-analyze.js` | SEO 분석 보고서·대시보드 | 매일 05:47 KST 자동 생성, 데이터·설정 변경 시에도 생성 |
 
-- 날짜는 한국 시간(KST) 기준. 매일 06:30 KST에 실행됩니다 (`.github/workflows/collect.yml`).
+- 날짜는 한국 시간(KST) 기준. 매일 05:17 KST에 실행됩니다(GitHub 예약 지연을 감안해 이른 시각) (`.github/workflows/collect.yml`).
 - 추적 품목·검색어는 `config/keywords.json`에서 바꿉니다. 코드 수정 불필요.
 - 검색어트렌드 ratio는 상대값입니다. 같은 요청(`requests[i]`)에 묶인 품목끼리만 크기 비교가 가능합니다. 품목은 최대 5개까지 한 요청에 묶입니다.
 
@@ -83,7 +83,7 @@ node scripts/seo-analyze.js --title "국내산 햇밤 2kg 알밤" --item 4      
 ```bash
 node scripts/seo-analyze.js
 ```
-`reports/seo/날짜.md`, `reports/seo/latest.md`, `reports/seo/latest.json`, `docs/index.html`이 생깁니다. GitHub에서는 **Actions → seo**가 매일 07:00 KST와 `data/shop`·`data/manual`·`config`·`scripts` 변경 시 자동 실행되어 커밋합니다.
+`reports/seo/날짜.md`, `reports/seo/latest.md`, `reports/seo/latest.json`, `docs/index.html`이 생깁니다. GitHub에서는 **Actions → seo**가 매일 05:47 KST와 `data/shop`·`data/manual`·`config`·`scripts` 변경 시 자동 실행되어 커밋합니다.
 
 ### 4. 광고 성과 (광고주센터 보고서, 로컬 전용)
 광고주센터 → 보고서 → **소재** 보고서를 엑셀로 내려받아 `data/ads/소재_YYYY-MM-DD.xlsx`로 두고 `node scripts/seo-analyze.js --ads`를 실행하면 품목별 광고 상태·입찰가·품질지수·노출·클릭·비용·전환·ROAS가 보고서와 대시보드에 붙습니다.
