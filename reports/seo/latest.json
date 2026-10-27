@@ -38,7 +38,8 @@
         {
           "keyword": "호풍미고구마",
           "since": "2026-10-20",
-          "note": "쇼핑검색광고"
+          "note": "쇼핑검색광고 · 10/27 광고 중지",
+          "until": "2026-10-27"
         }
       ],
       "tags": [
@@ -52,7 +53,7 @@
       ],
       "tagCounts": {},
       "category": "식품 > 농산물 > 채소 > 고구마",
-      "price": 12900,
+      "price": 11900,
       "url": "https://smartstore.naver.com/main/products/13796261021",
       "elements": {
         "origin": "해남",
@@ -356,8 +357,8 @@
           "min": 7800,
           "median": 11900,
           "medianAll": 12200,
-          "pricePos": 9,
-          "vsMedian": 8.4,
+          "pricePos": 7,
+          "vsMedian": 0,
           "avgTitleLen": 39,
           "weightShare": 70,
           "topTokens": [
@@ -686,8 +687,8 @@
           "min": 11900,
           "median": 15900,
           "medianAll": 16700,
-          "pricePos": 2,
-          "vsMedian": -18.9,
+          "pricePos": 1,
+          "vsMedian": -25.2,
           "avgTitleLen": 36,
           "weightShare": 20,
           "topTokens": [
@@ -1022,7 +1023,8 @@
         {
           "keyword": "쇼핑검색광고 소재",
           "since": "2026-10-20",
-          "note": "기본 입찰 400원"
+          "note": "기본 입찰 400원 · 10/27 광고 중지",
+          "until": "2026-10-27"
         }
       ],
       "tags": [
@@ -2035,7 +2037,8 @@
         {
           "keyword": "쇼핑검색광고 소재",
           "since": "2026-10-20",
-          "note": "기본 입찰 400원"
+          "note": "기본 입찰 400원 · 10/27 광고 중지",
+          "until": "2026-10-27"
         }
       ],
       "tags": [
@@ -2704,7 +2707,8 @@
         {
           "keyword": "쇼핑검색광고 소재",
           "since": "2026-10-20",
-          "note": "기본 입찰 400원"
+          "note": "기본 입찰 400원 · 10/27 광고 중지",
+          "until": "2026-10-27"
         }
       ],
       "tags": [
@@ -2730,7 +2734,7 @@
         "아이간식": 91023
       },
       "category": "",
-      "price": 16500,
+      "price": 14900,
       "url": "",
       "elements": {
         "origin": "제주",
@@ -3036,8 +3040,8 @@
           "min": 8970,
           "median": 15300,
           "medianAll": 19100,
-          "pricePos": 5,
-          "vsMedian": 7.8,
+          "pricePos": 3,
+          "vsMedian": -2.6,
           "avgTitleLen": 34,
           "weightShare": 40,
           "topTokens": [
@@ -4046,7 +4050,8 @@
         {
           "keyword": "쇼핑검색광고 소재",
           "since": "2026-10-20",
-          "note": "기본 입찰 400원"
+          "note": "기본 입찰 400원 · 10/27 광고 중지",
+          "until": "2026-10-27"
         }
       ],
       "tags": [
@@ -4072,7 +4077,7 @@
         "겨울간식": 426142
       },
       "category": "",
-      "price": 21900,
+      "price": 19900,
       "url": "",
       "elements": {
         "origin": "국내산",
@@ -4379,7 +4384,7 @@
           "median": 20300,
           "medianAll": 20900,
           "pricePos": 6,
-          "vsMedian": 7.9,
+          "vsMedian": -2,
           "avgTitleLen": 36,
           "weightShare": 60,
           "topTokens": [

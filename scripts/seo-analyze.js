@@ -259,7 +259,9 @@ function renderMd(R) {
     L.push(`- 상품명: ${p.title || "(미입력)"} — ${p.titleAudit.score}점(${p.grade})${p.titleUpdated ? ` · 변경일 ${p.titleUpdated}` : ""}`);
     for (const c of p.titleAudit.checks) L.push(`  - [${mark(c.status)}] ${c.label}: ${c.detail} (${c.earned}/${c.max})`);
     L.push(`- 권장 구조(원산지 품목 품종 등급 중량): ${p.titleAudit.recommended || "elements 미입력"}`);
-    if (p.ads.length) L.push(`- 운영 중 광고: ${p.ads.map((a) => `${a.keyword} (${a.since}~${a.note ? ", " + a.note : ""})`).join(", ")}`);
+    const liveAds = p.ads.filter((a) => !a.until);
+    if (liveAds.length) L.push(`- 운영 중 광고: ${liveAds.map((a) => `${a.keyword} (${a.since}~${a.note ? ", " + a.note : ""})`).join(", ")}`);
+    else if (p.ads.length) L.push(`- 광고: 중지 (${p.ads.map((a) => `${a.keyword} ${a.since}~${a.until}`).join(", ")})`);
     if (p.titleAudit.extraTokens.length) L.push(`- 추적 검색어 중 상품명에 없는 단어: ${p.titleAudit.extraTokens.join(", ")}`);
     const tagLabel = (t) => (p.tagCounts[t] ? `${t}(${p.tagCounts[t].toLocaleString("ko-KR")})` : t);
     L.push(`- 태그(${p.tags.length}개): ${p.tags.length ? p.tags.map(tagLabel).join(", ") : "미입력"} — ${p.tagAudit.score}점${Object.keys(p.tagCounts).length ? " · 괄호는 태그 검색 수" : ""}`);
